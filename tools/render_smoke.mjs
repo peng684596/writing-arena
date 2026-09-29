@@ -105,7 +105,22 @@ async function testPractice() {
     if (!html.includes("qtitle")) bad.push("题目面板为空");
     if (html.includes("题目不存在")) bad.push("被判为题目不存在");
     if (q.tips && q.tips.length && !html.includes("tips-list")) bad.push("写作提示未渲染");
-    if (q.chart && !env.get("chartBox").innerHTML) bad.push("图表未渲染");
+    if (q.chart) {
+      const svg = env.get("chartBox").innerHTML || "";
+      if (!svg) bad.push("图表未渲染");
+      else if (!/<svg[\s>]/.test(svg)) bad.push("图表不是 SVG");
+      else {
+        // 校验图表确实带上了标题、单位与坐标标签，而不是只输出一个空壳
+        if (q.chart.title && !svg.includes(q.chart.title)) bad.push("图表标题缺失");
+        if (q.chart.type !== "table") {
+          const missLabels = (q.chart.labels || []).filter(l => !svg.includes(String(l)));
+          if (missLabels.length) bad.push(`图表 label 缺失 ${missLabels.slice(0, 3).join("/")}`);
+        } else {
+          const firstLabel = (q.chart.labels || [])[0];
+          if (firstLabel && !svg.includes(String(firstLabel))) bad.push("表格表头缺失");
+        }
+      }
+    }
     if (env.get("minWordsTxt").textContent !== String(q.minWords)) bad.push("目标字数未写入");
     if (env.get("limitTxt").textContent !== String(q.timeLimitMin)) bad.push("限时未写入");
     if (bad.length) note("practice", `${q.id}: ${bad.join("；")}`);
