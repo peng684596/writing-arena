@@ -171,6 +171,9 @@
         dimensions: result.dimensions,
         errors: result.errors || [],
         suggestions: result.suggestions || [],
+        usage: result.usage || null,
+        model: result.model || "",
+        elapsedMs: result.elapsedMs || 0,
         fallbackReason: result.fallbackReason || ""
       };
       const idx = appendHistory(entry);

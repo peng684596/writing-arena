@@ -35,7 +35,13 @@
   }
 
   function modeBadge(mode) {
-    if (mode === "ai") return '<span class="mode-badge">🤖 AI 评分</span>';
+    if (mode === "ai") {
+      const bits = [];
+      if (ENTRY.model) bits.push(ENTRY.model);
+      if (ENTRY.elapsedMs) bits.push((ENTRY.elapsedMs / 1000).toFixed(1) + "s");
+      if (ENTRY.usage && ENTRY.usage.total_tokens) bits.push("消耗 " + ENTRY.usage.total_tokens + " tokens");
+      return '<span class="mode-badge">🤖 AI 评分' + (bits.length ? "（" + esc(bits.join(" · ")) + "）" : "") + "</span>";
+    }
     if (mode === "mock-fallback") return '<span class="mode-badge">⚠ 模拟评分（AI 调用失败已回退）</span>';
     return '<span class="mode-badge">🧪 模拟评分（演示版）</span>';
   }

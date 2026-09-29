@@ -396,8 +396,17 @@
     "并给出理性、客观、具体的批改意见。语气像严格的阅卷老师：不吹捧、不敷衍，直接指出问题。" +
     "\n评分标准：1. 内容与切题 35%（观点/信息是否完整、切题）；2. 语法与词汇 30%（语法准确、用词准确恰当多样）；" +
     "3. 组织与连贯 25%（逻辑严密、篇章连贯、衔接自然）；4. 格式与字数 10%（格式正确、字数达标）。" +
+    "\n各维参照锚点（写作训练用途，评分要与实际水平对应）：" +
+    "内容——要点全齐 85 以上，漏 1-2 个要点 70-84，要点漏过半 55 以下，完全跑题 30 以下；" +
+    "语法——无硬伤且句式有变化 85 以上，偶有小错 70-84，几乎每句都有硬伤 40 以下；" +
+    "组织——分段得当、衔接自然 85 以上，结构松散或衔接缺失 60 以下；" +
+    "格式——格式正确且字数达标 85 以上，缺称呼/结束语或字数明显不足 60 以下。" +
     "\n批改要求：逐条指出语法错误、用词不当、句子结构问题、标点错误；每条必须引用考生作文中的原句或短语（quote 字段），" +
     "说明错在哪、为什么错、如何改（explanation/fix 字段）。每维给出具体、可操作的点评，不写空话。给出 3-6 条整体提升建议。" +
+    "\n语言要求：所有点评、说明、修改理由和建议一律用中文书写（引用考生原文时保留英文原句）。" +
+    "\n评分尺度：要有区分度——内容完整切题、语法基本准确、格式正确的作文应落在 80 分以上；" +
+    "明显跑题、要点遗漏过半或语法错误密集影响理解的作文应低于 55 分；满分不作保留，真正出色的表达可以给 95 分以上。" +
+    "不要因个人风格偏好扣分，也不要给出与实际水平不符的分数。" +
     "\n只输出 JSON（不要 markdown 代码块），结构如下：" +
     '{"dimensions":{"content":{"score":0,"comment":""},"grammar":{"score":0,"comment":""},"organization":{"score":0,"comment":""},"format":{"score":0,"comment":""}},' +
     '"errors":[{"severity":"error|warning|tip","quote":"原文","explanation":"为什么错","fix":"怎么改"}],"suggestions":["..."]}';
@@ -407,6 +416,7 @@
     if (!cfg.endpoint || !cfg.apiKey) throw new Error("AI 接口未配置（endpoint/apiKey 为空）");
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), cfg.timeoutMs || 60000);
+    const t0 = Date.now();
     try {
       const resp = await fetch(cfg.endpoint, {
         method: "POST",
@@ -442,6 +452,9 @@
           title: "", quote: String(e.quote || ""), explain: String(e.explanation || ""), fix: String(e.fix || "")
         })) : [],
         suggestions: Array.isArray(parsed.suggestions) ? parsed.suggestions.map(String).slice(0, 6) : [],
+        usage: data.usage || null,
+        model: cfg.model || "deepseek-chat",
+        elapsedMs: Date.now() - t0,
         mode: "ai"
       };
     } finally {

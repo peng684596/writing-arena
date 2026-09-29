@@ -52,9 +52,38 @@ python -m http.server 8000     # 或 npx serve .
 
 🔒 **安全提醒**：Key 只保存在你本机的 `js/config.js` 中，永不入库、不随 GitHub Pages 发布。在线部署版默认无 Key，会自动使用模拟评分。
 
+4. 接入后跑一次自检，确认 Key、模型、跨域与判分全链路都通：
+
+```bash
+node tools/ai_check.mjs                 # 默认用 jw06 的参考范文试判
+node tools/ai_check.mjs jw06 坏文        # 用一段故意写坏的作文验证区分度
+node tools/ai_check.mjs jy01 范文 deepseek-v4-pro   # 第 3 个参数可临时换模型
+```
+
+结果页会显示本次判分所用的模型、耗时与 token 消耗（如 `🤖 AI 评分（deepseek-chat · 5.9s · 消耗 1809 tokens）`）。
+
+### 🔬 本机实测记录（2026-09-30，DeepSeek API）
+
+用 `tools/ai_check.mjs` 在真实 API 上跑同一道题（jw06 商务约见邮件）的参考范文与一段"故意写坏"的作文：
+
+| 模型 | 参考范文 | 故意写坏的作文 | 单篇耗时 | 单篇 token |
+| --- | --- | --- | --- | --- |
+| `deepseek-chat` | 89–91 分（A） | 16–21 分（D） | 5.9–7.8 秒 | 约 1.8–2.5K |
+| `deepseek-v4-pro` | 88 分（A） | 8 分（D） | 28–36 秒 | 约 4–5.2K（含推理 token） |
+| `deepseek-flash` | 86 分（A） | 10 分（D） | 21–24 秒 | 约 4.9–6.3K（含推理 token） |
+
+跨题型一致性：同一模型给 jw06 / jy01（议论文）/ st01（省赛图表）三篇参考范文分别打 89 / 88 / 88 分，尺度稳定。批改质量抽查：能指出参考范文里 `held from 8 to 10 April` 作后置定语与将来时冲突（建议改 `which will be held`）、`a good chance` 在商务语境偏口语（建议 `opportunity`）；对坏文章则准确抓出 `I am write` → `I am writing`、`He go` 主谓不一致、`want discuss about` 双错等。
+
+跨域实测：`api.deepseek.com` 对浏览器预检（OPTIONS）返回 200 并回显 `Access-Control-Allow-Origin`，因此**纯静态页面可以直接调用，无需自建后端代理**（Key 仍应只留在本地配置里）。
+
+**建议**：日常练习用 `deepseek-chat`（快、省，且对水平差异的区分稳定）；需要"最严阅卷"的精批场景，把 `js/config.js` 的 `model` 改为 `deepseek-v4-pro`，同时把 `timeoutMs` 保持 120000。
+⚠️ 说明：以上检验的是"同一模型对不同水平作文的区分度与点评质量"，并不等于与真人阅卷老师的评分一致性；正式模拟仍建议严格限时 + 对照片范文。
+
 ### 🧪 AI 判分模型选型建议（基于公开研究）
 
 **结论：追求"最接近真人老师批改"，首选 Claude 或 GPT 系列；追求性价比，选 Gemini / GLM；DeepSeek 便宜但评分与真人一致性偏差略大，更适合做语法纠错与初稿反馈。**
+
+> 补充：本节结论来自公开研究；本项目 2026-09-30 在自建题库上的实测（见下方"本机实测记录"）显示 DeepSeek 的**区分度与点评质量稳定**，但"与真人阅卷的一致性"仍需用真实考生样卷进一步验证——两者并不冲突：能分辨好文与坏文 ≠ 分数与教师逐分对齐。
 
 依据：
 
@@ -96,6 +125,7 @@ writing-arena/
 ├── tools/merge_questions.mjs  # 题库合并校验脚本（含 answerTerms 自动抽取）
 ├── tools/keyword_audit.mjs    # 内容切题度体检（参考范文自评，可接 CI）
 ├── tools/render_smoke.mjs     # 全站渲染冒烟测试（Node + 最小 DOM 桩）
+├── tools/ai_check.mjs         # 真实 AI 接入自检（Key/模型/CORS/判分全链路）
 ├── .github/workflows/pages.yml # GitHub Pages 自动部署
 └── README.md
 ```
