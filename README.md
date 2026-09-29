@@ -74,7 +74,7 @@ node tools/ai_check.mjs jy01 范文 deepseek-v4-pro   # 第 3 个参数可临时
 
 跨题型一致性：同一模型给 jw06 / jy01（议论文）/ st01（省赛图表）三篇参考范文分别打 89 / 88 / 88 分，尺度稳定。批改质量抽查：能指出参考范文里 `held from 8 to 10 April` 作后置定语与将来时冲突（建议改 `which will be held`）、`a good chance` 在商务语境偏口语（建议 `opportunity`）；对坏文章则准确抓出 `I am write` → `I am writing`、`He go` 主谓不一致、`want discuss about` 双错等。
 
-跨域实测：`api.deepseek.com` 对浏览器预检（OPTIONS）返回 200 并回显 `Access-Control-Allow-Origin`，因此**纯静态页面可以直接调用，无需自建后端代理**（Key 仍应只留在本地配置里）。
+跨域实测：`api.deepseek.com` 对浏览器预检（OPTIONS）返回 200 并回显 `Access-Control-Allow-Origin`，三种打开方式都实测通过——GitHub Pages 线上域名、`http://localhost:8000`（本地静态服务器）、以及直接双击的 `file://`（`Origin: null`）。因此**纯静态页面可以直接调用真实 AI，无需自建后端代理**（Key 仍应只留在本地 `js/config.js` 里）。
 
 **建议**：日常练习用 `deepseek-chat`（快、省，且对水平差异的区分稳定）；需要"最严阅卷"的精批场景，把 `js/config.js` 的 `model` 改为 `deepseek-v4-pro`，同时把 `timeoutMs` 保持 120000。
 ⚠️ 说明：以上检验的是"同一模型对不同水平作文的区分度与点评质量"，并不等于与真人阅卷老师的评分一致性；正式模拟仍建议严格限时 + 对照片范文。

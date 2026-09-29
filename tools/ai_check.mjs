@@ -83,6 +83,16 @@ try {
 } catch (e) {
   console.log("file:// 场景请求失败：", e.message);
 }
+try {
+  const loc = await fetch(cfg.api.endpoint, {
+    method: "POST",
+    headers: { ...H, Origin: "http://localhost:8000" },
+    body: JSON.stringify({ model: cfg.api.model, max_tokens: 1, messages: [{ role: "user", content: "hi" }] })
+  });
+  console.log("Origin: http://localhost:8000（本地起静态服务器）HTTP", loc.status, "| ACAO:", loc.headers.get("access-control-allow-origin") || "(无)");
+} catch (e) {
+  console.log("localhost 场景请求失败：", e.message);
+}
 
 console.log(`\n=== 4. 真实判分全链路（题目 ${QID}｜${WHICH}）===`);
 const questions = JSON.parse(readFileSync(resolve(ROOT, "data/questions.json"), "utf8"));
