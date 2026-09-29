@@ -41,6 +41,17 @@
     else { st.textContent = "未达标（差 " + (QUESTION.minWords - words) + " 词）"; st.className = "bad"; }
   }
 
+  /* 写作提示：题库 schema 规定为字符串数组，这里同时兼容换行分隔的字符串，
+     避免旧数据/手工编辑的数据让整页渲染中断 */
+  function tipsHtml(tips) {
+    let arr = [];
+    if (Array.isArray(tips)) arr = tips;
+    else if (typeof tips === "string") arr = tips.split(/\r?\n/);
+    const items = arr.map(t => String(t == null ? "" : t).trim()).filter(Boolean);
+    if (!items.length) return "";
+    return `<div class="block-label">💡 写作提示</div><ul class="tips-list">${items.map(t => `<li>${esc(t)}</li>`).join("")}</ul>`;
+  }
+
   function renderQuestion(q) {
     $("qLoading").remove();
     const panel = $("qPanel");
@@ -62,7 +73,7 @@
       <div class="block-label">✏️ 体裁说明</div>
       <div class="materials" style="max-height:none">${esc(q.genre)}</div>
       ${chartHtml}
-      ${q.tips ? `<div class="block-label">💡 写作提示</div><ul class="tips-list">${q.tips.split("\n").filter(Boolean).map(t => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
+      ${tipsHtml(q.tips)}
     `;
     if (q.chart) {
       const def = typeof q.chart === "string" ? JSON.parse(q.chart) : q.chart;

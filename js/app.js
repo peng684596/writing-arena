@@ -5,7 +5,7 @@
   "use strict";
 
   const $ = (id) => document.getElementById(id);
-  const state = { stage: "全部", type: "全部", diff: "全部", theme: "全部", search: "" };
+  const state = { stage: "全部", type: "全部", diff: "全部", topic: "全部", search: "" };
 
   let QUESTIONS = [];
 
@@ -39,22 +39,29 @@
       : "–";
   }
 
-  function renderThemeOptions() {
-    const themes = [...new Set(QUESTIONS.map(q => q.theme).filter(Boolean))].sort();
-    const sel = $("fTheme");
+  function renderTopicOptions() {
+    // 下拉列出的是粗粒度"主题方向"（9 类）；细粒度 theme 仍可通过搜索框命中
+    const topics = [...new Set(QUESTIONS.map(q => q.topic).filter(Boolean))];
+    const order = ["求职与就业", "职场沟通与协作", "商务运营与实务", "公文与文书",
+      "科技与数字", "绿色与能源", "经济与消费", "社会与教育", "成长与思维"];
+    topics.sort((a, b) => {
+      const ia = order.indexOf(a), ib = order.indexOf(b);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    });
+    const sel = $("fTopic");
     sel.innerHTML = '<option value="全部">全部</option>' +
-      themes.map(t => `<option value="${t.replace(/"/g, "&quot;")}">${t}</option>`).join("");
-    sel.value = state.theme;
+      topics.map(t => `<option value="${t.replace(/"/g, "&quot;")}">${t}</option>`).join("");
+    sel.value = state.topic;
   }
 
   function matches(q) {
     if (state.stage !== "全部" && q.stage !== state.stage) return false;
     if (state.type !== "全部" && q.qtype !== state.type) return false;
     if (state.diff !== "全部" && q.difficulty !== state.diff) return false;
-    if (state.theme !== "全部" && q.theme !== state.theme) return false;
+    if (state.topic !== "全部" && q.topic !== state.topic) return false;
     if (state.search) {
       const s = state.search.toLowerCase();
-      const hay = (q.title + " " + (q.theme || "") + " " + (q.genre || "")).toLowerCase();
+      const hay = (q.title + " " + (q.theme || "") + " " + (q.topic || "") + " " + (q.genre || "")).toLowerCase();
       if (!hay.includes(s)) return false;
     }
     return true;
@@ -70,7 +77,7 @@
         <div class="qtitle">${esc(q.title)}</div>
         <div class="qmeta">${esc(q.stage)} · ${esc(q.qtype)} · ≥${q.minWords} 词 · 限时 ${q.timeLimitMin} 分钟</div>
         <div class="badges">
-          <span class="badge">${esc(q.theme || "综合")}</span>
+          <span class="badge">${esc(q.theme || q.topic || "综合")}</span>
           <span class="badge diff-${esc(q.difficulty)}">${esc(q.difficulty)}</span>
           ${d}
         </div>
@@ -102,14 +109,14 @@
     bindChips("fStage", "stage");
     bindChips("fType", "type");
     bindChips("fDiff", "diff");
-    $("fTheme").addEventListener("change", (e) => { state.theme = e.target.value; renderGrid(); });
+    $("fTopic").addEventListener("change", (e) => { state.topic = e.target.value; renderGrid(); });
     $("fSearch").addEventListener("input", (e) => { state.search = e.target.value.trim(); renderGrid(); });
   }
 
   (async function main() {
     init();
     await loadQuestions();
-    renderThemeOptions();
+    renderTopicOptions();
     renderStats();
     renderGrid();
   })();

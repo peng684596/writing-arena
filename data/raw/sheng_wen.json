@@ -8,11 +8,27 @@
     "difficulty": "基础",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是一名大二学生（署名可自拟），在学校就业网上看到 Starlight Culture Media 的实习招聘启事。请根据以下招聘信息写一封不少于 200 词的求职信，应聘新媒体运营实习生职位。\n英文素材：\nStarlight Culture Media Co., Ltd. — New Media Operations Intern (3-month, paid)\nWe are a fast-growing cultural media company producing short videos and lifestyle content for young audiences. We are looking for two interns to support our new media team.\nResponsibilities: draft posts for WeChat and Xiaohongshu; assist in short video planning and editing; track weekly content data and prepare simple reports.\nRequirements: current college student; strong writing skills; familiar with mainstream social media platforms; basic video editing is a plus; able to work at least three days a week.\nLocation: 88 Innovation Road, Office Building A, Floor 12.\nContact: send your application to Ms. Zhou Ran at hr@starlightmedia.example.com before March 10.",
     "genre": "求职信（须含称呼、正文、结尾三部分）",
-    "tips": "1. 开头用一句话说明应聘职位和信息来源，称呼要正确；\n2. 正文分“技能匹配＋相关经历＋可到岗时间”三层展开，用具体事例支撑；\n3. 结尾附上联系方式并表达面试意愿，落款规范。",
-    "keywords": ["intern", "application", "new media", "social media", "content", "video editing"],
+    "tips": [
+      "1. 开头用一句话说明应聘职位和信息来源，称呼要正确；",
+      "2. 正文分“技能匹配＋相关经历＋可到岗时间”三层展开，用具体事例支撑；",
+      "3. 结尾附上联系方式并表达面试意愿，落款规范。"
+    ],
+    "keywords": [
+      "intern",
+      "application",
+      "new media",
+      "social media",
+      "content",
+      "video editing"
+    ],
     "modelAnswer": "Dear Ms. Zhou Ran,\n\nI am writing to apply for the position of New Media Operations Intern at Starlight Culture Media Co., Ltd., which I saw advertised on our university job board. As a sophomore majoring in Communication at Bright River University, I believe my writing skills and social media experience make me a strong candidate.\n\nI have been running a campus public account for two years, where I draft articles, plan short videos, and analyze weekly readership data. Last semester, one of my posts about student life received over 50,000 views, which taught me how to catch young audiences' attention. I am familiar with WeChat, Xiaohongshu, and Douyin, and I can use basic video editing software such as CapCut to complete simple clips independently. In addition, I am patient with details and used to working to tight deadlines, which fits the fast pace of a media team.\n\nI can work at least three days a week during the semester and five days a week during vacations. I would welcome the opportunity to contribute to your team and learn from experienced professionals. Thank you for considering my application, and I look forward to hearing from you. My phone number is 138-XXXX-XXXX and my email is lihua@example.com.\n\nYours sincerely,\nLi Hua"
   },
   {
@@ -24,11 +40,27 @@
     "difficulty": "基础",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是市场部实习生，收到主管 Liang Wei 的邮件，邀请你本周五在部门分享会上做 15 分钟分享并主持问答。但周五下午你有无法调整的课程考核，不能到场。请写一封不少于 200 词的回复邮件，礼貌说明情况并给出可行的替代方案。\n英文素材：\nSubject: Friday sharing session — could you help?\nHi there,\nOur department meeting this Friday (2:30–4:00 p.m., Room 506) needs someone to give a 15-minute talk on how our team uses short video tools, and to host the Q&A afterwards. I think you are the best person because you use these tools every day. Would you be available this Friday?\nBest,\nLiang Wei, Marketing Manager",
     "genre": "回复邮件（须含主题、称呼、正文、落款）",
-    "tips": "1. 开头先感谢对方的信任和邀请，再说明不能参加的具体原因，语气诚恳；\n2. 主动提出 2—3 个替代方案（如录制视频、推荐同事、会后线上参与），体现责任心；\n3. 结尾请对方确认方案并再次致歉，落款完整。",
-    "keywords": ["reply", "sharing session", "schedule", "alternative", "video tools", "apology"],
+    "tips": [
+      "1. 开头先感谢对方的信任和邀请，再说明不能参加的具体原因，语气诚恳；",
+      "2. 主动提出 2—3 个替代方案（如录制视频、推荐同事、会后线上参与），体现责任心；",
+      "3. 结尾请对方确认方案并再次致歉，落款完整。"
+    ],
+    "keywords": [
+      "reply",
+      "sharing session",
+      "schedule",
+      "alternative",
+      "video tools",
+      "apology"
+    ],
     "modelAnswer": "Dear Ms. Liang,\n\nThank you very much for trusting me with the sharing session this Friday. I would genuinely love to take part, but unfortunately I cannot be there at that time because I have a compulsory course assessment from 2:00 to 4:00 p.m. on Friday, which I cannot reschedule.\n\nI do not want the session to be affected by my absence, so I would like to propose two alternatives. First, I can record a 15-minute video before Thursday evening, in which I explain how our team uses short video tools and include a few live examples; the team could play it during the meeting. Second, if you prefer a live speaker, I can ask my colleague Xiao Zhang, who has handled our last two short video campaigns and knows the process equally well, to present the talk, and I can still prepare the slides and the Q&A question list for him. In addition, I am happy to join the Q&A through an online call from 4:10 p.m. if the session is still running.\n\nPlease let me know which option you prefer, and I will start preparing immediately. Thank you again for the invitation, and I am sorry for any inconvenience.\n\nBest regards,\n[Your name]"
   },
   {
@@ -40,11 +72,27 @@
     "difficulty": "基础",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是校青年志愿者协会（CYVA）宣传部成员，协会将启动“书桥”乡村阅读陪伴计划。请根据以下信息写一篇不少于 200 词的英文招募通知，发布在校英文公众号上。\n英文素材：\nVolunteer Recruitment: 'Book Bridge' Rural Reading Program\nOrganizer: Campus Youth Volunteer Association (CYVA)\nProgram: donate children's books and provide online reading companionship to students of Qinghe Primary School, a rural school in a mountainous county.\nTasks: (1) sort and pack donated books every Friday afternoon; (2) give one 40-minute online reading session with a pupil every weekend, lasting eight weeks.\nRequirements: all students welcome; patient and responsible; pass a one-hour training on March 16.\nRewards: volunteer service hours; a certificate; ten outstanding volunteers will join the summer visit to the school.\nSign-up: scan the QR code on our official account by March 14.",
     "genre": "通知（须含标题、正文、落款与日期）",
-    "tips": "1. 通知要包含标题、目的、活动内容、报名要求和报名方式五要素；\n2. 用短句和编号把任务、要求、奖励分块呈现，便于快速阅读；\n3. 结尾写清报名截止时间与联系方式，落款加发布单位和日期。",
-    "keywords": ["volunteer", "recruitment", "rural", "reading", "donation", "certificate"],
+    "tips": [
+      "1. 通知要包含标题、目的、活动内容、报名要求和报名方式五要素；",
+      "2. 用短句和编号把任务、要求、奖励分块呈现，便于快速阅读；",
+      "3. 结尾写清报名截止时间与联系方式，落款加发布单位和日期。"
+    ],
+    "keywords": [
+      "volunteer",
+      "recruitment",
+      "rural",
+      "reading",
+      "donation",
+      "certificate"
+    ],
     "modelAnswer": "Notice: 'Book Bridge' Rural Reading Volunteers Wanted\n\nTo all students,\n\nThe Campus Youth Volunteer Association (CYVA) is launching the 'Book Bridge' Rural Reading Program to help students of Qinghe Primary School, a rural school in a mountainous county. We now invite volunteers from the whole university.\n\nThe program has two parts. First, volunteers sort and pack donated children's books every Friday afternoon at the association office. Second, each volunteer gives one 40-minute online reading session to a pupil every weekend for eight weeks, sharing stories and helping children fall in love with reading. All students are welcome to join, and no teaching experience is needed. You only need to be patient, responsible, and able to keep the schedule. A one-hour training will be held on March 16.\n\nVolunteers will receive recorded service hours and a certificate from the university. The ten most active volunteers will also be invited to visit the school in the summer and meet their pupils in person.\n\nIf you are interested, please scan the QR code on our official WeChat account and fill in the form before March 14. For any questions, contact us at cyva@university.example.com.\n\nCome and build a book bridge between you and a rural child!\n\nCampus Youth Volunteer Association\nMarch 6, 2026"
   },
   {
@@ -56,11 +104,27 @@
     "difficulty": "基础",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你在跨境电商平台 OrchidMart Global 购买了一款智能手表，收货后发现颜色发错且缺少充电器，多次联系客服均无结果。请根据以下记录写一封不少于 200 词的投诉信给该平台客服经理。\n英文素材：\nOrder No. OM-20260218-7781: Smart Watch X3 (Silver), placed on February 18, price USD 129.99, delivered on February 27.\nProblems: (1) the watch is black, not silver as ordered; (2) the charger shown on the product page is missing, so the watch cannot be charged.\nService record: I contacted online customer service three times (Feb 27, Mar 1, Mar 3); each time I was told to wait 48 hours for a solution, but no reply has ever come.\nMy request: a correct replacement or a full refund within seven days, plus a written reply explaining how this will be handled.",
     "genre": "投诉信（须含投诉事由、诉求、落款）",
-    "tips": "1. 开头写清订单号、购买时间和价格，便于对方核查；\n2. 把问题按“事实＋影响”陈述，附上联系客服的时间线，增强说服力；\n3. 语气坚决但有礼，明确提出换货或退款诉求和期限，并保留进一步维权权利。",
-    "keywords": ["complaint", "order", "refund", "replacement", "customer service", "cross-border"],
+    "tips": [
+      "1. 开头写清订单号、购买时间和价格，便于对方核查；",
+      "2. 把问题按“事实＋影响”陈述，附上联系客服的时间线，增强说服力；",
+      "3. 语气坚决但有礼，明确提出换货或退款诉求和期限，并保留进一步维权权利。"
+    ],
+    "keywords": [
+      "complaint",
+      "order",
+      "refund",
+      "replacement",
+      "customer service",
+      "cross-border"
+    ],
     "modelAnswer": "Dear Customer Service Manager,\n\nI am writing to complain about Order No. OM-20260218-7781, a Smart Watch X3 in silver that I bought on your platform on February 18 for USD 129.99, and about the poor service I have received since then.\n\nThe order was delivered on February 27, but there are two problems with it. First, the watch is black, not silver as I ordered. Second, the charger shown on the product page is missing from the package, so the watch cannot be charged and is useless to me.\n\nI contacted your online customer service three times, on February 27, March 1 and March 3. Each time I was told to wait 48 hours for a solution, but I have received no reply or follow-up at all. This is very disappointing for a platform that promises worry-free after-sales service.\n\nI therefore request that you either send me a correct silver watch with a charger, or give me a full refund, within seven days of receiving this letter. I also ask for a written reply explaining how this happened and how you will handle it.\n\nI have kept the delivery box, photos and all chat records as evidence. If I do not hear from you by March 20, I will report the case to the consumer protection authority.\n\nI look forward to your prompt action.\n\nYours faithfully,\n[Your name]"
   },
   {
@@ -72,11 +136,27 @@
     "difficulty": "基础",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你在学校就业网上看到 BrightPath Digital Academy 的数据分析入门证书课程广告，想在报名前了解上课时间、费用、证书认可度和奖学金等信息。请写一封不少于 200 词的咨询邮件给招生负责人。\n英文素材：\nBrightPath Digital Academy — Data Analysis Starter Certificate (Spring term)\nLearn Excel, SQL and data visualization in 12 weeks. Live online classes with weekend tutorials. Certificate issued after passing the final project.\nFor details, contact: Ms. Tina Gao, admission@brightpath.example.com",
     "genre": "咨询邮件（须含自我介绍、问题清单、结尾致谢）",
-    "tips": "1. 先自我介绍并说明信息来源和咨询目的；\n2. 把问题按时间、费用、证书、奖学金逐条编号列出，方便对方逐条回复；\n3. 结尾说明你希望尽快得到答复的原因，并留下联系方式。",
-    "keywords": ["inquiry", "data analysis", "certificate", "course", "tuition", "scholarship"],
+    "tips": [
+      "1. 先自我介绍并说明信息来源和咨询目的；",
+      "2. 把问题按时间、费用、证书、奖学金逐条编号列出，方便对方逐条回复；",
+      "3. 结尾说明你希望尽快得到答复的原因，并留下联系方式。"
+    ],
+    "keywords": [
+      "inquiry",
+      "data analysis",
+      "certificate",
+      "course",
+      "tuition",
+      "scholarship"
+    ],
     "modelAnswer": "Dear Ms. Gao,\n\nI am a sophomore majoring in Accounting at Bright River University. I saw the advertisement for the Data Analysis Starter Certificate on our university job board, and I am writing to ask for more information before I apply.\n\nThe course description says that students will learn Excel, SQL and data visualization in 12 weeks, which is exactly what I need for my internship applications. I would be grateful if you could answer the following questions:\n\n1. When do the live online classes start and end, and at what times are they held? Are the weekend tutorials recorded for later review?\n2. What is the tuition fee, and does it include all learning materials and the final project assessment?\n3. Does your academy offer any scholarships or discounts for full-time college students?\n4. After passing the final project, when will the certificate be issued, and is it recognized by employers or industry associations?\n\nIf possible, please also send me a sample course schedule. Your answers will help me decide whether to join the spring class, and I would appreciate a reply before March 15. Thank you very much for your time, and I look forward to hearing from you. My email is lihua@example.com.\n\nBest regards,\nLi Hua"
   },
   {
@@ -88,11 +168,27 @@
     "difficulty": "基础",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你参加了为期两周的“青山村乡村电商训练营”，免费学习直播带货、农产品拍摄包装等技能，收获很大。请给训练营负责人 Liu Fang 写一封不少于 200 词的感谢信。\n英文素材：\n'Green Hills E-commerce Training Camp', Qinghe Village, two weeks (Feb 9 – Feb 22), free of charge.\nCourses: live-stream selling, product photography, packaging and delivery, short video marketing.\nOrganizer: Ms. Liu Fang, director of the county training center.\nHighlights: trainees visited three local orchards and practiced live selling with real fruit; the camp offered free lunch and transport every day.",
     "genre": "感谢信（须含致谢缘由、具体事例、再次致谢）",
-    "tips": "1. 开头点明感谢对象和原因，写出训练营名称和时间；\n2. 中间用具体事例写你学到了什么、哪个环节最受益，避免空泛；\n3. 结尾说明收获如何影响你的计划，再次致谢并表达保持联系的意愿。",
-    "keywords": ["thank", "training", "e-commerce", "rural", "livestream", "skills"],
+    "tips": [
+      "1. 开头点明感谢对象和原因，写出训练营名称和时间；",
+      "2. 中间用具体事例写你学到了什么、哪个环节最受益，避免空泛；",
+      "3. 结尾说明收获如何影响你的计划，再次致谢并表达保持联系的意愿。"
+    ],
+    "keywords": [
+      "thank",
+      "training",
+      "e-commerce",
+      "rural",
+      "livestream",
+      "skills"
+    ],
     "modelAnswer": "Dear Ms. Liu Fang,\n\nI am writing to express my sincere thanks for the wonderful two weeks I spent at the 'Green Hills E-commerce Training Camp' in Qinghe Village from February 9 to February 22.\n\nBefore the camp, I knew almost nothing about rural e-commerce. Thanks to your careful organization, I learned how to sell agricultural products through live streaming, how to take attractive product photos, and how to manage packaging and delivery. The part I enjoyed most was the field practice: we visited three local orchards and sold fruit in real live sessions, which turned theory into real skills. I will never forget the patience of the teachers, and the free lunch and transport you arranged for every trainee.\n\nThe camp changed my view of the countryside. I now understand that young people can use new skills to help farmers earn more and to bring fresh energy to rural areas. I have decided to run a small campus live-stream project this semester to sell my hometown's tea, using everything I learned in the camp.\n\nThank you again for your hard work and kindness. Please keep in touch, and do not hesitate to ask if I can help the training center in the future.\n\nWith best wishes,\n[Your name]"
   },
   {
@@ -104,11 +200,27 @@
     "difficulty": "基础",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是行政部助理，被要求在周五下午 5 点前提交三月月度报告，但因电脑故障未按期提交，导致经理 Wang Ming 周一的会议资料不完整。请给经理写一封不少于 200 词的道歉信。\n英文素材：\nBackground: you were asked to submit the March monthly report by Friday 5:00 p.m. You finished about 80% of it, but on Friday afternoon your computer broke down and the file could not be recovered until Monday. Manager Wang Ming's Monday morning meeting was delayed because the materials were incomplete.\nRequirements: explain what happened, apologize sincerely, say how you have made up for it, and describe how you will prevent it from happening again.",
     "genre": "道歉信（须含致歉、原因说明、补救措施）",
-    "tips": "1. 开头直接道歉并说明给工作造成的影响，态度诚恳；\n2. 简要解释原因，但重点放在“我的责任”而不是借口上；\n3. 写出补救措施（如已补交并更新数据）和防再发办法（如自动备份），结尾再次致歉。",
-    "keywords": ["apology", "deadline", "report", "delay", "responsibility", "backup"],
+    "tips": [
+      "1. 开头直接道歉并说明给工作造成的影响，态度诚恳；",
+      "2. 简要解释原因，但重点放在“我的责任”而不是借口上；",
+      "3. 写出补救措施（如已补交并更新数据）和防再发办法（如自动备份），结尾再次致歉。"
+    ],
+    "keywords": [
+      "apology",
+      "deadline",
+      "report",
+      "delay",
+      "responsibility",
+      "backup"
+    ],
     "modelAnswer": "Dear Mr. Wang,\n\nI am writing to apologize sincerely for failing to submit the March monthly report by the Friday 5:00 p.m. deadline, which left your Monday morning meeting without complete materials.\n\nI want to explain what happened, not as an excuse, but so that you know the facts. By Friday noon I had finished about 80 percent of the report. In the afternoon, however, my computer suddenly broke down and the file could not be opened. I tried to recover it over the weekend, but the repair shop could only restore it on Monday morning. I should have kept a backup and informed you immediately instead of staying silent.\n\nI understand that the delay affected your meeting and the team's work, and I take full responsibility for it. To make up, I have already completed the report and sent it to your mailbox. I will also update all the figures before tomorrow's meeting so that nothing is missing.\n\nTo prevent this from happening again, I have set up automatic daily backups and will save important files in two places, and I will send you progress updates two days before every future deadline so that any problem can be found early. Please accept my apology, and thank you for your understanding.\n\nYours sincerely,\n[Your name]"
   },
   {
@@ -120,11 +232,27 @@
     "difficulty": "基础",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是机电专业大二学生，想报名 NorthStar Vocational Training Center 的工业机器人操作证书课程，请写一封不少于 200 词的邮件，咨询报名条件、上课安排、考试和后续服务等信息。\n英文素材：\nNorthStar Vocational Training Center — Industrial Robot Operator Certificate (Level 4)\nA 160-hour program covering robot basics, programming and safety. Open to vocational college students and workers. Courses run in March and September each year.\nContact: Mr. Kevin Sun, info@northstar-vt.example.com",
     "genre": "咨询邮件（须含自我介绍、问题清单、结尾致谢）",
-    "tips": "1. 先自我介绍专业和年级，说明咨询目的；\n2. 重点问清报名条件、上课时间地点、考试形式和补考机会，逐条编号；\n3. 说明你报名的时间紧迫性（如暑期实习需要证书），结尾致谢并留联系方式。",
-    "keywords": ["inquiry", "robot", "certificate", "vocational", "training", "exam"],
+    "tips": [
+      "1. 先自我介绍专业和年级，说明咨询目的；",
+      "2. 重点问清报名条件、上课时间地点、考试形式和补考机会，逐条编号；",
+      "3. 说明你报名的时间紧迫性（如暑期实习需要证书），结尾致谢并留联系方式。"
+    ],
+    "keywords": [
+      "inquiry",
+      "robot",
+      "certificate",
+      "vocational",
+      "training",
+      "exam"
+    ],
     "modelAnswer": "Dear Mr. Sun,\n\nI am a second-year student of Mechatronics at Bright River Vocational College. I learned about your Industrial Robot Operator Certificate (Level 4) program from my department's notice board, and I am writing to ask for detailed information before I enroll.\n\nThe program fits my study plan very well. I have passed basic courses in mechanics and electronics, but I have never operated an industrial robot, so I would like to know whether beginners like me are accepted. I also want to ask several practical questions.\n\nFirst, the advertisement says the program lasts 160 hours and runs in March and September. Could you tell me the exact dates of the next course, the class hours each week, and the location of the training rooms? Second, how is the final exam organized, and how many chances do students get if they fail? Third, does the center provide accommodation for students who live far away? Finally, after I obtain the certificate, do you offer any internship or job recommendations to graduates?\n\nI hope to join the March course if my schedule allows, because this certificate is required for the factory internship I am applying for this summer. If there is a course brochure or a sample schedule, please email it to me as well. Thank you very much for your time, and I look forward to your reply.\n\nBest regards,\n[Your name]"
   },
   {
@@ -136,11 +264,27 @@
     "difficulty": "进阶",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你看到 Novamind Intelligent Technology Co., Ltd. 招聘 AI 产品助理（应届生可投），要求熟悉 AI 工具、会写产品文档。请根据以下招聘信息写一封不少于 200 词的求职信。\n英文素材：\nNovamind Intelligent Technology Co., Ltd. — AI Product Assistant (fresh graduates welcome)\nWe build AI writing and meeting tools for small businesses. You will: test new AI features and write bug reports; draft product documents and user guides; collect user feedback and support the product manager.\nRequirements: good Chinese and English writing; curious about AI tools; careful and patient; no coding background required, but experience using AI products is a plus.\nSend your application to Mr. Eric Tang, career@novamind.example.com",
     "genre": "求职信（须含称呼、正文、结尾三部分）",
-    "tips": "1. 突出你真实使用 AI 工具的经历（如用 AI 整理笔记、写推文、做会议记录）；\n2. 把“细心、会写文档、能收集反馈”与岗位职责逐条对应，展示匹配度；\n3. 主动化解“无编程背景”的疑虑，强调学习能力和表达转化能力。",
-    "keywords": ["application", "artificial intelligence", "product assistant", "ai tools", "user feedback", "documentation"],
+    "tips": [
+      "1. 突出你真实使用 AI 工具的经历（如用 AI 整理笔记、写推文、做会议记录）；",
+      "2. 把“细心、会写文档、能收集反馈”与岗位职责逐条对应，展示匹配度；",
+      "3. 主动化解“无编程背景”的疑虑，强调学习能力和表达转化能力。"
+    ],
+    "keywords": [
+      "application",
+      "artificial intelligence",
+      "product assistant",
+      "ai tools",
+      "user feedback",
+      "documentation"
+    ],
     "modelAnswer": "Dear Mr. Tang,\n\nI am writing to apply for the position of AI Product Assistant at Novamind Intelligent Technology Co., Ltd. As a senior majoring in Business English with a strong interest in artificial intelligence, I believe I am well prepared for this role.\n\nI use AI tools every day, not just as a user but as a careful observer. For example, I have used AI writing assistants to draft club announcements and AI meeting tools to organize my student council minutes. During this process, I often noticed small errors in logic or wording, recorded them, and thought about how the products could be improved. I am also patient with details: in my part-time job as an editor of the campus newspaper, I proofread more than 60 articles and produced weekly feedback reports for the writers.\n\nAlthough I do not have a coding background, I learn new tools quickly and can explain them in clear, simple language. I am confident that I can test features, write helpful user guides, and collect user feedback to support your product manager.\n\nI would welcome the chance to discuss how I can contribute to your team. Thank you for considering my application, and I look forward to your reply.\n\nYours sincerely,\n[Your name]"
   },
   {
@@ -152,11 +296,27 @@
     "difficulty": "进阶",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是跨境电商公司 BlueOcean Cross-border Trading Co. 的实习生，公司目前只在欧美销售家居厨房用品，增长放缓。经理请你写一封不少于 200 词的建议信，论证开拓东南亚市场的理由并提出具体做法。\n英文素材：\nCompany background: BlueOcean sells home and kitchen products to the US and Europe through Amazon and its own website. 2025 sales grew 12%, but growth is slowing.\nSoutheast Asia: e-commerce sales are growing over 20% a year; young population; low logistics cost from our new warehouse in Guangxi; competitors have started live-stream selling there.\nRisks: language differences, payment habits, local certification requirements.",
     "genre": "建议信（须含问题分析、具体建议、预期效果）",
-    "tips": "1. 开头用销售数据和区域增速对比说明机会，体现分析能力；\n2. 建议要具体：选哪个平台、先测什么品类、如何本地化运营，分步骤写；\n3. 主动提及风险并给出对策，让建议更可信，结尾表示可提供详细分析。",
-    "keywords": ["suggestion", "Southeast Asia", "market", "cross-border", "e-commerce", "livestream"],
+    "tips": [
+      "1. 开头用销售数据和区域增速对比说明机会，体现分析能力；",
+      "2. 建议要具体：选哪个平台、先测什么品类、如何本地化运营，分步骤写；",
+      "3. 主动提及风险并给出对策，让建议更可信，结尾表示可提供详细分析。"
+    ],
+    "keywords": [
+      "suggestion",
+      "Southeast Asia",
+      "market",
+      "cross-border",
+      "e-commerce",
+      "livestream"
+    ],
     "modelAnswer": "Dear Mr. Lin,\n\nI am writing to suggest that our company consider entering the Southeast Asian market for home and kitchen products. As an intern in the operations team, I have studied this question over the past two weeks, and I believe the timing is right.\n\nFirst, the opportunity is real. While our sales in the US and Europe grew 12 percent last year, the growth is slowing. In Southeast Asia, by contrast, e-commerce sales are increasing by more than 20 percent a year, and the young population there is eager to buy practical and well-designed home products. Second, our new warehouse in Guangxi greatly reduces logistics cost and delivery time to the region. Third, several competitors have already started live-stream selling there, and if we wait too long, the entry cost will rise.\n\nI suggest we take three steps. We could start with one product line, such as kitchen storage, on one major local platform like Shopee or Lazada. We should hire one local operator or work with a local agency to solve language and payment issues. Finally, we can test live-stream selling with short videos in the local language before spending heavily.\n\nOf course, there are risks, such as local certification and different payment habits, but they can be managed step by step. I would be happy to prepare a more detailed analysis if you are interested.\n\nBest regards,\n[Your name]"
   },
   {
@@ -168,11 +328,27 @@
     "difficulty": "进阶",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：请根据以下招聘信息写一封不少于 200 词的求职信，应聘 ClearSky New Energy Co., Ltd. 的光伏项目助理。注意：你并非新能源专业出身，需要突出可迁移技能和对绿色职业的兴趣。\n英文素材：\nClearSky New Energy Co., Ltd. — Solar Project Assistant\nWe develop rooftop solar power stations for factories and schools. The assistant will: help engineers prepare site survey materials; organize project files and progress reports; communicate with customers about installation schedules.\nRequirements: college degree or above; good communication and Excel skills; willing to travel within the province; knowledge of new energy is preferred but not required.\nContact: Ms. Grace Lin, hr@clearsky-ne.example.com",
     "genre": "求职信（须含称呼、正文、结尾三部分）",
-    "tips": "1. 即使没有新能源专业背景，也要用实习/课程中的可迁移技能（沟通、Excel、组织材料）逐条对应岗位职责；\n2. 用具体事例证明执行力和愿意出差的态度；\n3. 表达对绿色职业的真实兴趣和长期发展意愿，结尾请求面试机会。",
-    "keywords": ["solar", "project assistant", "new energy", "application", "survey", "green jobs"],
+    "tips": [
+      "1. 即使没有新能源专业背景，也要用实习/课程中的可迁移技能（沟通、Excel、组织材料）逐条对应岗位职责；",
+      "2. 用具体事例证明执行力和愿意出差的态度；",
+      "3. 表达对绿色职业的真实兴趣和长期发展意愿，结尾请求面试机会。"
+    ],
+    "keywords": [
+      "solar",
+      "project assistant",
+      "new energy",
+      "application",
+      "survey",
+      "green jobs"
+    ],
     "modelAnswer": "Dear Ms. Lin,\n\nI am writing to apply for the position of Solar Project Assistant at ClearSky New Energy Co., Ltd. I learned about this opening from your company's official website, and I believe my skills and values match your needs well.\n\nAlthough my major is Business Administration, I have strong skills that fit this job directly. During my internship at a real estate service company, I helped engineers prepare site survey materials, organized more than 40 project files, and communicated with customers about installation schedules every day. My supervisors praised my careful Excel reports and my patient communication style. I am also used to business travel, because I visited project sites in three cities during that internship.\n\nI am genuinely interested in new energy. I took an elective course on energy and environment, and I have followed the development of rooftop solar projects for two years. I believe that helping factories and schools switch to clean energy is meaningful work, and I want to build my career in this growing field.\n\nI am available for an interview at any time and can start work in early July. Thank you for considering my application, and I look forward to hearing from you.\n\nYours sincerely,\n[Your name]"
   },
   {
@@ -184,11 +360,27 @@
     "difficulty": "进阶",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是校志愿者协会主席，请给校友企业家 Zhang Rui（2010 届毕业生，创办了公益电商公司 Heartland Mall）写一封不少于 200 词的邀请函，邀请他担任“服务学习论坛”主旨演讲嘉宾。\n英文素材：\nService-Learning Forum 2026, May 9, 2:00–5:00 p.m., University Auditorium. Theme: 'Volunteering in the Digital Age'. About 400 students, teachers and NGO partners will attend.\nGuest role: give a 40-minute keynote and join a 20-minute Q&A.\nThe association covers transport and hotel, and arranges a dinner with student representatives after the forum.\nMr. Zhang Rui graduated in 2010 and founded Heartland Mall, an e-commerce company that helps farmers sell products and donates part of its profit to rural schools.",
     "genre": "邀请函（须含活动信息、嘉宾角色、回执请求）",
-    "tips": "1. 开头自我介绍和邀请目的，写明论坛时间、地点、主题和听众规模；\n2. 说明嘉宾与主题的契合点（公益电商经验），让邀请显得真诚而有针对性；\n3. 写清演讲时长、问答环节和接待安排，结尾请对方在截止日期前确认。",
-    "keywords": ["invitation", "forum", "keynote", "alumni", "volunteering", "speaker"],
+    "tips": [
+      "1. 开头自我介绍和邀请目的，写明论坛时间、地点、主题和听众规模；",
+      "2. 说明嘉宾与主题的契合点（公益电商经验），让邀请显得真诚而有针对性；",
+      "3. 写清演讲时长、问答环节和接待安排，结尾请对方在截止日期前确认。"
+    ],
+    "keywords": [
+      "invitation",
+      "forum",
+      "keynote",
+      "alumni",
+      "volunteering",
+      "speaker"
+    ],
     "modelAnswer": "Dear Mr. Zhang,\n\nOn behalf of the Campus Volunteer Association of Bright River University, I am writing to invite you to be the keynote speaker at our Service-Learning Forum 2026. The forum will be held on May 9, from 2:00 to 5:00 p.m., in the University Auditorium, with about 400 students, teachers and NGO partners attending.\n\nThis year's theme is 'Volunteering in the Digital Age'. We can think of no one more suitable than you to speak on this topic. As a 2010 graduate of our university, you founded Heartland Mall, an e-commerce company that helps farmers sell their products and donates part of its profit to rural schools. Your story perfectly connects digital tools, business and volunteerism, and it will inspire every student in the audience. Students often tell us they want to see how volunteers can use technology to create real change, and you have shown exactly that.\n\nWe would like you to give a 40-minute keynote followed by a 20-minute question-and-answer session. The association will cover your transport and hotel, and we will arrange a dinner with student representatives after the forum.\n\nPlease let us know before April 10 whether you can join us. We would be honored by your presence, and we look forward to welcoming you back to campus.\n\nYours sincerely,\n[Your name]\nPresident, Campus Volunteer Association"
   },
   {
@@ -200,11 +392,27 @@
     "difficulty": "进阶",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是 TopGear Precision Manufacturing 的人事专员。公司新 MES 系统将于 4 月 1 日上线，请根据以下信息写一份不少于 200 词的内部备忘录，通知全体员工参加数字化技能培训。\n英文素材：\nTo: All production staff. From: HR Department. Subject: Digital Skills Training for the Smart Workshop.\nBackground: our new MES (Manufacturing Execution System) goes live on April 1. All production staff must complete a 12-hour training before March 28.\nSchedule: Group A — March 16–17; Group B — March 23–24, 9:00 a.m.–4:30 p.m., Training Room 2.\nContent: MES operation, digital quality checks, data safety rules.\nAssessment: a 40-minute online test after training; the result is linked to this quarter's skill bonus. Overtime pay applies for weekend sessions.",
     "genre": "备忘录（须含 To/From/Date/Subject 与正文）",
-    "tips": "1. 备忘录四要素（To/From/Date/Subject）齐全，正文先写背景和目的；\n2. 分组、时间、地点、内容、考核分块列出，层次清楚；\n3. 结尾写清请假流程和未通过考核的后果，提醒员工重视。",
-    "keywords": ["memo", "training", "smart workshop", "MES", "schedule", "assessment"],
+    "tips": [
+      "1. 备忘录四要素（To/From/Date/Subject）齐全，正文先写背景和目的；",
+      "2. 分组、时间、地点、内容、考核分块列出，层次清楚；",
+      "3. 结尾写清请假流程和未通过考核的后果，提醒员工重视。"
+    ],
+    "keywords": [
+      "memo",
+      "training",
+      "smart workshop",
+      "MES",
+      "schedule",
+      "assessment"
+    ],
     "modelAnswer": "MEMORANDUM\n\nTo: All production staff\nFrom: HR Department\nDate: March 5, 2026\nSubject: Digital Skills Training for the Smart Workshop\n\nOur new Manufacturing Execution System (MES) will go live on April 1. To make sure every worker can use the system correctly and safely, all production staff must complete a 12-hour digital skills training before March 28.\n\nTraining arrangements are as follows. Group A will attend on March 16 and 17, and Group B on March 23 and 24. Sessions run from 9:00 a.m. to 4:30 p.m. in Training Room 2, with a one-hour lunch break. The training covers MES operation, digital quality checks, and data safety rules. Attendance will be recorded every morning and afternoon, so please arrive ten minutes early and bring your employee card.\n\nAfter the training, everyone must pass a 40-minute online test. The result is linked to this quarter's skill bonus, and those who fail will need to retake the training. Weekend sessions will be paid as overtime, and the canteen will provide free lunch on training days.\n\nIf you cannot attend your group's session, please tell your team leader and the HR Department at least three days in advance so that we can arrange a new group. Please take this training seriously, as it directly supports our move to a smart workshop.\n\nHR Department"
   },
   {
@@ -216,11 +424,27 @@
     "difficulty": "进阶",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是校学生会权益部成员。调研显示多数非计算机专业学生缺乏数据处理和 AI 工具使用能力。请根据以下调研数据给教务处写一封不少于 200 词的建议信，建议开设数字技能选修课。\n英文素材：\nStudent survey (March 2026, 800 respondents): 76% of non-IT majors say they need data skills at work or in competitions but have no training; 68% have never used an AI writing or data tool; 81% support a new elective called 'Digital Skills for All Majors'.\nProposal: a 32-hour elective covering Excel, basic data visualization, and responsible use of AI tools; open to all students from next semester; taught by the Computer School in cooperation with the Career Center.",
     "genre": "建议信（须含问题分析、具体建议、预期效果）",
-    "tips": "1. 用调研数据说明问题的普遍性和紧迫性，增强说服力；\n2. 建议要可落地：课时、内容、开课单位、面向对象逐项写清；\n3. 说明课程对就业竞争力的益处，结尾表示可提供数据支持配合推进。",
-    "keywords": ["suggestion", "digital skills", "elective", "data", "ai tools", "curriculum"],
+    "tips": [
+      "1. 用调研数据说明问题的普遍性和紧迫性，增强说服力；",
+      "2. 建议要可落地：课时、内容、开课单位、面向对象逐项写清；",
+      "3. 说明课程对就业竞争力的益处，结尾表示可提供数据支持配合推进。"
+    ],
+    "keywords": [
+      "suggestion",
+      "digital skills",
+      "elective",
+      "data",
+      "ai tools",
+      "curriculum"
+    ],
     "modelAnswer": "Dear Director of the Academic Affairs Office,\n\nI am writing on behalf of the Student Union's Rights Department to suggest that our university open a new elective course, 'Digital Skills for All Majors', for non-computer majors.\n\nOur March survey of 800 students shows a clear need. 76 percent of non-IT majors say they need data skills for part-time jobs, internships or competitions but have no training; 68 percent have never used an AI writing or data tool; and 81 percent support the new elective. At the recent campus job fair, many HR managers also told us that graduates are expected to handle data and use AI tools responsibly.\n\nWe therefore propose a 32-hour elective covering three parts: Excel for daily work, basic data visualization, and the responsible use of AI tools. The course could be taught by the Computer School together with the Career Center, and opened to all students from next semester. Because the content is practical and connected with jobs, we believe it will also improve our graduates' competitiveness.\n\nWe have collected the full survey data and would be happy to share it, or to help test the course materials, if the office is interested. Thank you for considering our suggestion.\n\nYours sincerely,\n[Your name]\nRights Department, Student Union"
   },
   {
@@ -232,11 +456,27 @@
     "difficulty": "进阶",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是校大学生创业团队负责人，收到 Green Valley Fruit Cooperative 经理 Chen Bo 的合作邮件。请代表团队写一封不少于 200 词的回复邮件，表达合作意愿、回应具体条款并提出下一步计划。\n英文素材：\nFrom: Chen Bo, Manager of Green Valley Fruit Cooperative (greenvalley@example.com)\nSubject: Proposal for campus live-stream cooperation\nDear team leader,\nOur cooperative grows navel oranges and passion fruit in a mountainous county. We would like to cooperate with your student entrepreneurship team to sell our fruits through your campus live-stream channel. We can supply fresh fruit, handle packaging and delivery, and share 15% of sales with your team. If you are interested, please reply by March 20. We suggest a one-month trial starting in April.\nBest regards, Chen Bo",
     "genre": "回复邮件（须含主题、称呼、正文、落款）",
-    "tips": "1. 开头感谢对方并明确表达合作意愿，写明你的团队背景增加可信度；\n2. 对供货、物流、分成、时间逐条回应，可提出自己的补充建议（如试播时间、素材支持）；\n3. 结尾提出下一步（如线上会议时间）并留联系方式，落款注明身份。",
-    "keywords": ["reply", "cooperation", "livestream", "rural", "fruit", "trial"],
+    "tips": [
+      "1. 开头感谢对方并明确表达合作意愿，写明你的团队背景增加可信度；",
+      "2. 对供货、物流、分成、时间逐条回应，可提出自己的补充建议（如试播时间、素材支持）；",
+      "3. 结尾提出下一步（如线上会议时间）并留联系方式，落款注明身份。"
+    ],
+    "keywords": [
+      "reply",
+      "cooperation",
+      "livestream",
+      "rural",
+      "fruit",
+      "trial"
+    ],
     "modelAnswer": "Dear Mr. Chen,\n\nThank you very much for your email and for the exciting proposal. On behalf of our student entrepreneurship team, I am glad to tell you that we are very interested in cooperating with Green Valley Fruit Cooperative.\n\nWe have been running a campus live-stream channel for one year, with about 20,000 student followers, and we have wanted to add quality agricultural products to our shows. Your navel oranges and passion fruit fit our audience perfectly. We agree with most of your proposal: you supply the fresh fruit, handle packaging and delivery, and share 15 percent of sales with our team. We would only like to suggest two small changes. First, we hope the trial can start on April 10, after our spring campus festival, so that we can promote the products when students are most active. Second, could you provide short videos or photos of the orchards? Real countryside scenes always help our live sales.\n\nTo move forward quickly, we suggest a one-hour online meeting next Tuesday at 4:00 p.m. to discuss prices, delivery and the cooperation agreement. Please let me know if that time works for you. You can also reach me at 138-XXXX-XXXX.\n\nWe look forward to working with you for a successful trial.\n\nBest regards,\n[Your name]\nTeam Leader, Campus Live-stream Entrepreneurship Team"
   },
   {
@@ -248,11 +488,27 @@
     "difficulty": "进阶",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你在全省职业院校技能大赛“数控加工”赛项中获得一等奖，参赛设备由 StrongTool Machine Tools Co. 免费赞助并派工程师指导。请给该公司培训部经理 Helen Wu 写一封不少于 200 词的感谢信。\n英文素材：\nProvincial Vocational Skills Competition 2026: you won first prize in the CNC Machining event.\nStrongTool Machine Tools Co. provided three training machines free of charge for two months and sent engineer Mr. Du to guide your team twice a week. Thanks to this support, your school team trained 60 hours more than planned.\nThe company also invited the top three winners to visit its factory in June.",
     "genre": "感谢信（须含致谢缘由、具体事例、再次致谢）",
-    "tips": "1. 开头说明身份、获奖情况和感谢对象，让背景清楚；\n2. 具体写出设备赞助和工程师指导的价值（如多训练 60 小时），避免空泛致谢；\n3. 结尾再次致谢、请对方转达对工程师的谢意，并表达继续学习回报行业的愿望。",
-    "keywords": ["thank", "sponsorship", "competition", "CNC", "training", "first prize"],
+    "tips": [
+      "1. 开头说明身份、获奖情况和感谢对象，让背景清楚；",
+      "2. 具体写出设备赞助和工程师指导的价值（如多训练 60 小时），避免空泛致谢；",
+      "3. 结尾再次致谢、请对方转达对工程师的谢意，并表达继续学习回报行业的愿望。"
+    ],
+    "keywords": [
+      "thank",
+      "sponsorship",
+      "competition",
+      "CNC",
+      "training",
+      "first prize"
+    ],
     "modelAnswer": "Dear Ms. Wu,\n\nI am writing to express my heartfelt thanks to StrongTool Machine Tools Co., Ltd. for your generous support, which helped me win first prize in the CNC Machining event at the Provincial Vocational Skills Competition 2026.\n\nYour company provided our school team with three training machines free of charge for two months. Without this support, we could never have completed the extra 60 hours of practice that made the difference in the final. I am especially grateful to Engineer Mr. Du, who came to our workshop twice a week, corrected our operations patiently, and taught us many practical skills that are not in textbooks. His guidance improved not only my technique but also my confidence.\n\nStanding on the award stage, I thought of everyone behind this result, and your company is the first I want to thank. The prize is also yours. I have heard that the top three winners are invited to visit your factory in June, and I am truly looking forward to learning more about modern machine tool manufacturing there.\n\nPlease pass my thanks to Mr. Du and all your colleagues. I will keep practicing hard and hope to become an excellent CNC technician in the future.\n\nWith sincere gratitude,\n[Your name]"
   },
   {
@@ -264,11 +520,27 @@
     "difficulty": "进阶",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是校就业指导中心助理，请邀请 GreenVolt Energy 的资深储能工程师 Leo Chen 担任“绿色职业论坛”嘉宾，分享储能行业就业前景。请写一封不少于 200 词的邀请函。\n英文素材：\nGreen Careers Forum 2026, April 18, 3:00–5:00 p.m., Lecture Hall B. Audience: about 300 students from engineering and business schools.\nGuest role: a 30-minute talk on careers in energy storage plus a 30-minute panel discussion with two other guests.\nThe center will arrange transport and a dinner with student representatives after the forum.\nMr. Leo Chen is a senior energy storage engineer at GreenVolt Energy, with eight years of experience in battery projects.",
     "genre": "邀请函（须含活动信息、嘉宾角色、回执请求）",
-    "tips": "1. 说明论坛目的、时间地点和听众规模，让对方了解活动影响力；\n2. 明确嘉宾任务（30 分钟演讲＋30 分钟圆桌）并说明他与主题的契合点；\n3. 提及交通和晚宴接待安排，结尾请对方在截止日期前确认出席。",
-    "keywords": ["invitation", "forum", "energy storage", "career", "guest", "new energy"],
+    "tips": [
+      "1. 说明论坛目的、时间地点和听众规模，让对方了解活动影响力；",
+      "2. 明确嘉宾任务（30 分钟演讲＋30 分钟圆桌）并说明他与主题的契合点；",
+      "3. 提及交通和晚宴接待安排，结尾请对方在截止日期前确认出席。"
+    ],
+    "keywords": [
+      "invitation",
+      "forum",
+      "energy storage",
+      "career",
+      "guest",
+      "new energy"
+    ],
     "modelAnswer": "Dear Mr. Chen,\n\nOn behalf of the Career Guidance Center of Bright River University, I am writing to invite you to be a guest speaker at our Green Careers Forum 2026, which will be held on April 18 from 3:00 to 5:00 p.m. in Lecture Hall B.\n\nThe forum aims to help students understand job opportunities in the green energy industry, and about 300 students from our engineering and business schools will attend. Many of them are interested in energy storage but know little about the real career paths, the skills required, or the daily work of an engineer. As a senior energy storage engineer with eight years of experience in battery projects at GreenVolt Energy, you are the ideal person to answer these questions.\n\nWe would like you to give a 30-minute talk on careers in energy storage, followed by a 30-minute panel discussion with two other guests, during which students can ask questions. The center will arrange transport to and from the university, and after the forum we will host a dinner with student representatives, where you can talk with them more casually.\n\nPlease let us know before March 30 whether you are available. We would be honored by your presence, and we look forward to welcoming you to our campus.\n\nYours sincerely,\n[Your name]\nAssistant, Career Guidance Center"
   },
   {
@@ -280,11 +552,27 @@
     "difficulty": "冲刺",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你校实训中心购买了一套 PrecisionSim 数控仿真教学系统，出现多项质量问题且售后拖沓。请以实训中心负责老师身份写一封不少于 200 词的投诉信，需引用合同条款，并在“限期修好、退货、部分退款”之间做出权衡、明确诉求。\n英文素材：\nContract No. PS-2025-1107, signed November 7, 2025, total RMB 186,000, one-year warranty. Deliverables: 20 student licenses, 2 teacher stations, 1 server, free upgrades for one year.\nProblems since delivery (Dec 2025): (1) 8 of 20 student licenses fail to activate; (2) the software crashes about twice per class (error logs saved); (3) promised monthly teaching-material updates arrived only once; (4) the supplier's hotline answered 3 of 9 calls, and the last on-site visit (Feb 20) fixed nothing.\nContract clauses: defects should be repaired within 15 working days; if a major defect is not fixed within 30 days, the buyer may return the product or ask for a partial refund of up to 20%.\nYour school must start the new semester course on April 6 and needs a working system before then.",
     "genre": "投诉信（须含投诉事由、诉求、落款）",
-    "tips": "1. 开头写明合同编号和签订时间，让投诉有据可查；\n2. 按“事实＋影响”分组陈述四类问题并附时间线，引用合同条款说明对方已违约；\n3. 先提首选诉求（限期修好），再提备选方案（退货/退款）和最后期限，体现权衡分析。",
-    "keywords": ["complaint", "simulation", "defect", "warranty", "contract", "refund"],
+    "tips": [
+      "1. 开头写明合同编号和签订时间，让投诉有据可查；",
+      "2. 按“事实＋影响”分组陈述四类问题并附时间线，引用合同条款说明对方已违约；",
+      "3. 先提首选诉求（限期修好），再提备选方案（退货/退款）和最后期限，体现权衡分析。"
+    ],
+    "keywords": [
+      "complaint",
+      "simulation",
+      "defect",
+      "warranty",
+      "contract",
+      "refund"
+    ],
     "modelAnswer": "Dear After-sales Manager,\n\nI am writing on behalf of the Training Center of Bright River Vocational College to make a formal complaint about the PrecisionSim CNC simulation teaching system we purchased under Contract No. PS-2025-1107, signed on November 7, 2025, for RMB 186,000 with a one-year warranty.\n\nSince delivery in December 2025, the system has never worked properly. Of the 20 student licenses, 8 cannot be activated. The software crashes about twice in every class, and we have kept the error logs. The promised monthly teaching-material updates arrived only once. Worst of all, your hotline answered only 3 of our 9 calls, and the engineer who visited on February 20 fixed nothing.\n\nAccording to the contract, defects should be repaired within 15 working days, and if a major defect is not fixed within 30 days, we may return the product or claim a partial refund of up to 20 percent. Your company has now exceeded both time limits.\n\nBecause our new semester course starts on April 6 and depends on this system, we request the following: repair or replace all defective licenses and stop the crashes by March 28, and provide the missing teaching-material updates at once. If this cannot be done, we will exercise our contractual right to return the product and demand a full refund, and we will report the case to the local market supervision authority.\n\nPlease reply in writing within five working days.\n\nYours faithfully,\n[Your name]\nDirector, Training Center"
   },
   {
@@ -296,11 +584,27 @@
     "difficulty": "冲刺",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你在 Summit Consulting Group 完成三个月实习，明天离职。请给直属主管 David Kim 写一封不少于 200 词的感谢信：总结实习收获、表达感谢，并得体地请求一封推荐信。需要综合以下多条信息。\n英文素材：\nInternship: three months (Jan 5 – Apr 3) at Summit Consulting Group, Market Research Department.\nYour achievements: helped complete two industry reports; built an Excel model that saved the team about four hours per week; took meeting minutes for 12 client meetings; received a 'good communication' comment in your mid-term review.\nMr. David Kim: your direct supervisor, senior consultant.\nYour plan: apply for graduate programs in September; need a reference letter before August 15; will continue as a part-time assistant until June.",
     "genre": "感谢信（须含致谢缘由、具体事例、再次致谢）",
-    "tips": "1. 开头真诚致谢并点明实习时间与部门，让背景清楚；\n2. 用具体成果（报告、Excel 模型、会议纪要）回顾收获，展示成长与感恩；\n3. 委婉提出推荐信请求：写清截止日期（8 月 15 日）并附上简历减轻对方负担。",
-    "keywords": ["thank", "internship", "recommendation", "reference", "supervisor", "experience"],
+    "tips": [
+      "1. 开头真诚致谢并点明实习时间与部门，让背景清楚；",
+      "2. 用具体成果（报告、Excel 模型、会议纪要）回顾收获，展示成长与感恩；",
+      "3. 委婉提出推荐信请求：写清截止日期（8 月 15 日）并附上简历减轻对方负担。"
+    ],
+    "keywords": [
+      "thank",
+      "internship",
+      "recommendation",
+      "reference",
+      "supervisor",
+      "experience"
+    ],
     "modelAnswer": "Dear Mr. Kim,\n\nAs my three-month internship at Summit Consulting Group comes to an end tomorrow, I want to thank you sincerely for everything you have done for me. Working in the Market Research Department under your guidance has been the most valuable experience of my college years.\n\nWhen I joined in January, I knew the theory of market research but little about real business. During these three months, I helped complete two industry reports, built an Excel model that saves the team about four hours every week, and took minutes for 12 client meetings. Your comments on my drafts taught me to write clearly and think from the client's point of view, and I was very encouraged by the 'good communication' note in my mid-term review. These are exactly the skills I needed but could not learn in the classroom.\n\nI will continue to work for the department as a part-time assistant until June, so we will still see each other. At the same time, I am preparing to apply for graduate programs in September, and I would be very grateful if you could write a reference letter for me before August 15. I have attached my resume and a short list of the projects I worked on to make this easier for you.\n\nThank you again for your trust and patience. I hope we can keep in touch.\n\nWith warm regards,\n[Your name]"
   },
   {
@@ -312,11 +616,27 @@
     "difficulty": "冲刺",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是技术支持专员，经理 Carol Xu 邮件给你两个选项：A 下周去青岛客户现场出差三天；B 留在公司远程支持 SmartGrid 项目系统测试。请回复经理作出选择并说明理由，同时给出弥补另一任务空缺的方案。\n英文素材：\nFrom: Carol Xu, Support Manager\nSubject: Your assignment next week — please choose\nHi,\nTwo tasks need someone next week, and I want your opinion before I decide.\nOption A: on-site support at our client Qingdao Bright Motors, Tuesday to Thursday. They are installing our new software and need a technician on site. Travel and hotel will be arranged; you would report to their IT manager.\nOption B: stay in the office as the remote support contact for the SmartGrid project, which starts its system test next Wednesday. This is urgent, but you know the client team in Qingdao best.\nPlease reply by Friday 5 p.m. with your choice and reasons.\nBest, Carol",
     "genre": "回复邮件（须含主题、称呼、正文、落款）",
-    "tips": "1. 开头确认已理解两个选项，直接亮明选择；\n2. 给出至少三条理由（结合你的经验、任务阶段特点、同事互补），体现分析权衡；\n3. 提出让另一任务不断档的具体安排（交接、远程待命、日报），让经理放心。",
-    "keywords": ["reply", "choice", "on-site", "remote support", "schedule", "decision"],
+    "tips": [
+      "1. 开头确认已理解两个选项，直接亮明选择；",
+      "2. 给出至少三条理由（结合你的经验、任务阶段特点、同事互补），体现分析权衡；",
+      "3. 提出让另一任务不断档的具体安排（交接、远程待命、日报），让经理放心。"
+    ],
+    "keywords": [
+      "reply",
+      "choice",
+      "on-site",
+      "remote support",
+      "schedule",
+      "decision"
+    ],
     "modelAnswer": "Dear Ms. Xu,\n\nThank you for asking my opinion before deciding next week's assignment. I have read the two options carefully and would like to choose Option A: on-site support at Qingdao Bright Motors from Tuesday to Thursday.\n\nI have three reasons for this choice. First, I know the Qingdao client team best, as you mentioned, and the installation of our new software is at a critical stage; a face-to-face technician can solve problems much faster than remote support. Second, the SmartGrid system test starts next Wednesday, but the first two days of a test usually involve checking the environment and preparing data, which the team can handle with clear documentation. Third, remote support can be provided by my colleague Xiao Liu, who has passed the SmartGrid certification and only needs me to brief him on Monday.\n\nTo make this work, I propose the following plan. On Monday, I will prepare a one-page handover document for Xiao Liu and run a short rehearsal with him on the main test steps. During my trip, I will keep my phone on from 8:00 a.m. to 9:00 p.m., so he can reach me for urgent questions after work hours. I will also send you a daily report on both the Qingdao progress and the SmartGrid test.\n\nPlease let me know if you agree with this arrangement.\n\nBest regards,\n[Your name]"
   },
   {
@@ -328,11 +648,27 @@
     "difficulty": "冲刺",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是校学生会职业发展部部长。请根据以下调查数据和招聘会反馈，给就业指导中心写一封不少于 200 词的建议信，提议举办“AI 时代就业力”系列活动，需分析数据、提出方案和预算。\n英文素材：\nSurvey of 1,200 students (Feb 2026): 64% worry AI will change their future jobs; 58% have tried AI tools but do not know how to use them for job hunting; 47% say companies ask about AI skills in interviews.\nFeedback from the job fair: 12 of 20 HR managers said they expect graduates to use AI tools safely and efficiently.\nYour proposed series: (1) two workshops on AI resume writing and interview practice; (2) a mini-course on prompt writing for office tasks; (3) an 'AI + major' talk series for students of finance, education and design. Budget: about RMB 3,000 for guest speakers and materials; the career center has classrooms and an online platform.",
     "genre": "建议信（须含问题分析、具体建议、预期效果）",
-    "tips": "1. 用“学生调查＋招聘会反馈”双证据说明必要性，数据要具体；\n2. 方案分活动内容、面向对象、预算三层写清，便于审批；\n3. 说明可复用现有教室和线上平台降低成本，提出时间表并表达配合意愿。",
-    "keywords": ["suggestion", "artificial intelligence", "employment", "workshop", "resume", "career"],
+    "tips": [
+      "1. 用“学生调查＋招聘会反馈”双证据说明必要性，数据要具体；",
+      "2. 方案分活动内容、面向对象、预算三层写清，便于审批；",
+      "3. 说明可复用现有教室和线上平台降低成本，提出时间表并表达配合意愿。"
+    ],
+    "keywords": [
+      "suggestion",
+      "artificial intelligence",
+      "employment",
+      "workshop",
+      "resume",
+      "career"
+    ],
     "modelAnswer": "Dear Director,\n\nI am writing on behalf of the Student Union's Career Development Department to suggest that the Career Center organize a series of activities called 'Job Skills in the AI Era'. We believe this is the most urgent need among students right now, and the data supports it.\n\nOur February survey of 1,200 students shows that 64 percent worry that AI will change their future jobs, and 58 percent have tried AI tools but do not know how to use them for job hunting. Even more telling, 47 percent say employers asked about AI skills in interviews. At last month's job fair, 12 of 20 HR managers told us they expect graduates to use AI tools safely and efficiently. The need is clear, but no existing course answers it.\n\nWe therefore propose three activities. First, two workshops on AI-assisted resume writing and interview practice, one for juniors and one for seniors. Second, a mini-course on writing prompts for office tasks, held over four evenings. Third, one 'AI + major' talk series for finance, education and design students, so that they can see how AI changes their own fields.\n\nThe plan is affordable: guest speakers and materials cost about RMB 3,000, and the center already has classrooms and an online platform. We suggest starting in late April. Our department can handle registration and publicity, and we are ready to discuss details with you at any time.\n\nYours sincerely,\n[Your name]\nCareer Development Department, Student Union"
   },
   {
@@ -344,11 +680,27 @@
     "difficulty": "冲刺",
     "minWords": 200,
     "timeLimitMin": 50,
-    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "scoringWeights": {
+      "content": 35,
+      "grammar": 30,
+      "organization": 25,
+      "format": 10
+    },
     "materials": "情境说明：你是 Huixiang Intelligent Manufacturing Park 市场部助理。开放日日期临时变更，且三个参访团体名额不同。请根据以下信息写一篇不少于 200 词的英文通知，面向高校师生发布，需处理日期变更说明、名额分配、行程、安全要求和报名方式。\n英文素材：\nSmart Factory Open Day 2026: original date April 25 (Saturday) is changed to April 26 (Sunday) because the factory has an important production task.\nVisiting groups: (1) 40 students from Vocational College of Machinery; (2) 30 students from City University; (3) 20 seats for individual student applicants, first come, first served.\nItinerary: 9:00 registration at Gate 2; 9:30 safety briefing; 10:00–11:30 guided tour of the digital workshop (robot welding line, MES center, smart warehouse); 11:30–12:00 Q&A with engineers; 12:00 free lunch.\nRules: closed-toe shoes required; no photos in the workshop; bring student ID.\nTransport: 20 minutes by bus from the metro station (Bus 66, stop 'Huixiang Park').\nRegistration: scan the QR code or email open@huixiang-park.example.com before April 18, with name, school and phone number.",
     "genre": "通知（须含标题、正文、落款与日期）",
-    "tips": "1. 开头先说明日期变更及原因，避免信息混乱；\n2. 按“名额分配—行程—规则—报名方式”组织，编号或分块呈现，条理清楚；\n3. 突出安全要求（不露趾鞋、禁止拍照）与报名截止时间，防止无效报名。",
-    "keywords": ["notice", "open day", "smart factory", "visit", "registration", "safety"],
+    "tips": [
+      "1. 开头先说明日期变更及原因，避免信息混乱；",
+      "2. 按“名额分配—行程—规则—报名方式”组织，编号或分块呈现，条理清楚；",
+      "3. 突出安全要求（不露趾鞋、禁止拍照）与报名截止时间，防止无效报名。"
+    ],
+    "keywords": [
+      "notice",
+      "open day",
+      "smart factory",
+      "visit",
+      "registration",
+      "safety"
+    ],
     "modelAnswer": "Notice: Huixiang Smart Factory Open Day 2026\n\nTo students and teachers of all colleges and universities,\n\nHuixiang Intelligent Manufacturing Park will hold its Smart Factory Open Day 2026. Please note that the date has been changed from April 25 (Saturday) to April 26 (Sunday), because the factory has an important production task on the original date.\n\nVisiting places are allocated as follows: 40 seats for students of the Vocational College of Machinery, 30 for students of City University, and 20 for individual student applicants on a first-come, first-served basis.\n\nThe itinerary on April 26 is: registration at Gate 2 from 9:00 to 9:30; a safety briefing at 9:30; a guided tour of the digital workshop from 10:00 to 11:30, covering the robot welding line, the MES center and the smart warehouse; a question-and-answer session with engineers from 11:30 to 12:00; and a free lunch at 12:00.\n\nFor safety and order, all visitors must wear closed-toe shoes and bring their student ID. Taking photos is not allowed inside the workshop. Please follow the guides at all times.\n\nTo register, scan the QR code or email open@huixiang-park.example.com before April 18 with your name, school and phone number. Successful applicants will receive a confirmation email by April 21. The park is 20 minutes by bus from the metro station; take Bus 66 and get off at the 'Huixiang Park' stop.\n\nWe look forward to welcoming you to our smart factory!\n\nHuixiang Intelligent Manufacturing Park\nMarketing Department"
   }
 ]

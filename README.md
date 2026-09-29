@@ -93,7 +93,9 @@ writing-arena/
 ├── data/
 │   ├── questions.json     # 题库源数据（合并生成，可人工编辑）
 │   └── raw/*.json         # 分类原始题目
-├── tools/merge_questions.mjs  # 题库合并校验脚本
+├── tools/merge_questions.mjs  # 题库合并校验脚本（含 answerTerms 自动抽取）
+├── tools/keyword_audit.mjs    # 内容切题度体检（参考范文自评，可接 CI）
+├── tools/render_smoke.mjs     # 全站渲染冒烟测试（Node + 最小 DOM 桩）
 ├── .github/workflows/pages.yml # GitHub Pages 自动部署
 └── README.md
 ```
@@ -115,9 +117,11 @@ writing-arena/
   "scoringWeights": { "content": 35, "grammar": 30, "organization": 25, "format": 10 }, // 官方四维权重
   "materials": "……",                 // 题目材料（含情境说明）
   "genre": "……",                     // 体裁说明
-  "tips": ["……"],                    // 写作提示
-  "keywords": ["application", "…"],   // 5-8 个英文关键词（判分用）
+  "tips": ["……"],                    // 写作提示（数组，源文件写换行字符串也可，合并时自动规范化）
+  "keywords": ["application", "…"],   // 5-8 个英文关键词（判分用；概念标签）
   "modelAnswer": "……",               // 参考范文（判分后展示）
+  "topic": "求职与就业",              // 主题方向（9 选 1，由 merge 脚本按 theme 自动映射，勿手写）
+  "answerTerms": ["…"],              // 参考范文实词（合并脚本自动抽取，判分用，勿手写）
   "chart": {                          // 仅图表题
     "type": "bar",                    // bar | line | pie | table
     "title": "……", "unit": "……",
@@ -127,11 +131,17 @@ writing-arena/
 }
 ```
 
+关于 `keywords` 与 `answerTerms`：`keywords` 是出题人写的**概念标签**（如 `apology`、`efficiency`、`call to action`），学生和参考答案都不会逐字照抄；`answerTerms` 则由 `tools/merge_questions.mjs` 从每道题自己的参考范文里抽取（剔除通用词与专有名词）。模拟判分的"内容与切题"维把两者加权合并（标签 35% + 范文实词 65%，词形用宽松词根对齐，如 efficiency/efficient、communication/communicate），避免把用词正常的好文章误判成跑题。
+
 修改/新增题目后运行合并脚本重新生成：
 
 ```bash
-node tools/merge_questions.mjs
+node tools/merge_questions.mjs      # 校验 + 生成 data/questions.json 与 js/questions-data.js
+node tools/keyword_audit.mjs        # 内容切题度体检（用 88 篇参考范文自评，<85% 或实词过少时 exit 1）
+node tools/render_smoke.mjs         # 全站渲染冒烟测试（四个页面 + 内嵌数据 + 判分引擎）
 ```
+
+`data/raw/*.json` 是题库源文件（人工编辑），`data/questions.json` 与 `js/questions-data.js` 是生成物，不要手改。
 
 ## 🌐 部署到 GitHub Pages
 

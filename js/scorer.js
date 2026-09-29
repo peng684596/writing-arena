@@ -235,12 +235,88 @@
     return { score, comment, wc };
   }
 
+  /* 关键词匹配（打分用）：
+     题库里有相当比例的 keywords 是抽象概念标签（apology、efficiency、call to
+     action…），真实作答（包括官方风格范文）不会逐字照抄，旧版逐字 includes
+     会把范文也判成跑题。这里的口径是：
+       · 整短语命中 → 1 分；
+       · 否则按实词命中比例给部分分，实词用 looseRoot 做同族词对齐
+         （efficiency/efficient、communication/communicate …）。 */
+  const LOOSE_SUFFIX = ["ations", "ation", "ibilities", "ibility", "encies", "ency",
+    "ances", "ance", "ences", "ence", "ings", "ing", "edly", "ments", "ment", "ness",
+    "ities", "ity", "ives", "ive", "ers", "er", "ors", "or", "ies", "ied", "ed", "es", "s"];
+
+  /* 宽松词根：去掉一个常见后缀后取前 6 个字符，把同族词折叠到同一根 */
+  function looseRoot(w) {
+    let s = String(w == null ? "" : w).toLowerCase().replace(/[^a-z]/g, "");
+    for (const suf of LOOSE_SUFFIX) {
+      if (s.endsWith(suf) && s.length - suf.length >= 4) { s = s.slice(0, -suf.length); break; }
+    }
+    return s.slice(0, 6);
+  }
+
+  function esc(s) {
+    return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  function keywordCredit(lower, kw) {
+    const k = String(kw == null ? "" : kw).toLowerCase().trim();
+    if (!k) return 0;
+    if (lower.includes(k)) return 1;
+    const words = k.split(/[^a-z0-9']+/).filter(w => w.length >= 3);
+    if (!words.length) return 0;
+    let hit = 0;
+    for (const w of words) {
+      if (new RegExp("\\b" + esc(looseRoot(w)), "i").test(lower)) hit++;
+    }
+    const frac = hit / words.length;
+    return frac >= 0.5 ? 0.5 + 0.4 * frac : 0.3 * frac;
+  }
+
+  /* 范文实词命中率（内容切题的第二路信号）：
+     每道题的 answerTerms 由 tools/merge_questions.mjs 从该题参考范文里
+     自动抽取（去掉通用词与专有名词）。学生答案与范文用词重合越多，
+     说明越可能真正答到了同样的要点；纯标签式的 keywords 无法覆盖这一点。 */
+  function termCoverage(lower, terms) {
+    const toks = String(lower == null ? "" : lower).match(/[a-z][a-z'-]{1,}/g) || [];
+    const roots = new Set();
+    for (let i = 0; i < toks.length; i++) {
+      roots.add(looseRoot(toks[i]));
+      // 相邻两词的连写形式，兼容 livestream ↔ live streaming 这类写法
+      if (i + 1 < toks.length) roots.add(looseRoot(toks[i] + toks[i + 1]));
+    }
+    const hit = [], miss = [];
+    for (const t of terms) (roots.has(looseRoot(t)) ? hit : miss).push(t);
+    return { coverage: terms.length ? hit.length / terms.length : null, hit, miss };
+  }
+
+  /** 内容切题综合命中率：概念标签命中率与范文实词命中率各占一半 */
+  function contentCoverage(text, q) {
+    const lower = String(text == null ? "" : text).toLowerCase();
+    const kws = Array.isArray(q.keywords) ? q.keywords : [];
+    const credits = kws.map(k => keywordCredit(lower, k));
+    const keywordCoverage = kws.length ? credits.reduce((a, b) => a + b, 0) / kws.length : null;
+    const terms = Array.isArray(q.answerTerms) ? q.answerTerms : [];
+    const tc = terms.length ? termCoverage(lower, terms) : { coverage: null, hit: [], miss: [] };
+    let coverage;
+    if (keywordCoverage == null) coverage = tc.coverage == null ? 0.6 : tc.coverage;
+    else if (tc.coverage == null) coverage = keywordCoverage;
+    // 范文实词权重更高：它是从官方风格参考范文里抽出来的"标准答案用词"，
+    // 而 keywords 只是出题人写的概念标签，容易写得过于抽象。
+    else coverage = 0.35 * keywordCoverage + 0.65 * tc.coverage;
+    return {
+      coverage, keywordCoverage, termCoverage: tc.coverage,
+      matched: kws.filter((k, i) => credits[i] >= 0.75), credits,
+      termHits: tc.hit, termMisses: tc.miss,
+    };
+  }
+
   function scoreContent(text, q) {
     const wc = wordCount(text);
-    const lower = text.toLowerCase();
-    const kws = Array.isArray(q.keywords) ? q.keywords : [];
-    const hits = kws.filter(k => lower.includes(String(k).toLowerCase()));
-    let coverage = kws.length ? hits.length / kws.length : 0.6;
+    const lower = String(text == null ? "" : text).toLowerCase();
+    const cc = contentCoverage(text, q);
+    const coverage = cc.coverage;
+    const matched = cc.matched;
 
     let factor = 1, notes = [];
     if (q.qtype === "看图表信息写作") {
@@ -257,11 +333,16 @@
     let score = Math.round(100 * coverage * factor * completeness);
     score = Math.max(10, Math.min(100, score));
 
-    let comment = "主题词覆盖 " + hits.length + "/" + kws.length + "（命中：" + (hits.slice(0, 5).join(", ") || "无") + "）。";
+    const termTotal = cc.termHits.length + cc.termMisses.length;
+    let comment = "主题标签命中 " + matched.length + "/" + (cc.credits.length || 0) + "（" + (matched.slice(0, 4).join(", ") || "无") + "）";
+    if (termTotal) comment += "；范文关键信息命中 " + cc.termHits.length + "/" + termTotal + "（" + (cc.termHits.slice(0, 5).join(", ") || "无") + "）";
+    comment += "。综合切题度 " + Math.round(coverage * 100) + "%。";
     if (coverage < 0.6) comment += " 与题目主题契合度不足，注意逐条回应题目要求。";
+    else if (coverage < 0.85) comment += " 基本切题，但仍有要点未落到文字上，对照题目材料逐条检查。";
+    else comment += " 内容覆盖良好，题目要点基本都回应到了。";
     if (completeness < 1) comment += " 因篇幅不足，信息完整性按比例下调。";
     if (notes.length) comment += " " + notes.join("");
-    return { score, comment, hits, coverage };
+    return { score, comment, hits: matched, coverage };
   }
 
   function buildSuggestions(q, dims, text, extra) {
@@ -384,5 +465,7 @@
     return mockScore(text, question);
   }
 
-  window.Scorer = { scoreEssay, wordCount, mockScore };
+  /* keywordCredit 一并导出，供 tools/keyword_audit.mjs 复用同一套匹配器，
+     保证"题库关键词体检"与线上判分口径完全一致（入参须已小写）。 */
+  window.Scorer = { scoreEssay, wordCount, mockScore, keywordCredit, looseRoot, contentCoverage, termCoverage };
 })();
