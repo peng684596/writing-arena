@@ -1,0 +1,482 @@
+[
+  {
+    "id": "jy01",
+    "title": "坚持的力量：第四十一次来电",
+    "theme": "坚持与职业韧性",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "基础",
+    "materials": "For nine months, Leo, a junior sales assistant, telephoned the same hardware company every Monday morning. The purchasing manager never once answered. His colleagues laughed: 'That door is locked.' Leo kept calling, and each time he left one useful piece of industry information instead of asking for a sale. On his forty-first call, the manager picked up. 'I don't need your pitch,' he said. 'But my biggest supplier just failed an audit. Send me your catalog.' One order followed another. Leo later said: 'Most people quit one call before the door opens.'\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "先明确立场：坚持比天赋更重要，并在首段亮出论点。",
+      "结合材料中 Leo 的 41 次电话展开论证，再补充一个现实职场或学习中的例子。",
+      "结尾呼应开头的故事，用一句有力的话总结。"
+    ],
+    "keywords": ["persistence", "credibility", "opportunity", "career growth", "patience", "resilience"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "The Forty-First Call Never Comes Too Late\n\nLeo's story shows that success in the workplace is often decided not by talent but by the willingness to keep trying when there is no sign of reward. I believe persistence is the most practical career skill a young worker can develop, because it builds trust, sharpens ability, and creates opportunities that talent alone cannot reach.\n\nFirst, persistence builds professional credibility. Leo called forty times without an answer, yet every call delivered useful information. When the manager finally picked up, he already knew Leo as a patient and reliable voice, not a stranger. Clients and colleagues trust people who stay when others leave, and trust is the real currency of the business world.\n\nSecond, persistence turns repetition into genuine skill. Calling once is easy, but calling forty-one times requires preparation, patience, and the ability to learn from silence. These habits make a worker stronger every week, even when the result seems unchanged. The effort is never wasted; it is quietly building the ability that will be needed when the door finally opens.\n\nOf course, persistence must be intelligent. Repeating the same failed action blindly is not persistence but stubbornness. Leo improved his message every week, and that is exactly why his forty-first call was worth answering. That is what separates persistence from stubbornness.\n\nIn conclusion, most people quit one call before the door opens. Those who keep calling with an improving message are the ones who sign the contract, win the client, and grow into the professionals the market truly needs."
+  },
+  {
+    "id": "jy02",
+    "title": "诚信的选择：被发现的账单错误",
+    "theme": "诚信与职业操守",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "基础",
+    "materials": "A young accountant, Mia, discovered that the company's billing system had overcharged a long-term client by mistake, a small extra amount hidden in every monthly invoice for two years. No one else had noticed. Telling the client would mean refunding the money and admitting the error in front of her manager. Staying silent would save the company money and save herself trouble. Mia spent a weekend preparing a complete report. Then she showed it to her manager and asked for permission to tell the client honestly. The client not only kept the contract but doubled the order in the following year. 'Computers check the numbers,' the client said, 'but honesty is checked by people.'\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "开篇直接表明观点：诚信是回报最高的投资。",
+      "从信任、勇气、声誉等角度各写一段，每段先给分论点再举例。",
+      "用材料中客户加倍订单的细节支撑你的论证。"
+    ],
+    "keywords": ["honesty", "integrity", "trust", "reputation", "professional ethics", "long-term value"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Honesty Is the Safest Investment\n\nMia's decision shows that professional integrity is not a sacrifice but an investment with the highest long-term return. I believe honesty is the foundation of a successful career, because it builds durable trust, strengthens personal courage, and protects the reputation on which every business finally depends. For companies and employees alike, integrity is the capital that pays the longest interest.\n\nFirst, honesty builds trust that no marketing can buy. The client did not leave when the error was revealed; instead, he doubled his order. He understood that a company willing to admit a small mistake is the one that can be trusted with big business. In the workplace, colleagues and customers forgive errors far more easily than they forgive cover-ups.\n\nSecond, honesty develops professional courage. Mia could have stayed silent, but she chose to face her manager with the truth. That weekend of preparing the report trained her to handle difficult conversations calmly, a skill that leaders need far more than technical tricks. She knew the truth would be uncomfortable, but discomfort passes quickly, while damaged trust takes years to heal.\n\nThird, honesty protects the most fragile asset: reputation. A hidden mistake is a ticking clock; the day it is discovered by the other side, every past contract becomes suspect. Confessing early costs a little money but saves years of credibility.\n\nIn conclusion, integrity may look like a loss on the day it is practiced, but the market always remembers who told the truth. Workers who build their careers on honesty build them on rock, and no storm can move them."
+  },
+  {
+    "id": "jy03",
+    "title": "合作的智慧：一只手与五根手指",
+    "theme": "团队合作",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "基础",
+    "materials": "A sales team had the best closer in the region, Ray. He won personal awards every quarter but never shared his client lists or his methods. When the company launched a key project that required four people to work together, Ray pushed everyone aside and finished his own part in three days. The project still failed. Clients complained that the service was chaotic, and no one except Ray knew the details. The manager told him: 'A team is not five people running beside you. It is one hand with five fingers. The fingers do not compete with each other; they hold things together.'\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "论点可设为：个人英雄主义在团队中行不通。",
+      "论证时对比 Ray 单干与团队合作的后果，突出协作的放大效应。",
+      "结论强调'一只手五根手指'的比喻，点明合作共赢。"
+    ],
+    "keywords": ["cooperation", "teamwork", "sharing", "team spirit", "bottleneck", "win-win"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "No One Wins Alone\n\nRay's story teaches a lesson every young professional must learn: individual brilliance means nothing if it is not shared with the team. I believe that cooperation, not personal heroics, is the true source of career success, because no modern project can be completed by one person, and a team multiplies every member's strength.\n\nFirst, modern work is far too complex for a single star. The key project in the story needed four people, but Ray treated it as a solo show. As a result, clients found the service chaotic and no one could explain the details, so the project failed even though every individual part was finished. In real companies, products, services, and solutions are built by many hands, and the person who refuses to share becomes the bottleneck.\n\nSecond, cooperation multiplies strength instead of adding it. Ray guarded his client lists and methods as personal treasure. If he had taught them to colleagues, the whole team would have closed more deals, and Ray's own value would have grown as a leader. Knowledge hoarded loses value; knowledge shared creates it.\n\nThird, teamwork builds a safety net. When workers support one another, mistakes are caught early, pressure is divided, and no single person carries everything. Ray chose to run beside his team instead of with it, and he ran alone when the storm came.\n\nIn conclusion, a team is one hand with five fingers: the fingers do not compete; they hold things together. Workers who learn to cooperate early will always stand taller than those who only polish their own trophies."
+  },
+  {
+    "id": "jy04",
+    "title": "时间管理：把第一个小时留给自己",
+    "theme": "时间管理",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "基础",
+    "materials": "Lin worked ten hours a day and was always the last person to leave the office, yet his projects were always late. His supervisor watched him quietly for a week and found the problem. Lin answered every message within one minute, attended every meeting he was invited to, and did every small favor colleagues asked of him. The truly important report sat untouched until night. The supervisor gave him one rule: 'Spend your first hour on the one task that cannot wait for anyone else. Everything else can wait for you.' Lin doubted the advice, but he tried it. Within a month, he was leaving on time and finishing ahead of schedule.\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "先分析材料中林晚的问题：把'紧急'当成了'重要'。",
+      "论证可从专注力、重要与紧急的区别、时间与成长三方面展开。",
+      "结尾给出可操作的建议，让文章更有现实意义。"
+    ],
+    "keywords": ["time management", "focus", "priority", "productivity", "attention", "efficiency"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Protect Your First Hour\n\nLin's experience reflects a trap that catches many diligent workers: being busy with everything is often the same as finishing nothing. I believe the ability to manage time, especially the courage to protect one's most important hour, decides professional growth more than raw effort does, because attention is limited, and importance is not decided by urgency.\n\nFirst, attention is the scarcest resource in modern work. Lin answered every message within a minute and attended every meeting, but each interruption broke his focus, and the important report was pushed to the night when his energy was lowest. Workers who treat every small request as urgent are not being helpful; they are quietly giving away the hours that belong to their real work.\n\nSecond, urgent is not the same as important. Most messages and favors can wait an hour or a day without harm, but a report that decides a project cannot. The supervisor's rule, to spend the first hour on the one task that cannot wait for anyone else, is simply a way to let importance win against noise.\n\nThird, time management creates space for growth. When Lin protected his first hour, he finished ahead of schedule and left on time, and those saved hours became time for rest, study, and family. Good time management is not about doing more; it is about doing the right things and keeping room to live.\n\nIn conclusion, time is the one resource that cannot be saved for later. Protecting the first hour every day is a small habit that slowly rebuilds a career, and the workers who master it will always finish first."
+  },
+  {
+    "id": "jy05",
+    "title": "终身学习：王阿姨的新语言",
+    "theme": "终身学习",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "基础",
+    "materials": "When the company introduced a new digital production system, 48-year-old Auntie Wang, the most experienced quality inspector, found that thirty years of experience had to be re-learned in a new language of screens and codes. Her younger colleagues offered to cover for her. She refused. Every evening for six months she sat in the same basic computer course as the new interns, and she asked more questions than any of them. At the year-end skill competition, she ranked third in the whole factory. 'My hands carry thirty years of knowledge,' she said. 'I only needed to teach them a new way to speak.'\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "论点明确：终身学习是职场生存的必需，而非选择。",
+      "结合王阿姨的例子说明年龄不是障碍，态度才是。",
+      "可补充技术更新快的时代背景，增强说服力。"
+    ],
+    "keywords": ["lifelong learning", "upskilling", "adaptation", "technology", "attitude", "experience"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "It Is Never Too Late to Learn\n\nAuntie Wang's story proves that the ability to learn matters far more than the number of years one has already worked. I believe lifelong learning is no longer an option but a requirement of the modern workplace, because technology keeps rewriting every job, and those who refuse to relearn will be quietly left behind.\n\nFirst, technology changes faster than experience accumulates. Auntie Wang had thirty years of experience, yet a new digital system forced her to start again from the basics. This is the reality in every industry: factories, banks, and offices are all being rebuilt by new tools, and yesterday's skill, however deep, cannot run tomorrow's machine.\n\nSecond, the willingness to learn protects both the job and the dignity of the worker. Auntie Wang refused her colleagues' offer to cover for her. By sitting with the interns every evening, she kept her position, her income, and her self-respect. Workers who hide from new skills are not avoiding trouble; they are choosing decline in advance.\n\nThird, age is not a barrier; attitude is. A 48-year-old asked more questions than any intern and ranked third in a factory-wide competition, which shows that the brain stays sharp when the will stays hungry. Older workers who keep learning often combine new skills with old wisdom, and that combination is extremely valuable.\n\nIn conclusion, the world will not wait for anyone, but it always welcomes those who are willing to learn again. Auntie Wang taught her hands a new language, and in doing so she taught us all: it is never too late to learn."
+  },
+  {
+    "id": "jy06",
+    "title": "失败的价值：被留下的失败报告",
+    "theme": "失败与成长",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "基础",
+    "materials": "A young product manager, Tian, launched a new app feature that he was certain users would love. Within a month, usage dropped by thirty percent and negative reviews flooded in. Tian prepared his resignation letter. Instead, his director called a failure review meeting, not to find someone to blame, but to list everything the team had learned about real users. That list became the foundation of the next version, which brought the company its best quarter in three years. 'The fastest road to success,' the director said, 'is built with the stones of your failures.'\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "立意：失败是成功路上必要的学费。",
+      "论证三层次：失败提供真实信息、容错保护创新、失败磨炼品质。",
+      "结尾用材料中'失败铺路'的比喻收束全文。"
+    ],
+    "keywords": ["failure", "growth", "innovation", "resilience", "learning", "courage"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Failure Is the Price of the Next Success\n\nTian's experience shows that failure is not the opposite of success but a necessary part of the road toward it. I believe organizations and individuals that learn to treat failure as data will grow faster than those that treat it as a crime, because every failed attempt carries information that success alone can never provide.\n\nFirst, failure reveals what customers really want. The team was certain users would love the feature, but real usage told the truth in one month. The failure review turned that truth into a list of lessons, and the next version, built on the list, produced the company's best quarter. No market survey could have taught the team as much as its own failed launch.\n\nSecond, a tolerant attitude toward failure protects innovation. If Tian had been fired, the company would have lost both a trained employee and the lessons he carried. The director understood that punishing every failure kills the courage to try, and a team that fears mistakes will only repeat safe, old methods until a braver competitor passes it.\n\nThird, failure builds professional character. Tian prepared to resign, but he stayed, faced the review, and learned. Workers who survive their own failures become calmer, humbler, and harder to shake, which are exactly the qualities leaders need.\n\nIn conclusion, the fastest road to success is built with the stones of our failures. The question is never whether we will fail, but whether we will learn from it, and those who learn fastest will reach the top first."
+  },
+  {
+    "id": "jy07",
+    "title": "工匠精神：看不见的焊缝",
+    "theme": "工匠精神",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "进阶",
+    "materials": "In a shipyard, Master Qin the welder was famous for one habit. After every weld, he ground the seam smooth, even when it would be painted over and hidden from sight forever. Apprentices called it wasted time, but Qin never argued. One day, international inspectors opened the hull plates of a ship Qin had worked on ten years earlier. Every hidden seam was clean, strong, and perfect. The inspectors asked who had done the work. 'The part nobody sees,' Qin said, 'is the only part I see every night before I sleep.'\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "从'看不见的地方'切入，论证工匠精神的价值。",
+      "可联系职业院校学生的技能成才路径，增强共鸣。",
+      "注意论据与材料的呼应，不要复述故事。"
+    ],
+    "keywords": ["craftsmanship", "quality", "hidden details", "professional spirit", "reputation", "standards"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Craftsmanship: The Part Nobody Sees\n\nMaster Qin's hidden welds carry a simple truth: the quality of a worker is measured by what he does when nobody is watching. I believe the spirit of craftsmanship, doing one's best on the invisible parts of the work, is still the surest path to professional respect, because hidden quality decides real safety, and personal standards decide long-term reputation.\n\nFirst, the parts nobody sees are often the parts that matter most. A painted seam can hide a weak weld, and a polished surface can hide a careless interior. Qin understood that the hidden part of a ship is exactly the part that must never fail. In the same way, the real quality of a report, a service, or a product often lives in the details the customer will never check.\n\nSecond, craftsmanship builds an unshakeable reputation. When the inspectors opened the hull ten years later, Qin's name traveled with his welds. Reputation earned on hidden work is the hardest to destroy, because it is built on character rather than on appearance, and clients trust it for decades.\n\nThird, craftsmanship gives work meaning. Qin said he saw his seams every night before sleep, which means his standard was not set by payment or praise but by himself. A worker who carries an inner standard never becomes lazy, because his real boss is his own conscience.\n\nIn conclusion, machines can measure a seam, but only a person can care about one. The craftsman's spirit, doing perfect work on the parts nobody sees, remains the deepest competitive advantage any worker can own."
+  },
+  {
+    "id": "jy08",
+    "title": "AI 时代：问机器做不了什么",
+    "theme": "AI 时代的能力观",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "进阶",
+    "materials": "A factory installed an AI inspection system that could check ten thousand parts in an hour. Two workers responded in opposite ways. Worker A said: 'This machine will take our jobs. There is nothing left to learn.' Worker B said: 'The machine can see defects, but it cannot decide which ones matter, cannot calm an angry customer, and cannot improve the process.' Five years later, Worker A's position was gone. Worker B led a new department that combined machine judgment with human judgment. The question was never what the machine could do. The question is what only you can do.\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "论点：不与机器比速度，发展只有人能做到的能力。",
+      "从机器的局限、心态的作用、学习能力三方面展开。",
+      "可举一两个 AI 时代的真实岗位变化作补充论据。"
+    ],
+    "keywords": ["artificial intelligence", "skills", "human value", "mindset", "adaptability", "lifelong learning"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Ask What Only You Can Do\n\nThe two workers in the story represent two ways of answering the same question, and their fates five years later could not be more different. I believe that in the age of artificial intelligence, the smartest strategy is not to compete with machines but to develop the abilities that only humans possess, because machines will keep getting cheaper, while human judgment will keep getting more valuable.\n\nFirst, AI is excellent at seeing, but weak at deciding. The inspection system could check ten thousand parts an hour, yet it could not judge which defects really mattered or calm an angry customer. Judgment, communication, and responsibility remain human territory, and these skills become more valuable precisely because machines handle the mechanical part.\n\nSecond, the danger is not the machine but the fixed mindset. Worker A decided that there was nothing left to learn, and five years later his position was gone. Worker B asked what only he could do and built a new department around the answer. The same technology lifted one worker and buried the other, because technology only multiplies the attitude you bring to it.\n\nThird, the safest skill is the ability to keep learning. Nobody can predict which job will disappear next, but a worker who can study, adapt, and combine new tools with human insight will always find the next door.\n\nIn conclusion, AI will not take your job; a person who uses AI better than you will. The winning question for every young worker is not what the machine can do, but what only you can do."
+  },
+  {
+    "id": "jy09",
+    "title": "主动沟通：两周前的疑问",
+    "theme": "主动沟通",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "进阶",
+    "materials": "A marketing assistant, Yue, was designing a poster for an important client. She noticed that the slogan in the brief seemed to contradict the product's real advantage. She was new, and the brief had come from the director, so she said nothing. Two weeks later, the client rejected the poster: 'You have advertised the wrong strength.' Yue took a breath and asked: 'May I share what I noticed two weeks ago?' She explained her doubts, backed by market data. The director changed the process that same day. From then on, every brief passed through a round of questions from the newest team member. 'Silence,' the director said, 'is the most expensive mistake in this office.'\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "立意：及时说出有理有据的疑问是职业责任。",
+      "论证沉默的代价、有证据地发言、勇敢声音改善制度。",
+      "注意语言客观，论证而非抱怨。"
+    ],
+    "keywords": ["communication", "courage", "feedback", "responsibility", "evidence", "teamwork"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Speak Up Before Silence Costs You\n\nYue's two weeks of silence almost cost her company an important client, and her story contains a warning for every newcomer in the workplace. I believe the courage to voice a reasonable doubt in time is a professional duty rather than a personal risk, because problems grow while they are hidden, and organizations are only as wise as the questions they allow.\n\nFirst, silence converts a small doubt into a large loss. Yue noticed the problem two weeks before the client did. If she had spoken earlier, the poster could have been corrected at almost no cost. Instead, the company lost time, money, and face. In the workplace, most disasters are not sudden; they start as small warnings that nobody dared to report.\n\nSecond, speaking up with evidence is professional, not rude. Yue did not complain; she prepared market data and offered her view respectfully. That is exactly how good organizations expect young employees to behave. A doubt expressed with evidence is a contribution, and a contribution offered in time is leadership, no matter how junior the speaker is.\n\nThird, brave voices improve the whole system. Because Yue finally spoke, every future brief now passes through a round of questions from the newest member. One person's courage became a rule that protects everyone. Silent teams repeat their mistakes; questioning teams repair them.\n\nIn conclusion, silence is the most expensive mistake in an office, because it is the only mistake nobody sees until the bill arrives. Speaking up in time is not rebellion; it is loyalty, and the earlier we learn it, the more we save."
+  },
+  {
+    "id": "jy10",
+    "title": "成长型思维：一个词的差别",
+    "theme": "成长型思维",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "进阶",
+    "materials": "When the hotel group announced that every receptionist must learn to handle online complaints in English, two employees reacted in opposite ways. Ms. Lu said: 'I failed English in school. This is not for me.' Mr. He said: 'I cannot do this yet, but I can learn it in six months.' Both attended the same training. Ms. Lu repeated her old belief every week and improved very little. Mr. He made mistakes loudly, asked for corrections, and practiced on real complaints every night. One year later, Mr. He became the new training instructor. Ms. Lu's old position no longer existed. The difference between them was never talent. It was the word 'yet.'\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "围绕 growth mindset 与 fixed mindset 的对比展开。",
+      "重点分析'还不会'与'永远不会'的一词之差。",
+      "联系高职学生技能学习的实际，说明心态如何影响结果。"
+    ],
+    "keywords": ["growth mindset", "fixed mindset", "effort", "learning", "mistakes", "potential"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "The Power of One Small Word: Yet\n\nMs. Lu and Mr. He faced the same challenge, attended the same training, and worked for the same company, yet their careers moved in opposite directions. I believe the difference was not talent but mindset, because the belief that ability can grow is the foundation on which all real learning is built.\n\nFirst, mindset decides whether effort is even attempted. Ms. Lu had already concluded that English was not for her, so every class only confirmed her old belief, and she improved little. Mr. He treated the task as a journey that had simply not finished. The word yet turned an impossible wall into a six-month plan, and a plan is the first step of every achievement.\n\nSecond, a growth mindset turns mistakes into fuel. Mr. He made mistakes loudly and asked for corrections, because he saw errors as information about what to practice next. Ms. Lu, afraid of confirming her limits, avoided the very feedback that could have helped her. People who fear mistakes stop practicing, and people who stop practicing stop growing.\n\nThird, mindset shapes destiny in a changing market. When the old position disappeared, Ms. Lu had nowhere to go, while Mr. He had already become an instructor. In a world where every job keeps changing, the workers who believe they can learn will always survive, and those who believe they cannot will be left with their belief.\n\nIn conclusion, talent sets the starting line, but the word yet decides who keeps running. The workers who add yet to every sentence of self-doubt will one day find that the sentence has come true."
+  },
+  {
+    "id": "jy11",
+    "title": "跨文化沟通：同一种意思，两种说法",
+    "theme": "跨文化沟通",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "进阶",
+    "materials": "For their first joint project, a Chinese team and a German team met online every Friday. The German engineers wrote emails like 'This design is wrong' and 'This must be changed immediately.' The Chinese engineers felt insulted and began replying slowly or not at all. The project nearly collapsed, not because of technology, but because neither side understood the other's way of speaking. Finally, a young translator suggested a simple rule: in every message, state the goal first, then the problem, then the proposed solution. Both teams discovered that they had been saying almost the same thing all along, only in different keys.\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "论点：跨文化沟通是全球化职场核心能力。",
+      "分析同一句话在不同文化中的不同解读。",
+      "强调沟通规则（结构）比指责对方更重要。"
+    ],
+    "keywords": ["intercultural communication", "culture", "understanding", "global workplace", "tone", "collaboration"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Say It in the Other Person's Key\n\nThe Chinese and German teams in the story nearly lost a project not because of any technical problem, but because each side heard only the tone of the other's words. I believe intercultural communication is a core workplace skill in today's global economy, because meaning travels through culture, and the same words can build a bridge or a wall depending on how they are understood.\n\nFirst, words carry different weights in different cultures. The German engineers meant their blunt emails as efficiency, but the Chinese side heard rudeness and slowly withdrew. Neither team was wrong, and neither was right; they were simply decoding the same message with different dictionaries. The first step of cross-cultural work is accepting that your own way of speaking is not the only one.\n\nSecond, the solution lies in structure, not in blame. The young translator did not ask anyone to change their personality. She proposed a shared rule: goal first, then problem, then solution. A common structure gave both teams a neutral middle ground where the message, rather than the tone, became the focus, and the project was saved.\n\nThird, this skill will only grow more valuable. Supply chains, teams, and clients are increasingly international, and the worker who can listen across cultures becomes the bridge every organization needs. Misunderstanding is expensive, and the people who prevent it are worth their weight in contracts.\n\nIn conclusion, we cannot choose how others speak, but we can choose how we listen. Learning to say the same thing in the other person's key is not a soft skill; it is a survival skill for the global workplace."
+  },
+  {
+    "id": "jy12",
+    "title": "应变之道：跟着顾客走",
+    "theme": "适应变化与转型",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "进阶",
+    "materials": "Mr. Bai owned a small bookstore for twenty years. When online shopping arrived, his sales fell month after month, and his son advised him to close the shop. Mr. Bai watched his remaining customers for a month and noticed something the internet could not offer: they came not only to buy books, but to sit, to talk, and to ask for advice. So he moved the bookshelves, added ten seats and good coffee, and started a weekly reading night for children. The shop became the neighborhood's living room. 'The market did not change my business,' he said. 'It changed my customers. I just followed them.'\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "立意：适应变化不是放弃自我，而是跟随顾客需求。",
+      "对比'关店'与'转型'两种选择，论证转型的价值。",
+      "可补充身边小店或行业转型的例子。"
+    ],
+    "keywords": ["adaptability", "change", "customer needs", "transformation", "innovation", "survival"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Follow the Customer, Not the Past\n\nMr. Bai's bookstore survived because its owner understood a truth that many businesses miss: the market does not destroy a business; it changes the customer, and only those who follow the customer survive. I believe adaptability, the willingness to reshape one's work around new needs, is the most important survival skill in a changing economy.\n\nFirst, resistance to change starts with holding on to yesterday's definition of the job. Mr. Bai's son saw a bookshop that was losing sales and advised closing it. Mr. Bai looked at his customers and saw what they still needed: a place to sit, to talk, and to ask for advice. The same shop was a dying store under one definition and a neighborhood living room under another. Every worker should ask regularly: what does my customer need now, not what did I sell yesterday?\n\nSecond, adaptation means adding value instead of complaining about competition. Mr. Bai did not fight the internet on price; he offered something the internet could not deliver. He moved shelves, added seats and coffee, and created a children's reading night. Small changes, based on real observation, turned a falling business into a meeting place.\n\nThird, adaptability protects careers as well as shops. Jobs are changing everywhere, and the safest worker is not the one with the oldest skill but the one who can learn the newest need.\n\nIn conclusion, the market did not change Mr. Bai's business; it changed his customers, and he simply followed them. The lesson for every professional is the same: adapt to the customer, and the future will follow you."
+  },
+  {
+    "id": "jy13",
+    "title": "情绪管理：听问题，而不是听愤怒",
+    "theme": "情绪管理",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "进阶",
+    "materials": "A bank clerk, Fang, was famous among colleagues for something strange: the angriest customers were always sent to her window. One afternoon, a customer shouted that the bank had stolen his money. Fang did not recite the rules. She first said, 'You are right to be angry. Let me fix it with you.' She listened for ten minutes without interrupting, then opened the records and solved the problem in three. Afterwards, a new clerk asked for her secret. Fang said: 'The customer is not angry at me. He is angry at a problem, and he only knows one way to say so. My job is to hear the problem, not the anger.'\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "论点：情绪管理是服务岗位的核心能力。",
+      "从倾听、冷静、共情三个角度论证。",
+      "结合材料中方芳的做法，分析'听问题而非听愤怒'的含义。"
+    ],
+    "keywords": ["emotional intelligence", "listening", "calmness", "customer service", "empathy", "problem solving"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Hear the Problem, Not the Anger\n\nFang's secret, to hear the problem instead of the anger, contains one of the most practical lessons of professional life. I believe emotional intelligence, especially staying calm and listening to an angry customer, is a core workplace skill, because an angry customer is a source of information, and calm listening is the fastest route to a solution.\n\nFirst, anger is usually a message wrapped in noise. The customer did not hate Fang; he believed the bank had stolen his money and had no other way to say so. Fang opened the message by saying she would fix it with him, and the storm began to calm. Professionals who listen past the noise discover that behind most complaints stands a real problem that can actually be solved.\n\nSecond, calm listening protects both sides. When Fang listened without interrupting, the customer felt respected and stopped shouting; when she finally explained, he was ready to accept the solution. If she had recited the rules first, the argument would have grown, and a three-minute problem could have become a three-day conflict. One calm person can control the temperature of a whole conversation.\n\nThird, emotional skills are career skills. Colleagues, clients, and leaders all remember the person who stays steady in a storm. In any job, the ability to manage emotions, both one's own and others', is often what separates an ordinary employee from a trusted one.\n\nIn conclusion, the customer was not angry at Fang; he was angry at a problem he could not express. Workers who learn to hear the problem behind the anger will solve more, fight less, and be remembered more kindly."
+  },
+  {
+    "id": "jy14",
+    "title": "创新与容错：一次失败的代价",
+    "theme": "创新与容错",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "冲刺",
+    "materials": "A young engineer, Qian, convinced his factory to test his new packaging method. The trial failed, and the factory lost a week of output. The workshop voted to cancel the project, and some workers demanded that Qian pay for the loss. The factory director made a different decision. He ordered the team to write down everything the failure had taught them, and he gave Qian a smaller budget for a second trial. 'If every failed experiment is punished,' he said, 'our factory will soon have no experiments at all.' The second trial cut packaging costs by fifteen percent.\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "立意：保护合理的试错，就是保护创新的勇气。",
+      "论证惩罚失败的代价大于失败本身。",
+      "注意区分'值得的失败'与'重复的愚蠢'，让观点更严密。"
+    ],
+    "keywords": ["innovation", "trial and error", "risk-taking", "tolerance", "experiment", "progress"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Protect the Courage to Try\n\nQian's first trial failed, yet his factory gained far more than it lost, because its director understood what many organizations forget: innovation is impossible without the freedom to fail. I believe a culture that protects reasonable experiments is essential for both companies and individuals, because every advance is bought with failed attempts, and fear of punishment kills the very courage progress requires.\n\nFirst, the cost of punishing failure is far higher than the cost of failure itself. The factory lost a week of output, a real but limited price. Had the director let the workshop punish Qian, the factory would have lost something far more expensive: the willingness of every worker to propose anything new. One week of output can be made up; a dead spirit of innovation can take years to revive.\n\nSecond, failure contains the map to success. The director ordered the team to record what the failed trial had taught them, and those lessons guided the second attempt, which cut packaging costs by fifteen percent. The first failure was not a waste; it was tuition, and the second trial simply applied what the tuition had bought.\n\nThird, the same principle applies to personal growth. Young workers who are terrified of mistakes only repeat safe routines, while those who are allowed to try, fail, and adjust build real competence quickly.\n\nIn conclusion, a factory that punishes every failed experiment will soon have no experiments at all, and a career governed by fear will have no discoveries. Protecting the courage to try is not indulgence; it is the cheapest investment a company or a person can make in the future."
+  },
+  {
+    "id": "jy15",
+    "title": "团队智慧：被听见的沉默者",
+    "theme": "团队沟通与倾听",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "冲刺",
+    "materials": "In every project meeting, the same three voices made all the decisions. The quietest member, Su, a data specialist, almost never spoke. Her team leader asked her why. 'Every time I open my mouth,' she said, 'someone faster talks over me.' The leader tried an experiment: he sent the agenda two days early and asked everyone to write three sentences of opinion before the meeting. At the next meeting, Su's written opinion was read aloud first. It contained the answer to a problem the loud voices had argued about for weeks. The leader understood that the team had been making decisions with only half of its brain.\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "论点：团队要主动为安静者创造发言空间。",
+      "分析'安静不等于没有想法'，以及会议形式的问题。",
+      "结尾强调倾听安静声音对决策质量的意义。"
+    ],
+    "keywords": ["quiet voices", "listening", "meeting culture", "inclusion", "team decision", "communication"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Listen to the Quiet Voices\n\nSu's story exposes a hidden waste in almost every meeting room: the best idea in the room may belong to the person who never gets to speak. I believe teams and leaders must actively create space for quiet voices, because loudness is not wisdom, and a team that hears only its loudest members is running on half its brain.\n\nFirst, quiet does not mean empty. Su was a data specialist who had studied the problem for weeks, and when her written opinion was finally read aloud, it solved an issue the loud voices had argued about fruitlessly. Many quiet people are not shy of ideas; they are simply drowned out by faster speakers, and their silence costs the team its best thinking.\n\nSecond, the meeting format, not the quiet person, is often the real problem. Su said that every time she opened her mouth, someone faster talked over her. The leader's experiment, asking everyone to write three sentences before the meeting, changed the game. The same team that ignored Su for weeks benefited from her insight. Good leaders design meetings so that every voice can reach the table.\n\nThird, listening to quiet voices builds trust and belonging. When quiet members see their ideas used, they contribute more, and the whole team's morale rises. Teams that value only volume slowly lose their quiet talent, and their loudest members are left arguing with themselves.\n\nIn conclusion, the loudest voice is not the wisest, and the quietest is not the weakest. Leaders and teammates who learn to listen to quiet voices will make better decisions, and that is the whole point of meeting."
+  },
+  {
+    "id": "jy16",
+    "title": "长期主义：两块地的选择",
+    "theme": "长期主义与职业规划",
+    "genre": "议论文（哲理材料引思辨）",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "difficulty": "冲刺",
+    "materials": "A young orchard worker was asked to care for two fields. The first field was full of old trees: with little work, they gave small fruit that could be sold at once. The second field was empty ground: planting young trees meant three years of hard work with no income. The worker asked the owner which field he should value more. 'Most people choose the old trees,' the owner said, 'because the money comes this month. But in five years the old trees will die, and the man who planted the young ones will own the orchard.' The worker spent every spare hour on the empty ground. Ten years later, he bought the orchard.\n\nRead the story carefully and write an argumentative essay of at least 250 words. Give your essay a title of your own, state your position clearly, support it with reasons and examples, and end with a conclusion.",
+    "tips": [
+      "立意：长期主义比短期利益更能成就职业生涯。",
+      "用'老树'与'空地'对比论证复利思维。",
+      "结合自身职业规划，说明当下如何为未来播种。"
+    ],
+    "keywords": ["long-term thinking", "investment", "patience", "career planning", "delayed gratification", "growth"],
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Plant for the Orchard, Not the Month\n\nThe orchard worker's choice between old trees and empty ground is a choice every young professional faces sooner or later: the fast reward now, or the slow investment that pays for years. I believe long-term thinking is the surest path to real career success, because quick gains decay, while patient investment compounds, and the future belongs to those who prepared early.\n\nFirst, quick rewards are usually shrinking rewards. The old trees gave small fruit with little work, but they were already dying. In careers, the same pattern appears as the easy job that teaches nothing, the shortcut that saves a month but costs a skill. Every choice that trades growth for immediate comfort quietly closes a door that will never open again.\n\nSecond, patient investment compounds over time. The young trees needed three years of hard work with no income, but ten years later the worker who planted them owned the orchard. Skills, reputation, and relationships all work the same way: they grow slowly at first, then repay their owner many times, while those who chase only the month's fruit are left with empty hands.\n\nThird, long-term thinking gives direction to daily effort. The worker spent every spare hour on the empty ground because he knew what he was building. With a clear long-term goal, every hour is measured against the orchard you want to own.\n\nIn conclusion, the man who plants for the month picks small fruit; the man who plants for the orchard picks its future. The best time to plant a tree was ten years ago, and the second best time is now."
+  },
+  {
+    "id": "yy01",
+    "title": "会议纪要：秋季新品推广会",
+    "theme": "会议纪要",
+    "genre": "应用文·会议纪要",
+    "stage": "综合",
+    "qtype": "应用文写作",
+    "difficulty": "基础",
+    "materials": "你是公司总经理助理张华。请根据以下信息，用英文写一份会议纪要：\n会议名称：秋季新品推广策划会\n时间：2026 年 10 月 13 日（周二）14:00-15:30\n地点：公司三楼会议室\n主持人：市场部经理 李强\n出席：市场部全体 8 人、销售部代表 3 人\n议题与决议：1) 新品发布时间定于 11 月 20 日；2) 市场部负责线上宣传，销售部负责联系 10 家重点客户；3) 预算控制在 15 万元以内，由财务部下周一前确认；4) 10 月 21 日（周三）14:00 召开第二次会议检查进度。",
+    "tips": [
+      "会议纪要需包含时间、地点、主持人、出席人员。",
+      "决议部分按条目编号，动词用过去式。",
+      "落款注明记录人与日期。"
+    ],
+    "keywords": ["minutes", "meeting", "agenda", "resolution", "attendance", "chairperson"],
+    "minWords": 150,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Minutes of the Autumn Product Launch Planning Meeting\n\nDate: October 13, 2026 (Tuesday)\nTime: 14:00-15:30\nVenue: Meeting Room 3, Third Floor\nChairperson: Li Qiang, Marketing Manager\nPresent: All 8 members of the Marketing Department and 3 representatives of the Sales Department\nAbsent: None\n\nAgenda and Resolutions:\n1. Product launch date. The new product will be officially launched on November 20, 2026.\n2. Division of work. The Marketing Department will be responsible for online promotion, while the Sales Department will contact 10 key clients before the launch.\n3. Budget. The total cost must be kept within 150,000 yuan. The Finance Department will confirm the budget by next Monday.\n4. Follow-up meeting. A second meeting will be held at 14:00 on Wednesday, October 21, 2026, to review the progress of all departments.\n5. Action items. The Marketing Department will submit the promotion plan by October 16, and the Sales Department will submit the key client list on the same day.\n\nPrepared by: Zhang Hua, Assistant to the General Manager\nOctober 14, 2026"
+  },
+  {
+    "id": "yy02",
+    "title": "邮件：与客户的商务会谈安排",
+    "theme": "商务邮件",
+    "genre": "应用文·电子邮件",
+    "stage": "综合",
+    "qtype": "应用文写作",
+    "difficulty": "基础",
+    "materials": "你是销售助理王琳。请给重要客户 Greenway 公司的采购经理 David Miller 写一封英文邮件，完成以下任务：\n1) 感谢对方上周的询价；\n2) 提议于 10 月 20 日（周二）上午 10:00 或 10 月 21 日（周三）下午 2:30 进行视频会谈，介绍产品方案并报价；\n3) 请对方确认时间和参会人员，并说明你会提前一天发送会议链接与资料。",
+    "tips": [
+      "邮件主题要明确，正文先感谢再说明来意。",
+      "给出两个可选时间并请对方确认，语气礼貌。",
+      "结尾写明后续步骤（发送链接与资料）。"
+    ],
+    "keywords": ["email", "appointment", "schedule", "video meeting", "confirmation", "courtesy"],
+    "minWords": 120,
+    "timeLimitMin": 35,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Subject: Meeting Arrangement for Product Proposal\n\nDear Mr. Miller,\n\nThank you very much for your inquiry about our products last week. We truly value the opportunity to work with Greenway Company.\n\nI am writing to arrange a video meeting to present our product proposal and quotation. We would be happy to meet at one of the following times:\n- Tuesday, October 20, at 10:00 a.m.\n- Wednesday, October 21, at 2:30 p.m.\n\nPlease let me know which time suits you best and who will join the meeting from your side. Once you confirm, I will send the meeting link and all related materials one day in advance.\n\nIf neither time is convenient, please feel free to suggest another time. We look forward to talking with you soon.\n\nBest regards,\nWang Lin\nSales Assistant"
+  },
+  {
+    "id": "yy03",
+    "title": "产品介绍：便携咖啡机 MiniBrew 2",
+    "theme": "产品介绍",
+    "genre": "应用文·产品介绍",
+    "stage": "综合",
+    "qtype": "应用文写作",
+    "difficulty": "基础",
+    "materials": "你是公司市场部文案专员。公司即将在官网发布新品便携咖啡机 MiniBrew 2，请用英文撰写产品介绍，要求包括：\n1) 产品名称与定位：专为通勤族和差旅人士设计；\n2) 三大卖点：一键萃取、60 秒出杯；USB-C 快充、一次充电可做 4 杯；机身仅 380 克；\n3) 价格与购买方式：定价 299 元，官网下单免运费。",
+    "tips": [
+      "产品介绍要突出卖点，采用短句与条目式结构。",
+      "明确目标人群，用第二人称增强代入感。",
+      "结尾附上价格与购买方式，形成行动号召。"
+    ],
+    "keywords": ["product description", "features", "target customers", "price", "benefits", "call to action"],
+    "minWords": 150,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "MiniBrew 2: Great Coffee, Anywhere You Go\n\nMeet MiniBrew 2, the portable coffee maker designed for commuters and business travelers who refuse to start the day with weak coffee.\n\nWhy you will love it:\n- One-touch brewing. Press one button and enjoy a rich cup of coffee in just 60 seconds. No training, no mess.\n- All-day power. A single USB-C fast charge makes up to 4 cups, so it is ready whenever you are, from the morning train to the afternoon break.\n- Feather-light design. Weighing only 380 grams, it slips easily into your backpack or briefcase.\n\nMiniBrew 2 fits perfectly into busy mornings, long trips, and small offices.\n\nPrice and purchase:\nMiniBrew 2 is now available at just 299 yuan. Order on our official website and enjoy free shipping to your door. Every unit comes with a one-year warranty and a 30-day return promise.\n\nBring the coffee shop with you. Order MiniBrew 2 today."
+  },
+  {
+    "id": "yy04",
+    "title": "邮件：处理客户破损商品投诉",
+    "theme": "投诉处理",
+    "genre": "应用文·投诉处理回复",
+    "stage": "综合",
+    "qtype": "应用文写作",
+    "difficulty": "进阶",
+    "materials": "你是客户服务专员陈浩。客户 Sarah Johnson 于上周五（10 月 16 日）购买的电热水壶在运输中破损，她发邮件投诉并要求退款。请用英文回复邮件，内容包括：\n1) 真诚道歉并感谢对方及时反馈；\n2) 说明破损原因是物流环节碰撞，公司已更换承运商并加强包装；\n3) 提出解决方案：全额退款或免费换新（附赠小礼品），请对方选择并告知，同时承诺 24 小时内答复后续问题。",
+    "tips": [
+      "先道歉并感谢反馈，再解释原因，最后给解决方案。",
+      "解决方案要具体可行，并给出选择项。",
+      "语气真诚克制，避免推卸责任。"
+    ],
+    "keywords": ["complaint", "apology", "solution", "refund", "replacement", "customer service"],
+    "minWords": 150,
+    "timeLimitMin": 45,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Subject: Our Apology and Solution for Your Damaged Kettle\n\nDear Ms. Johnson,\n\nThank you for contacting us, and please accept our sincere apology for the damaged kettle you received. We are truly sorry for the trouble and disappointment this has caused you.\n\nAfter checking with the delivery company, we found that the damage was caused by rough handling during transportation. We take this very seriously. We have already strengthened our packaging and switched to a more careful carrier to prevent this from happening again.\n\nTo make things right, we offer you two options:\n1. A full refund of your payment, which will be returned to your account within 3 working days;\n2. A free replacement kettle, delivered within 48 hours, together with a small gift as our apology.\n\nPlease reply and tell us which option you prefer. If you have any other questions, we promise to answer within 24 hours.\n\nOnce again, we are sorry for the inconvenience, and we thank you for your understanding and patience.\n\nYours sincerely,\nChen Hao\nCustomer Service Specialist"
+  },
+  {
+    "id": "yy05",
+    "title": "通知：办公区消防演习安排",
+    "theme": "内部通知",
+    "genre": "应用文·内部通知",
+    "stage": "综合",
+    "qtype": "应用文写作",
+    "difficulty": "进阶",
+    "materials": "你是行政部主管刘芳。请用英文写一份内部通知，告知全体员工消防演习安排：\n时间：10 月 22 日（周四）15:00；\n地点：全办公区，听到警报后从各自楼层安全通道撤离，到楼前广场集合；\n要求：撤离时不乘电梯、不返回取物品；各部门主管负责点名并向行政部报告；演习期间暂停接待访客。\n通知末尾注明如有疑问请联系行政部。",
+    "tips": [
+      "通知开头写明事由，正文分条列出时间、地点、要求。",
+      "使用祈使句表达要求，语气正式。",
+      "结尾注明咨询方式与落款。"
+    ],
+    "keywords": ["notice", "fire drill", "evacuation", "safety", "staff", "arrangement"],
+    "minWords": 150,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "NOTICE: Fire Drill Arrangement\n\nTo all staff,\n\nA fire drill will be held on Thursday, October 22, at 3:00 p.m. The purpose is to help everyone become familiar with the evacuation routes and improve our emergency response ability.\n\nArrangements:\n1. When the fire alarm sounds, please leave the office immediately through the safety passage on your floor and gather at the square in front of the building.\n2. Do not use the elevators during the drill, and do not return to the office for personal items.\n3. Each department head is responsible for taking attendance at the gathering point and reporting the result to the Administration Department.\n4. During the drill, visitor reception will be temporarily suspended.\n\nThe whole drill is expected to last about 30 minutes. Please take it seriously and follow the instructions of the safety staff. Thank you for your cooperation.\n\nIf you have any questions, please contact the Administration Department at extension 301.\n\nAdministration Department\nOctober 15, 2026"
+  },
+  {
+    "id": "yy06",
+    "title": "备忘录：办公用品节约计划",
+    "theme": "备忘录",
+    "genre": "应用文·备忘录",
+    "stage": "综合",
+    "qtype": "应用文写作",
+    "difficulty": "进阶",
+    "materials": "你是部门经理周涛。请用英文给部门全体成员写一份备忘录，主题为推行办公用品节约计划：\n背景：上季度部门办公用品支出超出预算 12%；\n措施：双面打印、草稿用废纸背面、领用登记、每月末盘点；\n要求：全体同事自 10 月 19 日起执行，每周五行政助理汇总用量数据；\n激励：节省下来的费用将计入团队活动经费。",
+    "tips": [
+      "备忘录格式：To、From、Date、Subject 四项齐全。",
+      "正文先说明背景，再分条列出措施。",
+      "结尾鼓励执行并说明激励方式。"
+    ],
+    "keywords": ["memo", "saving plan", "measures", "budget", "office supplies", "team fund"],
+    "minWords": 150,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "MEMORANDUM\n\nTo: All Members of the Department\nFrom: Zhou Tao, Department Manager\nDate: October 12, 2026\nSubject: Office Supplies Saving Plan\n\nAs you may know, our department's spending on office supplies exceeded the budget by 12% last quarter. To control costs and protect resources, a saving plan will take effect from October 19.\n\nPlease follow these measures:\n1. Print on both sides of the paper whenever possible.\n2. Use the blank side of used paper for drafts and informal copies.\n3. Register at the front desk when taking office supplies.\n4. The administrative assistant will check the stock at the end of every month, and the usage data will be summarized every Friday.\n\nThese measures are simple, but together they can make a real difference. I believe each of us can contribute with small daily habits.\n\nThe money we save will be added to our team activity fund, so the effort benefits everyone.\n\nThank you for your cooperation. If you have any suggestions, please feel free to share them with me.\n\nZhou Tao"
+  },
+  {
+    "id": "yy07",
+    "title": "新闻简报：公司 9 月动态",
+    "theme": "新闻简报",
+    "genre": "应用文·新闻简报",
+    "stage": "综合",
+    "qtype": "应用文写作",
+    "difficulty": "进阶",
+    "materials": "你是公司公关部专员。请用英文为公司内部月报撰写 9 月新闻简报，内容包括三条新闻：\n1) 公司与华南理工大学签订校企合作协议，将共建实训基地，首批 30 名实习生将于下学期到岗；\n2) 公司新产品智能门锁 SmartLock X 在秋季展会上获得最佳创新奖；\n3) 员工活动：公司首届羽毛球赛落幕，市场部夺冠，下月将举行摄影比赛。\n要求：格式规范，每条新闻 2-3 句。",
+    "tips": [
+      "每条新闻用 2-3 句话，先结论后细节。",
+      "标题简洁概括内容，正文口语化、有亲和力。",
+      "注意用过去时描述已发生的事件。"
+    ],
+    "keywords": ["newsletter", "company news", "highlights", "partnership", "award", "staff activity"],
+    "minWords": 200,
+    "timeLimitMin": 50,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Company Newsletter: September Highlights\n\nDear colleagues,\n\nWelcome to the September edition of our monthly newsletter. Here are the highlights of this month.\n\n1. New Partnership with University\nOur company signed a cooperation agreement with South China University of Technology this month. Together we will build a training base for students, and the first group of 30 interns will join us next term. This partnership will bring fresh talent and new ideas to our team, and we look forward to working closely with the university.\n\n2. SmartLock X Wins Innovation Award\nGood news from the autumn exhibition! Our new product SmartLock X won the Best Innovation Award among hundreds of competitors. The judges praised its smart fingerprint system and low power design. Congratulations to the R&D team for this great achievement.\n\n3. First Badminton Tournament Ends\nOur first company badminton tournament came to an exciting end last Friday. After three rounds of matches, the Marketing Department won the championship. Thank you to all the players and cheering colleagues who made the event so enjoyable. A photography competition will be held next month; please watch for the announcement and join us!\n\nThat is all for September. We look forward to seeing more of your news next month.\n\nBest wishes,\nPublic Relations Department"
+  },
+  {
+    "id": "yy08",
+    "title": "岗位说明书：跨境电商运营专员",
+    "theme": "岗位说明书",
+    "genre": "应用文·岗位说明书",
+    "stage": "综合",
+    "qtype": "应用文写作",
+    "difficulty": "冲刺",
+    "materials": "你是公司人力资源部专员。公司拟招聘一名跨境电商运营专员，请用英文撰写岗位说明书，内容包括：\n1) 岗位名称与汇报对象：E-commerce Operations Specialist，向市场部经理汇报；\n2) 主要职责：管理亚马逊和速卖通店铺、制定促销方案、分析销售数据、处理客户评价；\n3) 任职要求：大专及以上学历、英语四级以上、1 年以上电商经验、熟悉平台规则、有数据分析能力；\n4) 薪资福利：月薪 6000-9000 元、五险一金、绩效奖金、带薪年假。\n结尾注明应聘方式与截止日期。",
+    "tips": [
+      "岗位说明书包含岗位名称、职责、要求、待遇四大板块。",
+      "职责与要求用动词开头的短语罗列，清晰易读。",
+      "结尾写明应聘方式与截止日期。"
+    ],
+    "keywords": ["job description", "responsibilities", "requirements", "salary", "benefits", "application"],
+    "minWords": 200,
+    "timeLimitMin": 50,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "modelAnswer": "Job Description: E-commerce Operations Specialist\n\nPosition: E-commerce Operations Specialist\nDepartment: Marketing Department\nReports to: Marketing Manager\nLocation: Guangzhou\nSalary: 6,000-9,000 yuan per month plus benefits\n\nJob Purpose: The specialist will operate and grow our cross-border online stores, improve sales performance, and maintain good customer ratings.\n\nJob Responsibilities:\n- Manage our online stores on Amazon and AliExpress, including product listing, pricing, and daily operation.\n- Plan and carry out promotion activities to increase sales and store ranking.\n- Analyze sales data and market trends, and provide weekly reports to the manager.\n- Handle customer reviews and feedback, and work with customer service to improve satisfaction.\n\nRequirements:\n- College diploma or above, preferably in e-commerce, marketing, or a related field.\n- CET-4 or above, with good English reading and writing skills.\n- At least one year of experience in e-commerce operations.\n- Familiar with the rules and tools of major e-commerce platforms.\n- Strong data analysis ability and attention to detail.\n- Good teamwork spirit and the ability to work under pressure.\n\nBenefits:\n- Monthly salary of 6,000-9,000 yuan based on experience and performance.\n- Social insurance and housing fund.\n- Performance bonus every quarter.\n- Paid annual leave and regular team activities.\n\nIf you are interested, please send your resume to hr@company.com before October 31, 2026.\n\nHuman Resources Department"
+  }
+]

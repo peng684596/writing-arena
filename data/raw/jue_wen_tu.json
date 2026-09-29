@@ -1,0 +1,494 @@
+[
+  {
+    "id": "jw01",
+    "stage": "决赛",
+    "qtype": "看文字信息写作",
+    "title": "部门项目进度会议通知",
+    "theme": "会议管理",
+    "difficulty": "基础",
+    "minWords": 100,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "Situation: You are Lin Yue, assistant to the project manager at GreenTech Solutions. Your manager asks you to write an internal email to the project team to announce the monthly progress meeting.\n\nDetails:\n- Date and time: Friday, 14 March, 9:30–11:00 a.m.\n- Venue: Meeting Room 3, 5th Floor\n- Agenda: review March targets; discuss the new proposal for the Eco-Living client; assign follow-up tasks\n- Everyone should confirm attendance by Wednesday noon and bring updated progress reports.\n\nTask: Write the meeting notice email in at least 100 words.",
+    "genre": "会议通知邮件",
+    "tips": [
+      "写明会议时间、地点和议程，信息要完整准确。",
+      "语气简洁专业，避免口语化表达。",
+      "结尾提醒参会者确认出席并携带相关材料。"
+    ],
+    "keywords": ["meeting notice", "agenda", "progress report", "confirm attendance", "schedule"],
+    "modelAnswer": "Subject: Monthly Progress Meeting — 14 March\n\nDear Team,\n\nThis is a reminder that our monthly progress meeting will take place on Friday, 14 March, from 9:30 to 11:00 a.m. in Meeting Room 3 on the fifth floor.\n\nThe agenda includes three main items: a review of our March targets, a discussion of the new proposal for the Eco-Living client, and the assignment of follow-up tasks for the coming month. To make the discussion efficient, please bring your updated progress reports and any data you plan to share.\n\nI would appreciate it if you could confirm your attendance by Wednesday noon. If you cannot attend, please inform me in advance and send your report by email.\n\nLooking forward to seeing you all on Friday.\n\nBest regards,\nLin Yue"
+  },
+  {
+    "id": "jw02",
+    "stage": "决赛",
+    "qtype": "看文字信息写作",
+    "title": "致合作方访问感谢信",
+    "theme": "商务礼仪",
+    "difficulty": "基础",
+    "minWords": 100,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "Situation: You are Zhou Wei, marketing manager of Nanhai Ceramics Co., Ltd. Last week, you and two colleagues visited your partner company, Delfino Interiors, in Singapore. Mr. Daniel Koh, their sales director, arranged the factory tour and hosted a business dinner for you.\n\nTask: Write a thank-you letter of at least 100 words to Mr. Koh. Mention his warm hospitality, what you learned from the visit, and your hope for further cooperation.",
+    "genre": "感谢信",
+    "tips": [
+      "开头直接表达感谢，点明感谢的具体事项。",
+      "列举访问中的收获，让感谢显得真诚具体。",
+      "结尾表达深化合作或回访的意愿。"
+    ],
+    "keywords": ["thank-you letter", "hospitality", "factory tour", "partnership", "appreciation"],
+    "modelAnswer": "Dear Mr. Koh,\n\nOn behalf of Nanhai Ceramics, I would like to thank you sincerely for the warm hospitality you extended to us during our visit to Singapore last week.\n\nThe factory tour was extremely informative, and we were deeply impressed by Delfino Interiors' quality control system and your team's professionalism. The business dinner also gave us an opportunity to understand each other's expectations for next year's joint projects.\n\nI believe the visit has laid a solid foundation for deeper cooperation between our two companies. We are now preparing a detailed proposal for the Southeast Asia market, and I will send it to you within two weeks.\n\nThank you again for your hospitality. I look forward to welcoming you to Foshan in the near future.\n\nYours sincerely,\nZhou Wei"
+  },
+  {
+    "id": "jw03",
+    "stage": "决赛",
+    "qtype": "看文字信息写作",
+    "title": "办公家具采购询价信",
+    "theme": "商务采购",
+    "difficulty": "基础",
+    "minWords": 100,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "Situation: You are Chen Rui, office administrator of Star Cloud Technology, a software company based in Hangzhou. The company will open a new office in May and needs about 60 workstations, 60 ergonomic chairs and 12 meeting tables. You have found the website of Northwind Office Furniture.\n\nTask: Write an inquiry letter of at least 100 words asking for a catalogue, a quotation, delivery time, payment terms and bulk discount information.",
+    "genre": "询价信",
+    "tips": [
+      "清晰列出所需商品的名称、数量和规格。",
+      "主动询问报价、交期、折扣和付款方式等关键信息。",
+      "礼貌说明采购时间安排，促使对方尽快回复。"
+    ],
+    "keywords": ["inquiry", "quotation", "catalogue", "delivery time", "bulk discount"],
+    "modelAnswer": "Dear Sir or Madam,\n\nI am writing on behalf of Star Cloud Technology, a software company based in Hangzhou. We are opening a new office this May and are looking for a reliable furniture supplier.\n\nWe are interested in the following items: approximately 60 workstations, 60 ergonomic chairs, and 12 meeting tables. Could you please send us your latest catalogue and a detailed quotation?\n\nWe would also like to know your usual delivery time for bulk orders, the payment terms, and whether a discount is available for orders of this size. We plan to place the order in early April, so an early reply would be highly appreciated.\n\nI look forward to hearing from you.\n\nYours faithfully,\nChen Rui"
+  },
+  {
+    "id": "jw04",
+    "stage": "决赛",
+    "qtype": "看文字信息写作",
+    "title": "交货延迟致歉信",
+    "theme": "售后服务",
+    "difficulty": "基础",
+    "minWords": 100,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "Situation: You are Wang Hao, sales manager of Bright Path Logistics. One of your key clients, Horizon Electronics, placed an order for 500 display screens that should have arrived on 10 March. Because of a port delay caused by bad weather, the shipment will arrive on 18 March, eight days late.\n\nTask: Write an apology letter of at least 100 words to Ms. Li Na, purchasing director of Horizon Electronics. Apologize sincerely, explain the reason, and offer a solution such as a delivery discount.",
+    "genre": "道歉信",
+    "tips": [
+      "开头诚恳道歉，不要过多辩解。",
+      "客观解释原因并提出具体解决方案。",
+      "结尾感谢对方理解，并表达改进决心。"
+    ],
+    "keywords": ["apology", "delivery delay", "inconvenience", "compensation", "understanding"],
+    "modelAnswer": "Dear Ms. Li,\n\nI am writing to offer our sincere apologies for the delay in delivering your order of 500 display screens, which was scheduled to arrive on 10 March.\n\nThe delay was caused by unusually bad weather at the departure port, which closed the port for five days. Your shipment is now confirmed to arrive on 18 March, and our team is monitoring it around the clock to ensure there is no further delay.\n\nWe fully understand how much inconvenience this has caused your production schedule. As a gesture of goodwill, we will offer a 10% discount on the delivery charge for this order and prioritize your future shipments at no extra cost.\n\nThank you for your patience and understanding.\n\nSincerely,\nWang Hao"
+  },
+  {
+    "id": "jw05",
+    "stage": "决赛",
+    "qtype": "看文字信息写作",
+    "title": "软件试用跟进邮件",
+    "theme": "销售跟进",
+    "difficulty": "进阶",
+    "minWords": 100,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "Situation: You are Sun Qian, sales representative of Cloud Desk Software. Two weeks ago, you gave Ms. Emily Turner, operations manager of Riverside Hotel Group, an online demonstration of your team scheduling software, and she agreed to try the free 14-day trial, which will end this Friday.\n\nTask: Write a follow-up email of at least 100 words to check her feedback, offer help with any problems, and gently encourage a decision on the annual plan. Do not sound too pushy.",
+    "genre": "售后跟进邮件",
+    "tips": [
+      "礼貌询问试用反馈，不要显得催促。",
+      "主动提出解决问题，展示服务意识。",
+      "巧妙提及优惠或增值服务，引导对方做决定。"
+    ],
+    "keywords": ["follow-up", "trial period", "feedback", "product demo", "annual plan"],
+    "modelAnswer": "Dear Ms. Turner,\n\nI am writing to follow up on the free 14-day trial of Cloud Desk that you started two weeks ago.\n\nAs the trial will end this Friday, I would be happy to hear your feedback. Have you and your team found the shift-scheduling function useful for your front desk?\n\nIf you have encountered any difficulties, please feel free to share them with me, and I will arrange a short online session to solve them together.\n\nI would also like to remind you that our annual plan currently includes free staff training and unlimited customer support, which can help your team get the most value from the software.\n\nMay I give you a quick call on Wednesday afternoon to discuss the next step?\n\nKind regards,\nSun Qian"
+  },
+  {
+    "id": "jw06",
+    "stage": "决赛",
+    "qtype": "看文字信息写作",
+    "title": "约见洽谈绿色包装合作",
+    "theme": "商务洽谈",
+    "difficulty": "进阶",
+    "minWords": 100,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "Situation: You are Zhao Min, business development manager of EcoPack Co., a manufacturer of recyclable packaging materials. You will attend the International Packaging Expo in Guangzhou from 8 to 10 April, and you would like to meet Mr. Andrew Miller, Sustainability Director of FreshMart Retail, to discuss possible cooperation on green packaging for their fresh food line.\n\nTask: Write an appointment email of at least 100 words: introduce yourself and your company, explain the purpose of the meeting, suggest a time and place, and ask for confirmation.",
+    "genre": "商务约见邮件",
+    "tips": [
+      "简要自我介绍并说明来意。",
+      "提出具体的会面时间和地点供对方选择。",
+      "突出会面对双方的价值，提高邀约成功率。"
+    ],
+    "keywords": ["appointment", "business meeting", "trade expo", "cooperation", "schedule"],
+    "modelAnswer": "Dear Mr. Miller,\n\nI am Zhao Min, business development manager of EcoPack Co., a manufacturer of recyclable packaging materials.\n\nI am writing to ask whether you would be available for a meeting during the International Packaging Expo in Guangzhou, held from 8 to 10 April. Our company will have a booth there, and a short discussion would be a good chance to introduce our new green packaging solutions, which could help FreshMart reduce plastic use and meet its sustainability goals.\n\nWould it be convenient for you to visit our booth, or shall we meet for coffee at the expo café on the morning of 9 April?\n\nPlease let me know your preference, and I will make the arrangements.\n\nBest regards,\nZhao Min"
+  },
+  {
+    "id": "jw07",
+    "stage": "决赛",
+    "qtype": "看文字信息写作",
+    "title": "智能厨电新品发布会邀请函",
+    "theme": "品牌推广",
+    "difficulty": "进阶",
+    "minWords": 100,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "Situation: You are Xu Jie, public relations officer of BrightHome Smart Appliances. The company will launch its new smart kitchen series, the 'Cloud Chef', at 2:00 p.m. on 20 May at the City Convention Center.\n\nTask: Write an invitation letter of at least 100 words to Ms. Sophia Chen, a well-known home-living blogger. Include the event details, what she can experience at the event, and a polite request for confirmation. Try to make the invitation attractive.",
+    "genre": "活动邀请函",
+    "tips": [
+      "写明活动时间、地点和亮点，吸引对方参加。",
+      "说明对方身份与活动的契合点。",
+      "请对方在规定日期前确认，便于安排。"
+    ],
+    "keywords": ["invitation", "product launch", "event details", "confirm attendance", "experience"],
+    "modelAnswer": "Dear Ms. Chen,\n\nOn behalf of BrightHome Smart Appliances, I am delighted to invite you to the launch event of our new smart kitchen series, the Cloud Chef, to be held at 2:00 p.m. on 20 May at the City Convention Center.\n\nYou will be among the first to experience the Cloud Chef's voice-control cooking system and watch live chef demonstrations. There will also be a hands-on area for you to try the products and take photos.\n\nWe have long admired your blog, and we believe your audience would love this series.\n\nPlease confirm your attendance before 10 May by replying to this email, and we will send you the detailed schedule.\n\nWe look forward to welcoming you.\n\nSincerely,\nXu Jie"
+  },
+  {
+    "id": "jw08",
+    "stage": "决赛",
+    "qtype": "看文字信息写作",
+    "title": "培训时间地点变更通知",
+    "theme": "通知变更",
+    "difficulty": "进阶",
+    "minWords": 100,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "Situation: You are Gao Peng, training coordinator of United Bank's branch in Nanjing. The customer service training originally scheduled for 25 March in Conference Room A has to be moved because the room will be used for an important audit. New arrangement: 28 March, 9:00 a.m.–4:00 p.m., Staff Training Center, Building 2. Lunch will be provided.\n\nTask: Write a notice email of at least 100 words to all participants, apologizing for the change and asking them to confirm the new date.",
+    "genre": "变更通知邮件",
+    "tips": [
+      "开门见山说明变更内容及原因。",
+      "新旧安排对比清晰，避免信息遗漏。",
+      "诚恳致歉并请对方确认新日期。"
+    ],
+    "keywords": ["notice of change", "reschedule", "training session", "apology", "confirm"],
+    "modelAnswer": "Dear Colleagues,\n\nI am writing to inform you of a change to the customer service training originally scheduled for 25 March in Conference Room A.\n\nDue to an important audit in that room, the training has been moved to 28 March, from 9:00 a.m. to 4:00 p.m., in the Staff Training Center, Building 2. All training content remains unchanged, and lunch will be provided on that day.\n\nWe are sorry for any inconvenience this change may cause and thank you for your understanding. Please confirm by replying to this email before 22 March whether you can attend on the new date. If you cannot attend, please inform me so that we can arrange a make-up session.\n\nWe look forward to seeing you on 28 March.\n\nBest regards,\nGao Peng"
+  },
+  {
+    "id": "jw09",
+    "stage": "决赛",
+    "qtype": "看文字信息写作",
+    "title": "有机食品跨境电商合作洽谈",
+    "theme": "跨境电商",
+    "difficulty": "冲刺",
+    "minWords": 100,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "Situation: You are Liu Yang, overseas business manager of Silk Road Foods, a Chinese company selling organic snacks. You want to cooperate with GlobalMart, a European online retailer, to sell your products on its platform.\n\nTask: Write a cooperation proposal email of at least 100 words to Ms. Elena Rossi, purchasing director of GlobalMart. Introduce your products and their advantages, explain why the cooperation would benefit both sides, and propose a video meeting to discuss details. Use a professional but confident tone.",
+    "genre": "合作洽谈邮件",
+    "tips": [
+      "介绍公司和产品优势时用事实支撑，增强说服力。",
+      "说明合作对双方的互利价值。",
+      "提议视频会议并给出灵活时间，体现诚意。"
+    ],
+    "keywords": ["cooperation proposal", "cross-border e-commerce", "organic products", "mutual benefit", "video meeting"],
+    "modelAnswer": "Dear Ms. Rossi,\n\nI am Liu Yang, overseas business manager of Silk Road Foods, a Chinese producer of organic snacks. I am writing to explore the possibility of cooperating with GlobalMart.\n\nOur products, including roasted nuts, dried fruits and oat bars, are certified by both Chinese and EU organic standards and are already popular in ten Asian markets. With the growing demand for healthy snacks in Europe, we believe our brand can bring attractive new options to your platform and help GlobalMart strengthen its health food category.\n\nWe offer flexible cooperation models, including direct supply and private-label production. Would it be possible to arrange a video meeting next week to discuss the details? I am available from Monday to Thursday.\n\nI look forward to your reply.\n\nBest regards,\nLiu Yang"
+  },
+  {
+    "id": "jw10",
+    "stage": "决赛",
+    "qtype": "看文字信息写作",
+    "title": "旅游投诉处理与补偿回复",
+    "theme": "客户投诉",
+    "difficulty": "冲刺",
+    "minWords": 100,
+    "timeLimitMin": 40,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "Situation: You are He Jing, customer service supervisor of SunnyTrip Travel. A customer, Mr. James Carter, complained that the hotel arranged for his family trip in Sanya was far below the standard promised on your website: the room's air conditioner was broken, and the 'sea view' was blocked by a construction site. He demands a partial refund.\n\nTask: Write a reply letter of at least 100 words. Apologize sincerely, explain the investigation result, and offer a specific compensation plan, such as a 30% refund and a coupon for the next trip. Keep a polite and responsible tone.",
+    "genre": "投诉处理回复",
+    "tips": [
+      "先道歉再解释，安抚客户情绪。",
+      "说明调查结果，坦承自身责任。",
+      "给出明确具体的补偿方案并表达改进意愿。"
+    ],
+    "keywords": ["complaint", "refund", "compensation", "investigation", "customer trust"],
+    "modelAnswer": "Dear Mr. Carter,\n\nThank you for sharing your feedback, and please accept our sincere apologies for the unpleasant experience during your family trip to Sanya.\n\nWe have investigated your complaint with the hotel. We confirm that the air conditioner in your room was out of order for two days, and the sea view was blocked by a nearby construction site. This fell far below our promised standard, and we take full responsibility.\n\nAs compensation, we would like to refund 30% of your package price within five working days, together with a 500-yuan coupon for your next trip booked on our website.\n\nWe truly value your trust and will work hard to improve our hotel selection.\n\nSincerely,\nHe Jing"
+  },
+  {
+    "id": "jt01",
+    "stage": "决赛",
+    "qtype": "看图表信息写作",
+    "title": "城市居民健身方式调查",
+    "theme": "健身健康",
+    "difficulty": "基础",
+    "minWords": 200,
+    "timeLimitMin": 60,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "请根据下面的图表信息（本图数据为训练用模拟数据）写一篇不少于 200 词的图表报告。报告应包含三部分：① 描述图表的主要特征与关键数据；② 分析数据反映的趋势、原因或问题；③ 给出评论、建议或预测。",
+    "genre": "图表报告（柱状图）",
+    "tips": [
+      "先概括整体特征，再描述关键数据。",
+      "比较各项占比高低并分析原因。",
+      "结尾提出建议或预测，体现思考深度。"
+    ],
+    "keywords": ["fitness activities", "participation rate", "survey", "exercise habits", "city residents"],
+    "modelAnswer": "The bar chart illustrates the participation rates of the main fitness activities among urban residents in City X, based on a 2025 survey.\n\nOverall, running and fast walking are the most popular choices, while cycling attracts the fewest participants. As can be seen, running and fast walking rank first with a participation rate of 32%, followed by gym strength training at 26%. Ball games and yoga or dance account for 18% and 14% respectively, whereas cycling comes last at only 10%.\n\nThe data suggests that most residents prefer convenient and low-cost ways to stay fit. Running requires no equipment or membership fees, which may explain its leading position. Gym training, though more expensive, appeals to young professionals who want systematic exercise.\n\nThere is still much room for improvement. Only about a quarter of residents use professional fitness facilities, and cycling's low rate may be related to limited bike lanes in the city. In my view, the local government could promote public sports facilities and build more cycling paths. Fitness clubs, for their part, might introduce flexible short-term packages to attract beginners. If these measures are taken, I believe a more balanced fitness landscape will take shape in the near future.",
+    "chart": {
+      "type": "bar",
+      "title": "某市城市居民主要健身方式参与率（2025年调查）",
+      "unit": "%",
+      "labels": ["跑步/快走", "健身房力量训练", "球类运动", "瑜伽/舞蹈", "骑行"],
+      "series": [
+        {"name": "参与率", "data": [32, 26, 18, 14, 10]}
+      ]
+    }
+  },
+  {
+    "id": "jt02",
+    "stage": "决赛",
+    "qtype": "看图表信息写作",
+    "title": "上班族午餐方式构成",
+    "theme": "餐饮消费",
+    "difficulty": "基础",
+    "minWords": 200,
+    "timeLimitMin": 60,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "请根据下面的图表信息（本图数据为训练用模拟数据）写一篇不少于 200 词的图表报告。报告应包含三部分：① 描述图表的主要特征与关键数据；② 分析数据反映的趋势、原因或问题；③ 给出评论、建议或预测。",
+    "genre": "图表报告（饼图）",
+    "tips": [
+      "描述各组成部分占比，突出最大与最小项。",
+      "分析数据反映的生活方式变化。",
+      "提出针对性建议或预测。"
+    ],
+    "keywords": ["lunch choices", "food delivery", "canteen", "office workers", "consumption habit"],
+    "modelAnswer": "The pie chart shows how office workers in City X have lunch on working days, according to a 2025 survey.\n\nFood delivery platforms take the largest share at 38%, making them the most common choice. Canteens run by companies or schools come second with 27%, and dining out in restaurants accounts for 17%. Only 12% of workers bring home-made lunches, and a further 6% buy simple meals at convenience stores.\n\nThe figures reveal that convenience has become the dominant consideration for office workers. Ordering food online saves the time of walking and waiting, which is highly valued in a fast-paced working environment. At the same time, the relatively large proportion of canteen users indicates that many employers still provide affordable meals.\n\nHowever, the heavy reliance on takeaways deserves attention, as frequent takeaway consumption is often linked to more packaging waste and less balanced nutrition. I would suggest that companies improve their own canteens and encourage employees to eat there. Local authorities could also launch healthy-lunch campaigns and promote the use of recyclable packaging. If this trend continues, delivery platforms may play an even bigger role, so a healthy and green lunch culture requires joint efforts. Such efforts would benefit both workers' health and the urban environment.",
+    "chart": {
+      "type": "pie",
+      "title": "某市上班族工作日午餐方式构成（2025年调查）",
+      "unit": "%",
+      "labels": ["外卖平台点餐", "单位/学校食堂", "外出堂食", "自带便当", "便利店简餐"],
+      "series": [
+        {"name": "占比", "data": [38, 27, 17, 12, 6]}
+      ]
+    }
+  },
+  {
+    "id": "jt03",
+    "stage": "决赛",
+    "qtype": "看图表信息写作",
+    "title": "新能源汽车保有量增长",
+    "theme": "绿色能源",
+    "difficulty": "基础",
+    "minWords": 200,
+    "timeLimitMin": 60,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "请根据下面的图表信息（本图数据为训练用模拟数据）写一篇不少于 200 词的图表报告。报告应包含三部分：① 描述图表的主要特征与关键数据；② 分析数据反映的趋势、原因或问题；③ 给出评论、建议或预测。",
+    "genre": "图表报告（折线图）",
+    "tips": [
+      "按时间顺序描述增长过程，注意增速变化。",
+      "分析快速增长背后的原因。",
+      "预测未来趋势并给出配套建议。"
+    ],
+    "keywords": ["new energy vehicles", "ownership", "growth trend", "charging facilities", "green transport"],
+    "modelAnswer": "The line chart illustrates the growth of new energy vehicle (NEV) ownership in City X from 2019 to 2024, measured in ten thousand vehicles.\n\nIt is clear that NEV ownership experienced rapid and continuous growth over the six years. In 2019, the city had only 32,000 NEVs, and the number rose steadily to 51,000 in 2020 and 87,000 in 2021. The pace accelerated remarkably from 2022 onwards, with ownership reaching 146,000 in 2022, 228,000 in 2023 and 315,000 in 2024, nearly ten times the 2019 figure.\n\nSeveral factors account for this trend. Falling battery costs have made electric cars more affordable, while government subsidies and free license plates have encouraged purchases. In addition, the expansion of charging facilities has reduced consumers' worries about running out of power.\n\nLooking ahead, I believe the upward trend will continue, though the growth rate may slow as the market gradually matures. At the same time, promoting battery recycling and second-hand EV markets will make the transition truly green. The city should plan for more charging stations in residential areas and highways. If these preparations are made in time, NEVs are likely to account for more than half of new car sales by 2030. In short, City X is moving steadily towards a greener transport future.",
+    "chart": {
+      "type": "line",
+      "title": "某市新能源汽车保有量（2019—2024年）",
+      "unit": "万辆",
+      "labels": ["2019", "2020", "2021", "2022", "2023", "2024"],
+      "series": [
+        {"name": "保有量", "data": [3.2, 5.1, 8.7, 14.6, 22.8, 31.5]}
+      ]
+    }
+  },
+  {
+    "id": "jt04",
+    "stage": "决赛",
+    "qtype": "看图表信息写作",
+    "title": "高职毕业生就业去向",
+    "theme": "职业教育",
+    "difficulty": "基础",
+    "minWords": 200,
+    "timeLimitMin": 60,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "请根据下面的图表信息（本图数据为训练用模拟数据）写一篇不少于 200 词的图表报告。报告应包含三部分：① 描述图表的主要特征与关键数据；② 分析数据反映的趋势、原因或问题；③ 给出评论、建议或预测。",
+    "genre": "图表报告（饼图）",
+    "tips": [
+      "描述各去向占比并突出最大项。",
+      "分析就业结构反映的职业教育成效。",
+      "针对薄弱环节提出建议。"
+    ],
+    "keywords": ["vocational education", "graduates", "employment destination", "entrepreneurship", "further study"],
+    "modelAnswer": "The pie chart presents the employment destinations of 2025 graduates from a vocational and technical college.\n\nLocal enterprises absorb the largest share of graduates, at 38%, while further study comes second with 22%. Another 18% of graduates find jobs in companies outside the province. Starting their own businesses attracts 12% of graduates, and the remaining 10% choose other paths such as public service jobs or gap-year activities.\n\nThe figures show that vocational education has effectively connected training with the local job market, since nearly two-fifths of graduates are hired by local enterprises. The growing proportion of students continuing their studies also suggests that young people increasingly value higher qualifications. Meanwhile, the 18% share of graduates working outside the province shows that the college's brand is also recognized by employers nationwide.\n\nNevertheless, the relatively small share of entrepreneurship indicates that graduates may lack confidence in starting businesses. I would suggest that the college strengthen entrepreneurship courses and invite successful alumni to share practical experience. Local governments could also provide low-interest loans and tax reductions for graduate start-ups. With such support, the college is likely to produce not only skilled employees but also more young entrepreneurs in the years to come. Overall, the college's employment structure is balanced and promising.",
+    "chart": {
+      "type": "pie",
+      "title": "某职业技术学院2025届毕业生就业去向构成",
+      "unit": "%",
+      "labels": ["本地企业", "继续深造", "外地企业", "自主创业", "其他"],
+      "series": [
+        {"name": "占比", "data": [38, 22, 18, 12, 10]}
+      ]
+    }
+  },
+  {
+    "id": "jt05",
+    "stage": "决赛",
+    "qtype": "看图表信息写作",
+    "title": "跨境电商进出口总额增长",
+    "theme": "跨境电商",
+    "difficulty": "进阶",
+    "minWords": 200,
+    "timeLimitMin": 60,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "请根据下面的图表信息（本图数据为训练用模拟数据）写一篇不少于 200 词的图表报告。报告应包含三部分：① 描述图表的主要特征与关键数据；② 分析数据反映的趋势、原因或问题；③ 给出评论、建议或预测。",
+    "genre": "图表报告（折线图）",
+    "tips": [
+      "先总体描述增长态势，再分阶段展开。",
+      "分析增速波动的可能原因。",
+      "展望未来并提示风险与对策。"
+    ],
+    "keywords": ["cross-border e-commerce", "import and export", "trade value", "overseas warehouse", "growth trend"],
+    "modelAnswer": "The line chart shows the total import and export value of China's cross-border e-commerce from 2020 to 2025, measured in trillion yuan.\n\nOverall, the value climbed steadily throughout the period. It stood at 1.69 trillion yuan in 2020 and grew to 1.98 trillion in 2021. The increase slowed in 2022, when the figure reached 2.11 trillion, partly due to weak global demand and higher shipping costs. However, growth picked up again afterwards, with the total rising to 2.38 trillion in 2023, 2.63 trillion in 2024 and 2.95 trillion in 2025, an increase of about 75% over six years.\n\nThe steady expansion can be attributed to several factors. Improved logistics networks and overseas warehouses have greatly shortened delivery time, while live-streaming e-commerce has helped Chinese brands reach overseas consumers directly.\n\nI believe the momentum will continue in the coming years. As more small and medium-sized enterprises go global, cross-border e-commerce will play an increasingly important role in foreign trade. At the same time, companies should pay more attention to compliance and after-sales service in overseas markets to ensure sustainable growth. Governments and platforms could also offer more training on overseas market rules to help enterprises go global. In conclusion, cross-border e-commerce will remain a bright spot in China's foreign trade.",
+    "chart": {
+      "type": "line",
+      "title": "我国跨境电商进出口总额（2020—2025年）",
+      "unit": "万亿元",
+      "labels": ["2020", "2021", "2022", "2023", "2024", "2025"],
+      "series": [
+        {"name": "进出口总额", "data": [1.69, 1.98, 2.11, 2.38, 2.63, 2.95]}
+      ]
+    }
+  },
+  {
+    "id": "jt06",
+    "stage": "决赛",
+    "qtype": "看图表信息写作",
+    "title": "居民日常通勤方式构成",
+    "theme": "城市交通",
+    "difficulty": "进阶",
+    "minWords": 200,
+    "timeLimitMin": 60,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "请根据下面的图表信息（本图数据为训练用模拟数据）写一篇不少于 200 词的图表报告。报告应包含三部分：① 描述图表的主要特征与关键数据；② 分析数据反映的趋势、原因或问题；③ 给出评论、建议或预测。",
+    "genre": "图表报告（饼图）",
+    "tips": [
+      "按占比从高到低描述通勤方式。",
+      "分析公共交通占主导的原因与隐忧。",
+      "提出缓解拥堵、绿色出行的建议。"
+    ],
+    "keywords": ["commuting", "public transport", "private cars", "rush hour", "green travel"],
+    "modelAnswer": "The pie chart illustrates how residents of City X commute to work on a typical day, according to a 2025 survey.\n\nPublic transport, including metro and bus, is the most common choice, accounting for 34% of commuters. Private cars come second at 26%, followed by electric bicycles at 18%. Walking accounts for 12%, while taxis or ride-hailing services and shared bicycles make up 7% and 3% respectively.\n\nThe data shows that public transport plays the leading role in the city's commuting system. Its popularity can be explained by the expanding metro network and low fares. However, private cars and electric bicycles together still carry 44% of commuters, which means road congestion remains a serious challenge, especially during rush hours.\n\nTo encourage greener commuting, I would suggest that the city continue extending metro lines and improve last-mile connections between stations and communities. Dedicated lanes for electric bicycles would also make this popular option safer. Employers could offer flexible working hours so that commuters can avoid peak periods. If these measures are carried out effectively, the share of public transport is likely to rise further, making the city's roads cleaner and less crowded in the future. In short, a smarter and greener commuting system is within reach if all sides act together.",
+    "chart": {
+      "type": "pie",
+      "title": "某市居民日常通勤方式构成（2025年调查）",
+      "unit": "%",
+      "labels": ["地铁/公交", "私家车", "电动自行车", "步行", "网约车/出租车", "共享单车"],
+      "series": [
+        {"name": "占比", "data": [34, 26, 18, 12, 7, 3]}
+      ]
+    }
+  },
+  {
+    "id": "jt07",
+    "stage": "决赛",
+    "qtype": "看图表信息写作",
+    "title": "省域旅游人次复苏",
+    "theme": "旅游",
+    "difficulty": "进阶",
+    "minWords": 200,
+    "timeLimitMin": 60,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "请根据下面的图表信息（本图数据为训练用模拟数据）写一篇不少于 200 词的图表报告。报告应包含三部分：① 描述图表的主要特征与关键数据；② 分析数据反映的趋势、原因或问题；③ 给出评论、建议或预测。",
+    "genre": "图表报告（柱状图）",
+    "tips": [
+      "突出2020年的骤降与之后的复苏曲线。",
+      "分析波动原因和反弹动力。",
+      "预测未来并提出可持续发展建议。"
+    ],
+    "keywords": ["tourism", "visitor numbers", "recovery", "scenic spots", "sustainable tourism"],
+    "modelAnswer": "The bar chart shows the number of tourists received by Province X from 2019 to 2024, measured in hundred million person-times.\n\nThe most striking feature is the sharp decline in 2020. After reaching 680 million in 2019, the number plunged to 320 million in 2020, a drop of more than half, mainly because the pandemic severely restricted travel. The recovery began in 2021, when the figure rose to 450 million, and it continued over the following years, reaching 590 million in 2022 and 740 million in 2023, when the province finally exceeded its pre-pandemic level. In 2024, the number grew further to 860 million, setting a new record.\n\nThe strong rebound shows the resilience of the tourism industry and the effectiveness of promotional campaigns, such as discounted tickets and new cultural festivals.\n\nLooking ahead, I expect the growth to continue, though at a more moderate pace. To maintain its attractiveness, the province should invest in smart tourism services and improve facilities in smaller scenic areas. Balancing tourist flows across seasons would also help protect popular sites from overcrowding. In addition, promoting rural and cultural tourism could create new growth points and ensure the industry develops in a sustainable way. In short, the province's tourism industry has entered a new stage of quality growth.",
+    "chart": {
+      "type": "bar",
+      "title": "某省接待游客人次（2019—2024年）",
+      "unit": "亿人次",
+      "labels": ["2019", "2020", "2021", "2022", "2023", "2024"],
+      "series": [
+        {"name": "游客人次", "data": [6.8, 3.2, 4.5, 5.9, 7.4, 8.6]}
+      ]
+    }
+  },
+  {
+    "id": "jt08",
+    "stage": "决赛",
+    "qtype": "看图表信息写作",
+    "title": "数字经济占GDP比重攀升",
+    "theme": "数字经济",
+    "difficulty": "进阶",
+    "minWords": 200,
+    "timeLimitMin": 60,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "请根据下面的图表信息（本图数据为训练用模拟数据）写一篇不少于 200 词的图表报告。报告应包含三部分：① 描述图表的主要特征与关键数据；② 分析数据反映的趋势、原因或问题；③ 给出评论、建议或预测。",
+    "genre": "图表报告（折线图）",
+    "tips": [
+      "描述比重逐年上升的总体趋势。",
+      "分析数字经济快速发展的驱动因素。",
+      "预测未来并关注数字鸿沟等挑战。"
+    ],
+    "keywords": ["digital economy", "GDP share", "core industries", "digital transformation", "growth driver"],
+    "modelAnswer": "The line chart illustrates the proportion of the digital economy's core industries in City X's GDP from 2019 to 2024.\n\nIt is clear that the digital economy has become an increasingly important driver of the city's growth. The share rose steadily from 24.5% in 2019 to 27.1% in 2020 and 29.8% in 2021. The upward trend then accelerated, with the ratio reaching 32.4% in 2022, 35.2% in 2023 and 38.6% in 2024, an increase of more than 14 percentage points over six years.\n\nThe rapid expansion can be explained by several factors. The city has built several industrial parks for software, big data and artificial intelligence, attracting large numbers of tech companies and talent. Meanwhile, traditional manufacturers have been actively adopting digital tools to raise efficiency.\n\nIn my view, the share will probably exceed 40% within the next two years. However, the city should also address the digital divide, since small businesses and older workers may fall behind in this transformation. I would suggest offering free digital-skills training to all citizens and supporting small firms in upgrading their systems. In conclusion, the digital economy will remain the city's main engine of growth, and only in this way can its benefits be shared by everyone.",
+    "chart": {
+      "type": "line",
+      "title": "某市数字经济核心产业增加值占GDP比重（2019—2024年）",
+      "unit": "%",
+      "labels": ["2019", "2020", "2021", "2022", "2023", "2024"],
+      "series": [
+        {"name": "占GDP比重", "data": [24.5, 27.1, 29.8, 32.4, 35.2, 38.6]}
+      ]
+    }
+  },
+  {
+    "id": "jt09",
+    "stage": "决赛",
+    "qtype": "看图表信息写作",
+    "title": "风光新增装机容量对比",
+    "theme": "绿色能源",
+    "difficulty": "冲刺",
+    "minWords": 200,
+    "timeLimitMin": 60,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "请根据下面的图表信息（本图数据为训练用模拟数据）写一篇不少于 200 词的图表报告。报告应包含三部分：① 描述图表的主要特征与关键数据；② 分析数据反映的趋势、原因或问题；③ 给出评论、建议或预测。",
+    "genre": "图表报告（柱状图·双系列对比）",
+    "tips": [
+      "对比两个系列各年的数据变化。",
+      "指出光伏反超并拉大差距的关键节点。",
+      "分析原因并就能源系统稳定性提出建议。"
+    ],
+    "keywords": ["wind power", "solar power", "installed capacity", "clean energy", "power grid"],
+    "modelAnswer": "The bar chart compares the newly installed capacity of wind power and solar power in Province X from 2020 to 2024, measured in ten thousand kilowatts.\n\nIn 2020, wind power led with 5.2 million kilowatts of new capacity, compared with 3.8 million for solar power. However, the roles reversed the following year, when solar additions rose to 5.2 million while wind fell to 4.6 million. From 2022 onwards, the gap widened dramatically: solar capacity jumped to 7.6 million in 2022, 12.4 million in 2023 and 16.9 million in 2024, while wind capacity fell to 3.9 million in 2022 before recovering to 6.1 million in 2023 and 6.8 million in 2024.\n\nThe data clearly shows that solar power has become the dominant force in the province's clean-energy expansion, driven by falling panel prices and supportive policies. Wind power, by contrast, has grown more slowly, partly because suitable sites for wind farms are limited.\n\nI believe solar installations will keep rising, and the province should upgrade its power grid to absorb the growing supply. Since solar output depends on daylight, pairing it with wind power and storage facilities will be essential for a stable and low-carbon energy system. In short, solar and wind power will jointly power the province's green future.",
+    "chart": {
+      "type": "bar",
+      "title": "某省风电与光伏发电新增装机容量（2020—2024年）",
+      "unit": "万千瓦",
+      "labels": ["2020", "2021", "2022", "2023", "2024"],
+      "series": [
+        {"name": "风电", "data": [520, 460, 390, 610, 680]},
+        {"name": "光伏", "data": [380, 520, 760, 1240, 1690]}
+      ]
+    }
+  },
+  {
+    "id": "jt10",
+    "stage": "决赛",
+    "qtype": "看图表信息写作",
+    "title": "堂食与外卖销售额对比",
+    "theme": "餐饮消费",
+    "difficulty": "冲刺",
+    "minWords": 200,
+    "timeLimitMin": 60,
+    "scoringWeights": {"content": 35, "grammar": 30, "organization": 25, "format": 10},
+    "materials": "请根据下面的图表信息（本图数据为训练用模拟数据）写一篇不少于 200 词的图表报告。报告应包含三部分：① 描述图表的主要特征与关键数据；② 分析数据反映的趋势、原因或问题；③ 给出评论、建议或预测。",
+    "genre": "图表报告（折线图·双系列对比）",
+    "tips": [
+      "对比两条线的走势，突出2020年的反差。",
+      "分析堂食恢复与外卖持续增长的原因。",
+      "预测双渠道发展趋势并给出经营建议。"
+    ],
+    "keywords": ["dine-in", "food delivery", "sales revenue", "restaurant chain", "consumer habits"],
+    "modelAnswer": "The line chart compares the sales revenue of the dine-in and food delivery channels of a restaurant chain from 2020 to 2024, measured in million yuan.\n\nIn 2020, affected by the pandemic, dine-in sales fell to 96 million yuan, while delivery sales reached 58 million, showing how the chain shifted its business online. As life returned to normal, dine-in recovered steadily, rising to 118 million in 2021, 134 million in 2022, 150 million in 2023 and 166 million in 2024. Delivery sales, however, did not decline after the pandemic; instead, they kept growing every year, from 74 million in 2021 to 92 million in 2022, 112 million in 2023 and 128 million in 2024, more than doubling the 2020 figure.\n\nThe trends reveal a lasting change in consumer habits: even after restrictions ended, many customers continued ordering online for its convenience, while dine-in regained its appeal for social gatherings.\n\nLooking ahead, I expect both channels to keep growing, with delivery expanding at a faster pace. The chain should therefore upgrade its digital ordering system and use eco-friendly packaging, while continuing to improve the in-store experience. Only in this way can the chain make full use of both revenue sources and achieve long-term success.",
+    "chart": {
+      "type": "line",
+      "title": "某连锁餐饮品牌堂食与外卖销售额（2020—2024年）",
+      "unit": "百万元",
+      "labels": ["2020", "2021", "2022", "2023", "2024"],
+      "series": [
+        {"name": "堂食", "data": [96, 118, 134, 150, 166]},
+        {"name": "外卖", "data": [58, 74, 92, 112, 128]}
+      ]
+    }
+  }
+]

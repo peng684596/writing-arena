@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>职英写作训练营 · 题库</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="logo">✍</span>
+        <div>
+          <div class="name">职英写作训练营</div>
+          <div class="sub">职场英语挑战赛写作大赛 · 备赛训练</div>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="./index.html" class="active">题库</a>
+        <a href="./history.html">学习记录</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card hero">
+      <h1>职场英语写作 · 在线训练</h1>
+      <p>题型结构与分值与官方章程对齐：省赛两题（文字信息写作 40 分 + 图表信息写作 60 分，120 分钟）；全国决赛三题（文字 25 分 + 图表 40 分 + 短文议论文 35 分，150 分钟）。本平台题目为原创训练内容，不照搬官方样题。</p>
+      <div class="rubric">
+        <span class="tag">① 内容与切题 35%</span>
+        <span class="tag">② 语法与词汇 30%</span>
+        <span class="tag">③ 组织与连贯 25%</span>
+        <span class="tag">④ 格式与字数 10%</span>
+        <span class="tag">机考计时 · 交卷即评</span>
+      </div>
+    </section>
+
+    <div class="stats">
+      <div class="stat"><div class="num" id="statTotal">–</div><div class="lbl">题库总题数</div></div>
+      <div class="stat"><div class="num" id="statDone">–</div><div class="lbl">已练习题数</div></div>
+      <div class="stat"><div class="num" id="statTimes">–</div><div class="lbl">累计作答次数</div></div>
+      <div class="stat"><div class="num" id="statAvg">–</div><div class="lbl">平均总分</div></div>
+    </div>
+
+    <div class="filters">
+      <span class="flabel">阶段</span>
+      <div class="fgroup" id="fStage">
+        <button class="chip active" data-v="全部">全部</button>
+        <button class="chip" data-v="省赛">省赛</button>
+        <button class="chip" data-v="决赛">决赛</button>
+        <button class="chip" data-v="综合">综合</button>
+      </div>
+      <span class="flabel">题型</span>
+      <div class="fgroup" id="fType">
+        <button class="chip active" data-v="全部">全部</button>
+        <button class="chip" data-v="看文字信息写作">看文字信息写作</button>
+        <button class="chip" data-v="看图表信息写作">看图表信息写作</button>
+        <button class="chip" data-v="看短文议论文">看短文议论文</button>
+        <button class="chip" data-v="应用文写作">应用文写作</button>
+      </div>
+      <span class="flabel">难度</span>
+      <div class="fgroup" id="fDiff">
+        <button class="chip active" data-v="全部">全部</button>
+        <button class="chip" data-v="基础">基础</button>
+        <button class="chip" data-v="进阶">进阶</button>
+        <button class="chip" data-v="冲刺">冲刺</button>
+      </div>
+      <span class="flabel">主题</span>
+      <select id="fTheme"><option value="全部">全部</option></select>
+      <input type="search" id="fSearch" placeholder="搜索题目关键词…">
+    </div>
+
+    <div class="qgrid" id="qGrid"></div>
+    <div class="empty-tip hidden" id="qEmpty">没有符合条件的题目，换个筛选条件试试。</div>
+  </main>
+
+  <footer class="site-footer">
+    非官方训练工具 · 题型/分值/字数结构对齐官方章程 · 题目与范文均为原创训练内容 · 数据仅保存在本机浏览器
+  </footer>
+
+  <script src="./js/questions-data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
