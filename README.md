@@ -135,11 +135,15 @@ node tools/merge_questions.mjs
 
 ## 🌐 部署到 GitHub Pages
 
-仓库已内置 Actions 工作流，**推送 `main` 分支即自动构建部署**：
+**线上地址：<https://peng684596.github.io/writing-arena/>** —— 已在仓库 **Settings → Pages** 中以**分支部署**方式启用（Source = *Deploy from a branch* → `main` → `/(root)`）。纯静态站点用分支部署最简单，不需要任何工作流、不需要额外权限。
 
-1. 在 GitHub 仓库 **Settings → Pages → Build and deployment** 中，将 Source 设为 **GitHub Actions**；
-2. 推送代码，等待 Actions 完成；
-3. 访问 `https://<你的用户名>.github.io/writing-arena/`。
+自己部署一份：
+
+1. 新建仓库并推送本目录的全部文件（**不要**推送 `js/config.js`，它已被 `.gitignore` 排除）；
+2. 仓库 **Settings → Pages → Build and deployment**：Source 选 **Deploy from a branch**，分支选 `main`、目录选 `/(root)`，保存；
+3. 约 1 分钟后访问 `https://<你的用户名>.github.io/<仓库名>/`。
+
+可选：改用 Actions 工作流部署（本目录已备好 `.github/workflows/pages.yml`，内容为 `configure-pages` → `upload-pages-artifact`(path `.`) → `deploy-pages`）。注意 GitHub 要求令牌具备 **`workflow`** 权限才能推送工作流文件，否则会以 `404 Not Found` 拒绝；如需启用，可在网页端手工新建该文件，或给令牌补上 `workflow` 权限后再推送，并将 Pages 的 Source 改为 **GitHub Actions**。
 
 > 提示：线上版本不包含你的 `js/config.js`（已被 gitignore），将自动使用模拟评分。若需在线版也支持真实 AI 判分，建议自建一层轻量代理（如 Cloudflare Worker）转发请求并注入 Key——浏览器直连第三方 API 常因 CORS 被拦截，且 Key 暴露在前端不安全。
 
