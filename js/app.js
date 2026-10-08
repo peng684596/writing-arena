@@ -5,7 +5,7 @@
   "use strict";
 
   const $ = (id) => document.getElementById(id);
-  const state = { stage: "全部", type: "全部", diff: "全部", topic: "全部", search: "" };
+  const state = { source: "全部", stage: "全部", type: "全部", diff: "全部", topic: "全部", search: "" };
 
   let QUESTIONS = [];
 
@@ -55,13 +55,15 @@
   }
 
   function matches(q) {
+    if (state.source !== "全部" && (q.sourceLabel || "原创模拟题") !== state.source) return false;
     if (state.stage !== "全部" && q.stage !== state.stage) return false;
     if (state.type !== "全部" && q.qtype !== state.type) return false;
     if (state.diff !== "全部" && q.difficulty !== state.diff) return false;
     if (state.topic !== "全部" && q.topic !== state.topic) return false;
     if (state.search) {
       const s = state.search.toLowerCase();
-      const hay = (q.title + " " + (q.theme || "") + " " + (q.topic || "") + " " + (q.genre || "")).toLowerCase();
+      const hay = (q.title + " " + (q.theme || "") + " " + (q.topic || "") + " " + (q.genre || "") +
+        " " + (q.sourceNote || "") + " 官方样题 原创 真题").toLowerCase();
       if (!hay.includes(s)) return false;
     }
     return true;
@@ -73,10 +75,15 @@
     $("qEmpty").classList.toggle("hidden", list.length > 0);
     $("qGrid").innerHTML = list.map(q => {
       const d = done.has(q.id) ? '<span class="badge done">已练过</span>' : "";
-      return `<div class="qcard" data-id="${q.id}">
+      const isOfficial = (q.source || "original") === "official";
+      const srcBadge = isOfficial
+        ? '<span class="badge official">官方样题</span>'
+        : '<span class="badge orig">原创模拟</span>';
+      return `<div class="qcard${isOfficial ? " official" : ""}" data-id="${q.id}">
         <div class="qtitle">${esc(q.title)}</div>
         <div class="qmeta">${esc(q.stage)} · ${esc(q.qtype)} · ≥${q.minWords} 词 · 限时 ${q.timeLimitMin} 分钟</div>
         <div class="badges">
+          ${srcBadge}
           <span class="badge">${esc(q.theme || q.topic || "综合")}</span>
           <span class="badge diff-${esc(q.difficulty)}">${esc(q.difficulty)}</span>
           ${d}
@@ -106,6 +113,7 @@
   }
 
   function init() {
+    bindChips("fSource", "source");
     bindChips("fStage", "stage");
     bindChips("fType", "type");
     bindChips("fDiff", "diff");

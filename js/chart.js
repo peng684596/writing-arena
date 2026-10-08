@@ -150,10 +150,15 @@
   }
 
   function renderTable(def) {
+    // 表格形态同样要带标题：图表题的材料表若没有标题，学生看不出它对应哪张图
+    const title = def.title
+      ? `<div style="text-align:center;font-size:15px;font-weight:700;color:#1c2733;margin-bottom:8px">${esc(def.title)}</div>`
+      : "";
+    const unit = def.unit ? `<div style="text-align:center;font-size:11px;color:${AXIS};margin-bottom:6px">单位：${esc(def.unit)}</div>` : "";
     const head = `<tr><th></th>${def.labels.map(l => `<th>${esc(l)}</th>`).join("")}</tr>`;
     const rows = def.series.map(s =>
       `<tr><td><b>${esc(s.name)}</b></td>${s.data.map(v => `<td>${fmtNum(v)}${esc(def.unit || "")}</td>`).join("")}</tr>`).join("");
-    return `<table class="history" style="margin:0"><thead>${head}</thead><tbody>${rows}</tbody></table>`;
+    return title + unit + `<table class="history" style="margin:0"><thead>${head}</thead><tbody>${rows}</tbody></table>`;
   }
 
   function render(container, def) {

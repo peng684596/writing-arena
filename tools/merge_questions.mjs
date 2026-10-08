@@ -24,6 +24,11 @@ const STRING_FIELDS = ["id", "stage", "qtype", "title", "theme", "difficulty", "
 const NUMBER_FIELDS = ["minWords", "timeLimitMin"];
 const WEIGHT_KEYS = ["content", "grammar", "organization", "format"];
 
+/* 题目来源：original = 本平台原创模拟题；official = 官方样题（题面照录，
+   图表按官方数据重绘，范文为本平台自写，必须给出官方出处链接）。
+   未标注 source 的旧题一律按原创处理，避免逐题改数据。 */
+const SOURCE_LABELS = { original: "原创模拟题", official: "官方样题" };
+
 /** tips 规范化为字符串数组：字符串按换行切分，数组去空去空白 */
 function normalizeTips(v) {
   if (Array.isArray(v)) return v.map(t => String(t).trim()).filter(Boolean);
@@ -211,6 +216,21 @@ for (const f of files) {
       const wc = t ? t.split(/\s+/).length : 0;
       if (wc < q.minWords) warnings.push(`${f}/${q.id}: 范文 ${wc} 词 < 目标 ${q.minWords} 词`);
     }
+    // 题目来源：默认原创；官方样题必须登记出处链接与说明
+    if (q.source == null || q.source === "") q.source = "original";
+    if (!SOURCE_LABELS[q.source]) {
+      errors.push(`${f}/${q.id || "?"}: 字段 source 取值「${q.source}」非法（应为 original 或 official）`);
+    } else {
+      q.sourceLabel = SOURCE_LABELS[q.source];
+      if (q.source === "official") {
+        if (typeof q.sourceUrl !== "string" || !/^https?:\/\//.test(q.sourceUrl)) {
+          errors.push(`${f}/${q.id}: 官方样题必须提供 sourceUrl（官方原文链接）`);
+        }
+        if (typeof q.sourceNote !== "string" || !q.sourceNote.trim()) {
+          errors.push(`${f}/${q.id}: 官方样题必须提供 sourceNote（出处说明）`);
+        }
+      }
+    }
     // 主题方向：细粒度 theme → 粗粒度 topic（首页筛选用）
     const topic = TOPIC_MAP[q.theme];
     if (!topic) errors.push(`${f}/${q.id || "?"}: 主题「${q.theme}」未在 TOPIC_MAP 中登记，无法归类`);
@@ -245,13 +265,15 @@ writeFileSync(join(root, "js", "questions-data.js"),
   "/* 本文件由 tools/merge_questions.mjs 自动生成，请勿手改；编辑 data/questions.json 后重新运行合并脚本。 */\n" +
   "window.QUESTIONS = " + JSON.stringify(all, null, 2) + ";\n", "utf8");
 
-const byType = {}, byStage = {};
+const byType = {}, byStage = {}, bySource = {};
 for (const q of all) {
   byType[q.qtype] = (byType[q.qtype] || 0) + 1;
   byStage[q.stage] = (byStage[q.stage] || 0) + 1;
+  bySource[q.sourceLabel] = (bySource[q.sourceLabel] || 0) + 1;
 }
 console.log(`✅ 合并完成：共 ${all.length} 道题`);
 console.log("按阶段：" + Object.entries(byStage).map(([k, v]) => `${k} ${v}`).join("，"));
+console.log("按来源：" + Object.entries(bySource).map(([k, v]) => `${k} ${v}`).join("，"));
 console.log("按题型：" + Object.entries(byType).map(([k, v]) => `${k} ${v}`).join("，"));
 console.log("已生成：data/questions.json 与 js/questions-data.js");
 const byTopic = {};

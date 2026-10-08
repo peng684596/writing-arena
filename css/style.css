@@ -133,6 +133,16 @@ h3.sec-title { font-size: 15px; color: var(--brand); }
 .badge.diff-进阶 { background: var(--warn-soft); color: var(--warn); border-color: #efd9b0; }
 .badge.diff-冲刺 { background: var(--danger-soft); color: var(--danger); border-color: #f0c8c2; }
 .badge.done { background: #eef2f7; color: #4a5a6d; border-color: #d5dde6; }
+/* 题目来源：官方样题用品牌金突出，原创模拟题保持低饱和灰蓝 */
+.badge.official { background: #fff4d6; color: #8a5a00; border-color: #eddcae; font-weight: 600; }
+.badge.orig { background: #f2f5f9; color: #6a7889; border-color: #dde4ec; }
+.qcard.official { border-left: 3px solid #d8a119; }
+.official-note {
+  margin: 0 0 10px; padding: 8px 10px; border-radius: 8px;
+  background: #fff9e9; border: 1px solid #eddcae; color: #7a5a12;
+  font-size: 12.5px; line-height: 1.6;
+}
+.official-note a { color: #1f4e8c; text-decoration: underline; }
 
 /* ---------- 按钮 ---------- */
 .btn {

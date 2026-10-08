@@ -107,8 +107,9 @@ async function testPractice() {
     if (q.tips && q.tips.length && !html.includes("tips-list")) bad.push("写作提示未渲染");
     if (q.chart) {
       const svg = env.get("chartBox").innerHTML || "";
+      const isTable = q.chart.type === "table";
       if (!svg) bad.push("图表未渲染");
-      else if (!/<svg[\s>]/.test(svg)) bad.push("图表不是 SVG");
+      else if (isTable ? !/<table[\s>]/.test(svg) : !/<svg[\s>]/.test(svg)) bad.push(isTable ? "表格未渲染" : "图表不是 SVG");
       else {
         // 校验图表确实带上了标题、单位与坐标标签，而不是只输出一个空壳
         if (q.chart.title && !svg.includes(q.chart.title)) bad.push("图表标题缺失");
@@ -140,8 +141,14 @@ async function testIndex() {
     return;
   }
   const html = env.get("qGrid").innerHTML || "";
-  const cards = (html.match(/class="qcard"/g) || []).length;
+  // 官方样题卡片带 official 修饰类（class="qcard official"），统计时不能用固定串匹配
+  const cards = (html.match(/class="qcard[\s"]/g) || []).length;
   if (cards !== questions.length) note("index", `卡片数 ${cards} ≠ 题库 ${questions.length}`);
+  const officialCount = questions.filter(q => q.source === "official").length;
+  const officialBadges = (html.match(/badge official/g) || []).length;
+  if (officialCount && officialBadges !== officialCount) {
+    note("index", `官方样题徽章 ${officialBadges} 个 ≠ 官方样题 ${officialCount} 道`);
+  }
   if (!/class="qtitle"/.test(html)) note("index", "卡片标题未渲染");
   scanHtml("index", "题库网格", html);
   const optCount = (env.get("fTopic").innerHTML.match(/<option/g) || []).length;

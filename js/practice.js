@@ -55,18 +55,24 @@
   function renderQuestion(q) {
     $("qLoading").remove();
     const panel = $("qPanel");
+    const isOfficial = (q.source || "original") === "official";
     const badges = [
       `<span class="badge">${esc(q.stage)}</span>`,
       `<span class="badge type-b">${esc(q.qtype)}</span>`,
       `<span class="badge diff-${esc(q.difficulty)}">${esc(q.difficulty)}</span>`,
-      `<span class="badge">${esc(q.theme || "综合")}</span>`
+      `<span class="badge">${esc(q.theme || "综合")}</span>`,
+      isOfficial ? '<span class="badge official">官方样题</span>' : '<span class="badge orig">原创模拟</span>'
     ].join("");
+    const srcHtml = isOfficial
+      ? `<div class="official-note">📌 ${esc(q.sourceNote || "官方样题")} · <a href="${esc(q.sourceUrl || "#")}" target="_blank" rel="noopener">查看官方原文</a></div>`
+      : "";
     const chartHtml = q.chart
       ? `<div class="block-label">📊 图表信息</div><div class="chart-box"><div id="chartBox"></div></div>`
       : "";
     panel.innerHTML = `
       <h1 class="qtitle">${esc(q.title)}</h1>
       <div class="badges">${badges}</div>
+      ${srcHtml}
       <div class="meta-line">限时 ${q.timeLimitMin} 分钟 · 目标 ≥${q.minWords} 词 · 评分四维：内容切题 ${q.scoringWeights.content}% / 语法词汇 ${q.scoringWeights.grammar}% / 组织连贯 ${q.scoringWeights.organization}% / 格式字数 ${q.scoringWeights.format}%</div>
       <div class="block-label">📄 题目材料</div>
       <div class="materials">${esc(q.materials)}</div>
