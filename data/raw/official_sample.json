@@ -1,0 +1,183 @@
+[
+  {
+    "id": "os01",
+    "stage": "省赛",
+    "qtype": "看文字信息写作",
+    "title": "官方样题 · 省赛 Part I：求职邮件（售后专员，40 分）",
+    "theme": "实习与求职",
+    "difficulty": "进阶",
+    "minWords": 200,
+    "timeLimitMin": 50,
+    "scoringWeights": { "content": 35, "grammar": 30, "organization": 25, "format": 10 },
+    "materials": "情境说明（中国教育电视台·外研社杯职场英语挑战赛写作大赛官方样题 · 省赛 Part I，40 分）：\n\nYou are Justin Jia. You have seen the following job advertisement in China Daily. Write an email of no less than 200 words to the hiring manager John Smith. You should not include your real personal information in the email.\n\n英文素材（写作要点）：\n· WY E-commerce is recruiting an after-sales clerk（售后专员），and the advertisement was published in China Daily.\n· Your email should include a salutation, a main body and a close.\n· In the main body you should: ① introduce yourself and express your interest in the position; ② provide your qualifications and skills for the position; ③ thank the hiring manager and ask for an interview.\n\n（题面依据官方公布的样题整理；官方原文见 https://vep.fltrp.com/contents/199328243319443457 ）",
+    "genre": "求职邮件 / 申请信（须含称呼、正文、结尾三部分）",
+    "tips": [
+      "格式先行：邮件必须有称呼（Dear Mr. Smith,）和结尾敬语与署名（Yours sincerely, Justin Jia），缺一项格式分直接扣掉一半。",
+      "正文三点缺一不可——自我介绍并表达求职意向、说明与岗位匹配的资质与技能、致谢并提出面试请求；阅卷时按点给分。",
+      "官方明确要求不得写入真实个人信息（住址、电话、身份证号、真实学校全名），写完务必自查一遍。",
+      "售后专员看重的能力是客户沟通与投诉处理、订单跟踪与退换货流程、办公软件操作、英语书面沟通，写资质时尽量往这些点上靠，并用数据（处理多少单、满意度多少）支撑。",
+      "不要写成简历式罗列；用完整句子与连接词把“我为什么适合”讲成一个连贯的段落。"
+    ],
+    "keywords": [
+      "job advertisement",
+      "after-sales clerk",
+      "express interest",
+      "qualifications and skills",
+      "customer service",
+      "interview",
+      "China Daily",
+      "e-commerce"
+    ],
+    "modelAnswer": "Dear Mr. Smith,\n\nI am writing to apply for the position of after-sales clerk advertised in China Daily.\n\nMy name is Justin Jia. I am a third-year student majoring in Business English at a vocational college in Guangzhou, and I am eager to begin my career in cross-border e-commerce. WY E-commerce has impressed me with its fast-growing overseas business and its reputation for customer care, so the after-sales clerk position is exactly the job I hope to start with.\n\nI believe my training and experience make me a suitable candidate for this role. During a six-month internship in the customer service department of a trading company, I handled more than 300 enquiries about order tracking, refunds and exchanges, and I kept a customer satisfaction rate above 95%. I am familiar with the whole after-sales process, from receiving a complaint to following up on a solution, and I can work confidently with Excel and CRM systems. In addition, my English enables me to communicate with overseas buyers in writing without difficulty. Colleagues describe me as patient, well-organised and calm even when customers are upset.\n\nI would be very grateful if you could offer me an interview at your convenience. Thank you for your time and consideration.\n\nYours sincerely,\nJustin Jia",
+    "source": "official",
+    "sourceLabel": "官方样题",
+    "sourceUrl": "https://vep.fltrp.com/contents/199328243319443457",
+    "sourceNote": "官方样题 · 省赛 Part I（看文字信息写作，40 分）· 题面照录，范文为本平台自写"
+  },
+  {
+    "id": "os02",
+    "stage": "省赛",
+    "qtype": "看图表信息写作",
+    "title": "官方样题 · 省赛 Part II：全球电力来源占比报告（60 分）",
+    "theme": "绿色能源",
+    "difficulty": "冲刺",
+    "minWords": 300,
+    "timeLimitMin": 70,
+    "scoringWeights": { "content": 35, "grammar": 30, "organization": 25, "format": 10 },
+    "materials": "情境说明（中国教育电视台·外研社杯职场英语挑战赛写作大赛官方样题 · 省赛 Part II，60 分）：\n\nThe charts below show the proportion of global electricity generated from different sources in 2022 and the proportion expected to be generated in 2050. Write a report of no less than 300 words. In your report, you should describe the charts, analyze the data, and make some comments, suggestions or predictions.\n\n数据说明：官方原图为 2022 年与 2050 年（预测）两张饼图；本站按同一组数据以柱状图重绘，便于横向对比：\n· 2022 年：coal 36%、gas 22%、hydro 15%、nuclear 9%、wind 8%、solar 4%、oil 3%、bioenergy 3%；\n· 2050 年（预测）：solar 48%、wind 29%、gas 7%、hydro 7%、coal 4%、bioenergy 3%、nuclear 2%、oil 0%。\n\n（题面依据官方公布的样题整理；官方原文见 https://vep.fltrp.com/contents/199328243319443457 ）",
+    "genre": "报告（report，须含描述图表、分析数据、评论/建议/预测三部分）",
+    "tips": [
+      "报告不是罗列数字：开头一句交代报告目的，主体先“描述”后“分析”，最后给出评论、建议或预测，三段式缺一不可。",
+      "描述数据要抓大放小——先讲最大项（2022 年的 coal 36%、2050 年的 solar 48%），再讲显著变化（solar 从 4% 升到 48%、coal 从 36% 降到 4%），不要逐个念完全部数字。",
+      "分析时给出原因（光伏与风电成本下降、各国碳中和承诺、电网与储能技术进步），预测时给趋势与条件（若无储能突破，间歇性问题会制约可再生比例）。",
+      "报告应有标题，语言客观、少用 I think；用 account for / make up / is expected to / by contrast / a sharp rise 这类图表惯用表达。",
+      "字数要求 300 词，写完数一遍；只有 200 多词即使内容不错也拿不到高分。"
+    ],
+    "keywords": [
+      "electricity generation",
+      "renewable energy",
+      "coal",
+      "solar power",
+      "wind power",
+      "proportion",
+      "energy transition",
+      "prediction"
+    ],
+    "modelAnswer": "A Report on the Changing Sources of Global Electricity\n\nThis report examines the proportion of global electricity generated from different sources in 2022 and the proportion expected in 2050.\n\nIn 2022, the world's electricity mix was still dominated by fossil fuels. Coal was by far the largest single source, accounting for 36% of total generation, and gas contributed a further 22%. Together they made up well over half of global supply. Hydro came third at 15%, followed by nuclear at 9% and wind at 8%. Solar remained marginal at only 4%, while oil and bioenergy contributed 3% each.\n\nThe picture for 2050 is expected to be almost completely reversed. Solar is projected to become the leading source with 48%, and wind is expected to take second place with 29%. Hydro and gas would both fall to 7%, coal would drop sharply to 4%, bioenergy to 3%, and nuclear to 2%. Oil, at 0%, would disappear from electricity generation altogether. In other words, renewables would supply roughly nine tenths of global electricity, against less than one third in 2022.\n\nSeveral forces explain this shift. The cost of solar panels and wind turbines has fallen dramatically, making them the cheapest new source of power in most markets. At the same time, more than 130 countries have pledged carbon neutrality, and grids and storage systems are improving year by year.\n\nThe transition nevertheless faces obstacles. Sunshine and wind are intermittent, so large-scale storage and flexible grids are essential; without them, the 2050 figures may not be reached. The expected decline of nuclear power from 9% to 2% is also debatable, since nuclear provides stable low-carbon output.\n\nIn conclusion, the charts point to a historic energy transition led by solar and wind. To turn the prediction into reality, governments should keep supporting clean energy, invest in storage and transmission, and treat nuclear policy with care.",
+    "source": "official",
+    "sourceLabel": "官方样题",
+    "sourceUrl": "https://vep.fltrp.com/contents/199328243319443457",
+    "sourceNote": "官方样题 · 省赛 Part II（看图表信息写作，60 分）· 图表按官方数据自绘，范文为本平台自写"
+  },
+  {
+    "id": "os03",
+    "stage": "决赛",
+    "qtype": "看文字信息写作",
+    "title": "官方样题 · 决赛 Part I：约见客户邮件（25 分）",
+    "theme": "商务洽谈",
+    "difficulty": "基础",
+    "minWords": 100,
+    "timeLimitMin": 40,
+    "scoringWeights": { "content": 35, "grammar": 30, "organization": 25, "format": 10 },
+    "materials": "情境说明（中国教育电视台·外研社杯职场英语挑战赛写作大赛官方样题 · 全国决赛 Part I，25 分）：\n\nSuppose you are Elizabeth Wang, the sales manager of Sunoon Tech. You want to meet Mr. Charles Truss, the purchasing manager of your client Moontar Tech, to present one of your company's new products. Write an email of no less than 100 words to make an appointment. Your email should include a salutation, a body and a complimentary close.\n\nIn your email you should:\n① request a meeting and explain the reason;\n② suggest the time and place of the appointment;\n③ express thanks and ask for a reply as soon as possible.\n\n（题面依据官方公布的样题整理；官方原文见 https://vep.fltrp.com/contents/199328243319443457 ）",
+    "genre": "商务邮件（须含称呼、正文、结尾敬语三部分）",
+    "tips": [
+      "三点要求逐一落到句子上：请求会面并说明理由、提出具体时间与地点、致谢并请尽快回复；漏一点就丢内容分。",
+      "时间地点必须具体可执行（2:00 p.m. on Friday, 12 June, in your office），写成 sometime next week 会被视为未完成要求。",
+      "商务约见邮件的语气是礼貌而简洁：用 I would like to / Would it be convenient for you to / I would appreciate it if…，不要用命令式。",
+      "开头要自报身份（姓名 + 公司与职位），结尾给出署名与职位；100 词不长，控制在三小段最稳。"
+    ],
+    "keywords": [
+      "make an appointment",
+      "new product",
+      "purchasing manager",
+      "client",
+      "time and place",
+      "reply"
+    ],
+    "modelAnswer": "Dear Mr. Truss,\n\nI am Elizabeth Wang, sales manager of Sunoon Tech. I am writing to make an appointment with you to present one of our new products, which we believe could bring practical benefits to Moontar Tech. As our long-term client, your team knows our service well, and I would value the chance to explain the new features and price options face to face.\n\nWould it be convenient for you to meet me at 2:00 p.m. on Friday, 12 June, in your office? The presentation will take about forty minutes, and I will bring samples and the latest price list with me. If this time does not suit your schedule, please let me know a better one.\n\nThank you for your time. I would appreciate a reply at your earliest convenience so that I can arrange my visit.\n\nBest regards,\nElizabeth Wang\nSales Manager, Sunoon Tech",
+    "source": "official",
+    "sourceLabel": "官方样题",
+    "sourceUrl": "https://vep.fltrp.com/contents/199328243319443457",
+    "sourceNote": "官方样题 · 全国决赛 Part I（看文字信息写作，25 分）· 题面照录，范文为本平台自写"
+  },
+  {
+    "id": "os04",
+    "stage": "决赛",
+    "qtype": "看图表信息写作",
+    "title": "官方样题 · 决赛 Part II：中国高铁运营数据报告（40 分）",
+    "theme": "交通出行",
+    "difficulty": "进阶",
+    "minWords": 200,
+    "timeLimitMin": 60,
+    "scoringWeights": { "content": 35, "grammar": 30, "organization": 25, "format": 10 },
+    "materials": "情境说明（中国教育电视台·外研社杯职场英语挑战赛写作大赛官方样题 · 全国决赛 Part II，40 分）：\n\nThe charts below show the operating mileage and passenger volume of high-speed trains and their percentages of China's total railway network operating mileage and passenger volume for the years 2016 through 2020. Write a report of no less than 200 words. In your report, you should describe the charts, analyze the data, and make some comments, predictions or suggestions.\n\n数据说明：官方原图为 2016—2020 年两组“柱形+折线”组合图，本站按同一组数据以表格重绘：\n· 高铁营业里程（公里）：22980 / 25164 / 29904 / 35388 / 37929；占全国铁路营业里程比例：18.5% / 19.8% / 22.7% / 25.3% / 25.9%；\n· 高铁旅客发送量（百万人次）：1221.3 / 1752.2 / 2054.3 / 2358.3 / 1557.1；占全国铁路旅客发送量比例：43.4% / 56.8% / 60.9% / 64.4% / 70.7%。\n\n（题面依据官方公布的样题整理；官方原文见 https://vep.fltrp.com/contents/199328243319443457 ）",
+    "genre": "报告（report，须含描述图表、分析数据、评论/预测/建议三部分）",
+    "tips": [
+      "两组数据的走向不同，必须先发现再解释：里程与占比一路上升，而 2020 年旅客发送量却明显回落（2358.3 → 1557.1 百万人次），这是本题的分析核心。",
+      "2020 年的回落要给出合理原因（新冠疫情导致出行需求骤减），但要注意占比仍在上升（64.4% → 70.7%），说明高铁在铁路客运中的地位反而更稳固。",
+      "描述与解释要分开写：先客观陈述数据（rise steadily / climb from … to …），再作分析（which can be attributed to …），最后给预测或建议。",
+      "200 词的空间只够 3—4 段，开头一句交代报告主题，结尾一句给出结论，中间不要平均用力。"
+    ],
+    "keywords": [
+      "high-speed trains",
+      "operating mileage",
+      "passenger volume",
+      "percentage",
+      "railway network",
+      "growth",
+      "COVID-19"
+    ],
+    "modelAnswer": "A Report on the Development of China's High-Speed Railway (2016-2020)\n\nThis report describes the operating mileage and passenger volume of China's high-speed trains from 2016 to 2020, together with their shares of the national railway network.\n\nThe first trend is steady expansion. High-speed operating mileage grew from 22,980 km in 2016 to 37,929 km in 2020, an increase of about 65%, and its proportion of the country's total railway mileage rose from 18.5% to 25.9%. In other words, one kilometre in four of China's railways is now a high-speed line.\n\nPassenger volume tells a more interesting story. It climbed quickly from 1,221.3 million in 2016 to 2,358.3 million in 2019, then fell sharply to 1,557.1 million in 2020. The drop can be attributed to the COVID-19 pandemic, which severely reduced travel demand that year. Even so, the share of passengers carried by high-speed trains continued to rise, from 64.4% to 70.7%, which shows that high-speed rail has become the backbone of Chinese passenger transport rather than a supplement to it.\n\nTwo observations follow. First, the growth of the network has been much smoother than the growth of demand: capacity is added year by year, while demand fluctuates with the economy and with unexpected events. Second, because the pandemic hit conventional and high-speed services at the same time but not equally, the share data is a better indicator of competitiveness than the absolute figures.\n\nIn conclusion, China's high-speed railway expanded rapidly between 2016 and 2020 and strengthened its position in passenger transport. As travel demand recovers, the network should continue to grow, although future planning would do well to focus on profitability and on connecting smaller cities rather than on mileage alone.",
+    "source": "official",
+    "sourceLabel": "官方样题",
+    "sourceUrl": "https://vep.fltrp.com/contents/199328243319443457",
+    "sourceNote": "官方样题 · 全国决赛 Part II（看图表信息写作，40 分）· 图表按官方数据自绘，范文为本平台自写",
+    "chart": {
+      "type": "table",
+      "title": "High-Speed Trains in China, 2016-2020",
+      "unit": "",
+      "labels": ["2016", "2017", "2018", "2019", "2020"],
+      "series": [
+        { "name": "Operating mileage (km)", "data": [22980, 25164, 29904, 35388, 37929] },
+        { "name": "Share of total railway mileage (%)", "data": [18.5, 19.8, 22.7, 25.3, 25.9] },
+        { "name": "Passenger volume (million)", "data": [1221.3, 1752.2, 2054.3, 2358.3, 1557.1] },
+        { "name": "Share of total railway passengers (%)", "data": [43.4, 56.8, 60.9, 64.4, 70.7] }
+      ]
+    }
+  },
+  {
+    "id": "os05",
+    "stage": "决赛",
+    "qtype": "看短文议论文",
+    "title": "官方样题 · 决赛 Part III：读故事写议论文（花盆与懒汉，35 分）",
+    "theme": "成长型思维",
+    "difficulty": "冲刺",
+    "minWords": 250,
+    "timeLimitMin": 55,
+    "scoringWeights": { "content": 35, "grammar": 30, "organization": 25, "format": 10 },
+    "materials": "情境说明（中国教育电视台·外研社杯职场英语挑战赛写作大赛官方样题 · 全国决赛 Part III，35 分）：\n\nRead the story below and write an essay of no less than 250 words based on your understanding of the story. You should give your essay an appropriate title of your own.\n\nYour essay should consist of three parts: a statement of your viewpoint; the body, which presents your argument; and a conclusion, which restates your viewpoint.\n\n英文素材（故事原文）：\nThere was once a lazy man living in a house with spider webs on the walls and mice running around. People avoided visiting him and the man was unhappy every day.\nOne day, the man dropped in on a wise old man and asked for advice about changing his life. The old man gave him a beautiful pot and said, \"This pot will bring you happiness.\" \"Why do I need a pot?\" the man thought. Although surprised, he took it home.\n\"It's not proper for something so beautiful to be empty,\" later he realized. So, he put some wild flowers into it, making it even more beautiful. \"It's not good for such a beautiful thing to stand next to spider webs.\" So, he started to do some cleaning, and his house immediately turned into a comfortable place. The man cheered up. From then on, he worked hard and his life has been improved.\n\n（题面依据官方公布的样题整理；官方原文见 https://vep.fltrp.com/contents/199328243319443457 ）",
+    "genre": "议论文（须自拟标题，含观点陈述、论证、结论三部分）",
+    "tips": [
+      "官方明确要求三部分：观点陈述、论证主体、结论重申观点；建议写成标题 + 三至四段，少用 I think 开头，用 In my view / The story suggests that… 立论。",
+      "标题必须自拟且能概括立意（如 Small Changes, Big Difference），只写 Essay 或直接抄题目会丢分。",
+      "立意不要停在“勤劳致富”这一层：故事的核心是“一个美好的事物会倒逼人去匹配它”，可引申为环境与自我要求相互塑造，甚至联系职场中的标准意识与微习惯。",
+      "论证要具体：除故事本身外，至少再给一个例子（个人、企业或社会现象），并说明它与观点的关系，否则论证会空。",
+      "250 词的三段结构最容易失衡——结论不要只重复开头一句，要说明观点带来的行动启示。"
+    ],
+    "keywords": [
+      "small changes",
+      "self-improvement",
+      "standards",
+      "environment",
+      "hard work",
+      "happiness",
+      "motivation"
+    ],
+    "modelAnswer": "Small Changes, Big Difference\n\nIn the story, a lazy man receives a beautiful pot and ends up rebuilding his whole life. The pot does not magically bring him happiness; what changes him is the desire to make his surroundings worthy of something beautiful. The story suggests that a small, concrete change in our environment can start a chain of self-improvement, and that this is how people often escape a life they are unhappy with.\n\nThe mechanism works because standards spread. Once the man places flowers in the pot, the pot makes the dusty room look worse; to protect the beauty he has created, he cleans the room, and the cleaner room in turn pushes him to work harder. Each step raises his expectation of himself. This is not a fairy-tale trick. Anyone who has tidied a desk before starting an important task, or bought proper running shoes before beginning to exercise, has used the same logic: the visible standard pulls the behaviour behind it. Companies exploit it as well, which is why a well-designed office or a clear code of conduct can quietly change how employees work.\n\nIt also matters that the old man gives a pot rather than advice. Lectures about being diligent had probably failed for years, while a single object succeeded, because it gave the man something to respond to. Action, even a very small action, breaks the circle of dissatisfaction in a way that good intentions cannot.\n\nIn conclusion, the story shows that improvement usually begins with one modest step rather than with a grand resolution. If we want a better life, we should not wait for motivation to arrive; we should change one small thing around us, and let its standard pull us forward.",
+    "source": "official",
+    "sourceLabel": "官方样题",
+    "sourceUrl": "https://vep.fltrp.com/contents/199328243319443457",
+    "sourceNote": "官方样题 · 全国决赛 Part III（看短文写作，35 分）· 题面照录，范文为本平台自写"
+  }
+]
