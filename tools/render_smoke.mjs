@@ -105,6 +105,8 @@ async function testPractice() {
     if (!html.includes("qtitle")) bad.push("题目面板为空");
     if (html.includes("题目不存在")) bad.push("被判为题目不存在");
     if (q.tips && q.tips.length && !html.includes("tips-list")) bad.push("写作提示未渲染");
+    // 数据契约：看图表信息写作必须带 chart 数据（曾出现官方样题漏带 chart 而静默不渲染）
+    if (q.qtype === "看图表信息写作" && !q.chart) bad.push("图表题缺少 chart 数据");
     if (q.chart) {
       const svg = env.get("chartBox").innerHTML || "";
       const isTable = q.chart.type === "table";

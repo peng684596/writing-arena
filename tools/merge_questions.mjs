@@ -198,6 +198,10 @@ for (const f of files) {
       try { q.chart = JSON.parse(q.chart); }
       catch (e) { errors.push(`${f}/${q.id}: chart 字段 JSON 解析失败`); }
     }
+    // 图表题必须带 chart 数据，否则前端会静默不渲染图表（曾漏掉官方样题 os02 的 chart）
+    if (q.qtype === "看图表信息写作" && !(q.chart && typeof q.chart === "object")) {
+      errors.push(`${f}/${q.id}: 题型「看图表信息写作」必须提供 chart 数据（type/title/labels/series）`);
+    }
     if (q.chart && typeof q.chart === "object") {
       const labels = Array.isArray(q.chart.labels) ? q.chart.labels : [];
       for (const s of (q.chart.series || [])) {

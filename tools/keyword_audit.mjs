@@ -70,7 +70,7 @@ for (const q of questions) {
     kwStats.set(k, rec);
   });
   rows.push({
-    id: q.id, qtype: q.qtype, topic: q.topic, n: kws.length,
+    id: q.id, qtype: q.qtype, topic: q.topic, n: kws.length, minWords: q.minWords,
     coverage: cc.coverage, keywordCoverage: cc.keywordCoverage, termCoverage: cc.termCoverage,
     terms: Array.isArray(q.answerTerms) ? q.answerTerms.length : 0,
     credits, kws,
@@ -81,7 +81,10 @@ const avg = rows.reduce((a, r) => a + (r.coverage || 0), 0) / (rows.length || 1)
 const avgKw = rows.reduce((a, r) => a + (r.keywordCoverage || 0), 0) / (rows.length || 1);
 const avgTerm = rows.reduce((a, r) => a + (r.termCoverage == null ? 0 : r.termCoverage), 0) / (rows.length || 1);
 const lowQ = rows.filter((r) => (r.coverage || 0) < 0.75).sort((a, b) => a.coverage - b.coverage);
-const missingTerms = rows.filter((r) => r.terms < 8);
+/* 实词数量门槛与题目长度挂钩：≥150 词的长任务要求 ≥8 个实词，
+   100-150 词的短任务（如官方决赛 Part I 的约见邮件）只要求 ≥5 个，避免把正常短范文判成异常 */
+const termFloor = (r) => (r.minWords >= 150 ? 8 : 5);
+const missingTerms = rows.filter((r) => r.terms < termFloor(r));
 const weakKws = [...kwStats.values()]
   .filter((r) => r.weak.length)
   .sort((a, b) => b.weak.length - a.weak.length || a.kw.localeCompare(b.kw));
@@ -103,7 +106,7 @@ if (process.argv.includes("--json")) {
     console.log("✓ 所有题目的参考范文综合切题度均 ≥75%");
   }
   console.log();
-  if (missingTerms.length) console.log(`⚠ 参考范文实词不足 8 个的题目（${missingTerms.length} 道）：${missingTerms.map((r) => r.id).join(", ")}\n`);
+  if (missingTerms.length) console.log(`⚠ 参考范文实词过少的题目（${missingTerms.length} 道）：${missingTerms.map((r) => `${r.id}(${r.terms} 个)`).join(", ")}\n`);
   console.log(`单看标签时范文未命中的关键词标签（credit<0.75，共 ${weakKws.length} 个，属于标签写得"太抽象"，已由实词命中率兜底）：`);
   for (const r of weakKws.slice(0, 25)) {
     console.log(`  ${r.kw.padEnd(26)} x${String(r.weak.length).padStart(2)}  ${r.weak.slice(0, 8).join(",")}${r.weak.length > 8 ? ",…" : ""}`);

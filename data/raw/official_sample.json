@@ -63,6 +63,16 @@
       "energy transition",
       "prediction"
     ],
+    "chart": {
+      "type": "bar",
+      "title": "Proportion of Global Electricity Generated from Different Sources (%)",
+      "unit": "%",
+      "labels": ["Coal", "Gas", "Hydro", "Nuclear", "Wind", "Solar", "Oil", "Bioenergy"],
+      "series": [
+        { "name": "2022", "data": [36, 22, 15, 9, 8, 4, 3, 3] },
+        { "name": "2050 (expected)", "data": [4, 7, 7, 2, 29, 48, 0, 3] }
+      ]
+    },
     "modelAnswer": "A Report on the Changing Sources of Global Electricity\n\nThis report examines the proportion of global electricity generated from different sources in 2022 and the proportion expected in 2050.\n\nIn 2022, the world's electricity mix was still dominated by fossil fuels. Coal was by far the largest single source, accounting for 36% of total generation, and gas contributed a further 22%. Together they made up well over half of global supply. Hydro came third at 15%, followed by nuclear at 9% and wind at 8%. Solar remained marginal at only 4%, while oil and bioenergy contributed 3% each.\n\nThe picture for 2050 is expected to be almost completely reversed. Solar is projected to become the leading source with 48%, and wind is expected to take second place with 29%. Hydro and gas would both fall to 7%, coal would drop sharply to 4%, bioenergy to 3%, and nuclear to 2%. Oil, at 0%, would disappear from electricity generation altogether. In other words, renewables would supply roughly nine tenths of global electricity, against less than one third in 2022.\n\nSeveral forces explain this shift. The cost of solar panels and wind turbines has fallen dramatically, making them the cheapest new source of power in most markets. At the same time, more than 130 countries have pledged carbon neutrality, and grids and storage systems are improving year by year.\n\nThe transition nevertheless faces obstacles. Sunshine and wind are intermittent, so large-scale storage and flexible grids are essential; without them, the 2050 figures may not be reached. The expected decline of nuclear power from 9% to 2% is also debatable, since nuclear provides stable low-carbon output.\n\nIn conclusion, the charts point to a historic energy transition led by solar and wind. To turn the prediction into reality, governments should keep supporting clean energy, invest in storage and transmission, and treat nuclear policy with care.",
     "source": "official",
     "sourceLabel": "官方样题",
